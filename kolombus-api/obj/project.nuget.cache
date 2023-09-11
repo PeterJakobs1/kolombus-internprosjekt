@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RoH5amJN2SCvc55KckPmwGOg8mAFKVdQvAxpfP4L1Ehy0U/kXt+9ZtIcw/sisoiuuymiA2j0eQaC50POVnZ6oA==",
+  "dgSpecHash": "n+mBLlQYpsfaSfUdQZyMcHr/s2phkENov5HC2vInyKOpYfQTASKuxU7wD2Qu7/d6qlwacunZTSGmAZPBl2HmbA==",
   "success": true,
-  "projectFilePath": "/Users/peter.jakobsen/kolombus-reskin/kolombus-api/kolombus-api.csproj",
+  "projectFilePath": "/Users/peter.jakobsen/kolombus-internprosjekt/kolombus-api/kolombus-api.csproj",
   "expectedPackageFiles": [
     "/Users/peter.jakobsen/.nuget/packages/microsoft.aspnetcore.openapi/7.0.10/microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "/Users/peter.jakobsen/.nuget/packages/microsoft.entityframeworkcore/7.0.10/microsoft.entityframeworkcore.7.0.10.nupkg.sha512",

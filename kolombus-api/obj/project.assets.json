@@ -1011,11 +1011,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/peter.jakobsen/kolombus-reskin/kolombus-api/kolombus-api.csproj",
+      "projectUniqueName": "/Users/peter.jakobsen/kolombus-internprosjekt/kolombus-api/kolombus-api.csproj",
       "projectName": "kolombus-api",
-      "projectPath": "/Users/peter.jakobsen/kolombus-reskin/kolombus-api/kolombus-api.csproj",
+      "projectPath": "/Users/peter.jakobsen/kolombus-internprosjekt/kolombus-api/kolombus-api.csproj",
       "packagesPath": "/Users/peter.jakobsen/.nuget/packages/",
-      "outputPath": "/Users/peter.jakobsen/kolombus-reskin/kolombus-api/obj/",
+      "outputPath": "/Users/peter.jakobsen/kolombus-internprosjekt/kolombus-api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/peter.jakobsen/.nuget/NuGet/NuGet.Config"
