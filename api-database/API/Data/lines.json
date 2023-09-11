@@ -1,0 +1,3080 @@
+[
+  {
+    "id": "000add75-4ba2-4081-873a-c60c0a94ef1c",
+    "external_id": "KOL:Line:8_2024",
+    "kol_id": "2024",
+    "name": "59",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "59"
+  },
+  {
+    "id": "02d13ec0-0524-4df0-9192-a90dab99af9e",
+    "external_id": "KOL:Line:8_2640",
+    "kol_id": "2640",
+    "name": "SK1410",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1410"
+  },
+  {
+    "id": "03117e13-d72c-43dd-b608-bfbf6709d5ac",
+    "external_id": "KOL:Line:8_3025",
+    "kol_id": "3025",
+    "name": "223",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "223"
+  },
+  {
+    "id": "037b3c34-dba2-4cd8-83e4-e06c6c478512",
+    "external_id": "KOL:Line:8_2643",
+    "kol_id": "2643",
+    "name": "SK2201",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2201"
+  },
+  {
+    "id": "06417006-39e5-445f-a25e-1778e07f0941",
+    "external_id": "KOL:Line:8_2633",
+    "kol_id": "2633",
+    "name": "SK1403",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1403"
+  },
+  {
+    "id": "066ba608-46c5-42b0-b8d4-e4c5fb31f7d2",
+    "external_id": "KOL:Line:8_3508",
+    "kol_id": "3508",
+    "name": "SK0613",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0613"
+  },
+  {
+    "id": "078e566a-e3bd-4942-a517-e467c225c39f",
+    "external_id": "KOL:Line:8_1002",
+    "kol_id": "1002",
+    "name": "2",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "2"
+  },
+  {
+    "id": "079f11cc-2903-43b5-b154-ff3f4880f92d",
+    "external_id": "KOL:Line:8_4609",
+    "kol_id": "4609",
+    "name": "SK3409",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3409"
+  },
+  {
+    "id": "08202d9e-82b5-4fee-9f43-a03b312500ba",
+    "external_id": "KOL:Line:8_2636",
+    "kol_id": "2636",
+    "name": "SK1406",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1406"
+  },
+  {
+    "id": "0ab1db4a-85eb-477f-b741-3d0ffaf718c2",
+    "external_id": "KOL:Line:8_1019",
+    "kol_id": "1019",
+    "name": "36",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "36"
+  },
+  {
+    "id": "0af72a08-05f5-4fc9-8399-3e34cbe1a48d",
+    "external_id": "KOL:Line:8_5100",
+    "kol_id": "5100",
+    "name": "800",
+    "transport_mode": "water",
+    "transport_sub_mode": "highSpeedPassengerService",
+    "public_code": "800"
+  },
+  {
+    "id": "0b412839-0545-4434-99f7-80560e1cd16f",
+    "external_id": "KOL:Line:8_3315",
+    "kol_id": "3315",
+    "name": "SK4649",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4649"
+  },
+  {
+    "id": "0b90efae-1655-45eb-9a82-3e6724452aa5",
+    "external_id": "KOL:Line:8_3301",
+    "kol_id": "3301",
+    "name": "SK3410",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3410"
+  },
+  {
+    "id": "0c3bfdb3-1a07-4a97-978c-7b453dc4fa84",
+    "external_id": "KOL:Line:8_2630",
+    "kol_id": "2630",
+    "name": "SK1201",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1201"
+  },
+  {
+    "id": "0cf84a83-b5ce-4d93-a993-8bfae4925d2b",
+    "external_id": "KOL:Line:8_3379",
+    "kol_id": "3379",
+    "name": "SK6021",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK6021"
+  },
+  {
+    "id": "0f5c6a3e-a1af-4178-b593-4c33fea3528d",
+    "external_id": "KOL:Line:8_6309",
+    "kol_id": "6309",
+    "name": "SK3009",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3009"
+  },
+  {
+    "id": "0f90d085-d8e8-4a4c-b042-f641729a1dac",
+    "external_id": "KOL:Line:8_3386",
+    "kol_id": "3386",
+    "name": "SK3512",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3512"
+  },
+  {
+    "id": "0fc8a81f-0957-4bf9-9cd0-7c58d463dc0c",
+    "external_id": "KOL:Line:8_5460",
+    "kol_id": "5460",
+    "name": "560",
+    "transport_mode": "water",
+    "transport_sub_mode": "localPassengerFerry",
+    "public_code": "560"
+  },
+  {
+    "id": "11304c5a-cab7-46de-b096-b610eff97203",
+    "external_id": "KOL:Line:8_3371",
+    "kol_id": "3371",
+    "name": "SK6023",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK6023"
+  },
+  {
+    "id": "1156dadb-4d7d-4e5a-a3b5-65451c6f8c81",
+    "external_id": "KOL:Line:8_3070",
+    "kol_id": "3070",
+    "name": "SK6025",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK6025"
+  },
+  {
+    "id": "127c4d7b-c5c7-4f40-a97a-ee71987ce7a9",
+    "external_id": "KOL:Line:8_6122",
+    "kol_id": "6122",
+    "name": "122",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "122"
+  },
+  {
+    "id": "135d8f6b-d6f7-4e4d-84c3-bab4f02983bf",
+    "external_id": "KOL:Line:8_3306",
+    "kol_id": "3306",
+    "name": "SK4621",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4621"
+  },
+  {
+    "id": "13eb39be-5bee-4250-b16a-e8c9edb50d7e",
+    "external_id": "KOL:Line:8_2660",
+    "kol_id": "2660",
+    "name": "SK2104",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2104"
+  },
+  {
+    "id": "13f08f2b-a1d5-4833-bb1e-5607411c738e",
+    "external_id": "KOL:Line:8_3320",
+    "kol_id": "3320",
+    "name": "SK4915",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4915"
+  },
+  {
+    "id": "13fb138e-a819-4808-9b14-f168bcecad0b",
+    "external_id": "KOL:Line:8_1501",
+    "kol_id": "1501",
+    "name": "SK0301",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0301"
+  },
+  {
+    "id": "156103a4-ce89-49cb-a053-cc3f42f3c133",
+    "external_id": "KOL:Line:8_2612",
+    "kol_id": "2612",
+    "name": "SK0113",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0113"
+  },
+  {
+    "id": "1600a57f-eaf0-4cc8-972c-fd5c48c1d95c",
+    "external_id": "KOL:Line:8_5438",
+    "kol_id": "5438",
+    "name": "SKB530",
+    "transport_mode": "water",
+    "transport_sub_mode": "highSpeedPassengerService",
+    "public_code": "SKB530"
+  },
+  {
+    "id": "1675fd4b-8df1-4108-acd7-99a3ff8f7b90",
+    "external_id": "KOL:Line:8_2012",
+    "kol_id": "2012",
+    "name": "23",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "23"
+  },
+  {
+    "id": "16abd9f3-6849-4427-a9e0-44ae3fc3d7ba",
+    "external_id": "KOL:Line:8_4620",
+    "kol_id": "4620",
+    "name": "SK3416",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3416"
+  },
+  {
+    "id": "16d82f75-ee3f-46c9-81b4-39414b078c84",
+    "external_id": "KOL:Line:8_2699",
+    "kol_id": "2699",
+    "name": "H2",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "H2"
+  },
+  {
+    "id": "16eb1928-e071-4be2-9df5-11d025497226",
+    "external_id": "KOL:Line:8_1042",
+    "kol_id": "1042",
+    "name": "67",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "67"
+  },
+  {
+    "id": "17af8c6f-cfaa-4798-a2dc-6bb3fc193f44",
+    "external_id": "KOL:Line:8_4604",
+    "kol_id": "4604",
+    "name": "SK3404",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3404"
+  },
+  {
+    "id": "1a3e9115-839a-44fc-b7e3-abc959facf4f",
+    "external_id": "KOL:Line:8_5752",
+    "kol_id": "5752",
+    "name": "704",
+    "transport_mode": "water",
+    "transport_sub_mode": "highSpeedPassengerService",
+    "public_code": "704"
+  },
+  {
+    "id": "1b40da77-9d87-4a6b-9bad-59132d8feb38",
+    "external_id": "NWY:Line:39049f00-f25f-4c75-b61c-b87474763474",
+    "kol_id": "400",
+    "name": "Kystbussen",
+    "transport_mode": "coach",
+    "transport_sub_mode": "undefined",
+    "public_code": "NW400"
+  },
+  {
+    "id": "1d362042-8082-464e-9407-3a5316643a66",
+    "external_id": "KOL:Line:8_2691",
+    "kol_id": "2691",
+    "name": "SK0206",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0206"
+  },
+  {
+    "id": "1d36caed-ee4f-40f6-b4f0-319e78af59f7",
+    "external_id": "KOL:Line:8_3506",
+    "kol_id": "3506",
+    "name": "SK6030",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK6030"
+  },
+  {
+    "id": "219309c9-2abc-4a06-a1f7-963cc6c4ad57",
+    "external_id": "KOL:Line:8_4617",
+    "kol_id": "4617",
+    "name": "SK3413",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3413"
+  },
+  {
+    "id": "22790b1d-dc1a-4834-aa8b-ed2ebc61fb76",
+    "external_id": "KOL:Line:8_1037",
+    "kol_id": "1037",
+    "name": "X73",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "X73"
+  },
+  {
+    "id": "22e76fef-64f2-4fce-ae6e-7f6e5ffe1f70",
+    "external_id": "KOL:Line:8_3317",
+    "kol_id": "3317",
+    "name": "SK4911",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4911"
+  },
+  {
+    "id": "233fce8f-8bc1-49b4-8dc5-748ec687ea0e",
+    "external_id": "KOL:Line:8_3048",
+    "kol_id": "3048",
+    "name": "242",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "242"
+  },
+  {
+    "id": "2345c318-b40a-420b-b9e1-a8289d988057",
+    "external_id": "KOL:Line:8_1005",
+    "kol_id": "1005",
+    "name": "4",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "4"
+  },
+  {
+    "id": "23fb2f1e-c791-4807-949b-496c829dba49",
+    "external_id": "KOL:Line:8_2305",
+    "kol_id": "2305",
+    "name": "N95",
+    "transport_mode": "bus",
+    "transport_sub_mode": "nightBus",
+    "public_code": "N95"
+  },
+  {
+    "id": "240476fb-099f-47d1-a869-c47dcccbfb40",
+    "external_id": "KOL:Line:8_3298",
+    "kol_id": "3298",
+    "name": "SK0612",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0612"
+  },
+  {
+    "id": "24b29fc7-6e25-4bbc-b9e5-0420e58101ca",
+    "external_id": "KOL:Line:8_2672",
+    "kol_id": "2672",
+    "name": "SK2001",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2001"
+  },
+  {
+    "id": "24f09628-8f03-47a4-b8b6-9cd0b4f1aa74",
+    "external_id": "KOL:Line:8_2631",
+    "kol_id": "2631",
+    "name": "SK1401",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1401"
+  },
+  {
+    "id": "255a7c0e-ad3c-4d4d-890f-ba8c1a8d2284",
+    "external_id": "KOL:Line:8_3507",
+    "kol_id": "3507",
+    "name": "SK4926",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4926"
+  },
+  {
+    "id": "255decb4-92d8-4702-9ff4-80b360302d36",
+    "external_id": "KOL:Line:8_2701",
+    "kol_id": "2701",
+    "name": "SK0223",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0223"
+  },
+  {
+    "id": "25941c0b-0b2f-4104-9abb-bb15b56ace61",
+    "external_id": "KOL:Line:8_3381",
+    "kol_id": "3381",
+    "name": "SK4641",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4641"
+  },
+  {
+    "id": "26e6df32-6a37-4bc7-a832-38554bc761c2",
+    "external_id": "KOL:Line:8_5431",
+    "kol_id": "5431",
+    "name": "520",
+    "transport_mode": "water",
+    "transport_sub_mode": "highSpeedPassengerService",
+    "public_code": "520"
+  },
+  {
+    "id": "273eed93-2548-4434-8728-f8660cf69e70",
+    "external_id": "KOL:Line:8_2008",
+    "kol_id": "2008",
+    "name": "29",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "29"
+  },
+  {
+    "id": "2793f567-85ee-42ff-8686-4c1185445c6d",
+    "external_id": "KOL:Line:8_3022",
+    "kol_id": "3022",
+    "name": "221",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "221"
+  },
+  {
+    "id": "2798d6f4-eba1-4c61-a3e8-4e5c97219194",
+    "external_id": "KOL:Line:8_2626",
+    "kol_id": "2626",
+    "name": "SK1131",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1131"
+  },
+  {
+    "id": "283434db-73db-4ff3-8b1c-eeb3d39ff06c",
+    "external_id": "KOL:Line:8_2654",
+    "kol_id": "2654",
+    "name": "SK1908",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1908"
+  },
+  {
+    "id": "2ab525a3-7ee4-434a-935f-534b1a47e777",
+    "external_id": "GOA:Line:59",
+    "kol_id": "59",
+    "name": "Jærbanen",
+    "transport_mode": "rail",
+    "transport_sub_mode": "undefined",
+    "public_code": "L5"
+  },
+  {
+    "id": "2e87b7d5-6a7e-47c5-a90c-081648999338",
+    "external_id": "KOL:Line:8_2675",
+    "kol_id": "2675",
+    "name": "SK2100",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2100"
+  },
+  {
+    "id": "2ef2fc5a-edf7-418e-a8a4-f3d5ab5440dc",
+    "external_id": "KOL:Line:8_1014",
+    "kol_id": "1014",
+    "name": "11",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "11"
+  },
+  {
+    "id": "2fbda171-15e0-47c6-b374-70f08dfda53d",
+    "external_id": "KOL:Line:8_2028",
+    "kol_id": "2028",
+    "name": "89",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "89"
+  },
+  {
+    "id": "301731aa-38fb-494c-b75d-86b524dcad5f",
+    "external_id": "KOL:Line:8_2700",
+    "kol_id": "2700",
+    "name": "SK0222",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0222"
+  },
+  {
+    "id": "30c01e57-90c4-43a7-83d7-83cafcc4b4d7",
+    "external_id": "KOL:Line:8_6312",
+    "kol_id": "6312",
+    "name": "SK3012",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3012"
+  },
+  {
+    "id": "32d1004c-5e10-41f7-8b4b-b46665b5d534",
+    "external_id": "KOL:Line:8_2019",
+    "kol_id": "2019",
+    "name": "52",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "52"
+  },
+  {
+    "id": "3470de67-16ff-4193-8c92-1bd635242645",
+    "external_id": "KOL:Line:8_2661",
+    "kol_id": "2661",
+    "name": "SK2105",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2105"
+  },
+  {
+    "id": "362784d2-4ee6-43ac-819d-7def774e2196",
+    "external_id": "KOL:Line:8_2034",
+    "kol_id": "2034",
+    "name": "96",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "96"
+  },
+  {
+    "id": "36ac5a7a-7d32-4455-b7fb-e5455bab42b9",
+    "external_id": "KOL:Line:8_3302",
+    "kol_id": "3302",
+    "name": "SK3510",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3510"
+  },
+  {
+    "id": "36d24ad3-f2a6-4e97-a167-80b2d000dc5c",
+    "external_id": "KOL:Line:8_3047",
+    "kol_id": "3047",
+    "name": "241",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "241"
+  },
+  {
+    "id": "37463d54-12ca-404b-a122-ee5bbfd51b6d",
+    "external_id": "KOL:Line:8_3502",
+    "kol_id": "3502",
+    "name": "SK6026",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK6026"
+  },
+  {
+    "id": "37d2e689-300e-4ce9-a9e0-69ef9f87987b",
+    "external_id": "KOL:Line:8_3208",
+    "kol_id": "3208",
+    "name": "N288",
+    "transport_mode": "bus",
+    "transport_sub_mode": "nightBus",
+    "public_code": "N288"
+  },
+  {
+    "id": "37ed32a0-5223-4f1c-b0fa-bae229a9d733",
+    "external_id": "KOL:Line:8_5912",
+    "kol_id": "5912",
+    "name": "526",
+    "transport_mode": "water",
+    "transport_sub_mode": "highSpeedPassengerService",
+    "public_code": "526"
+  },
+  {
+    "id": "3921ca12-7a73-4792-b200-14ef85cac00f",
+    "external_id": "KOL:Line:8_1040",
+    "kol_id": "1040",
+    "name": "X77",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "X77"
+  },
+  {
+    "id": "392e1ce4-1069-410e-b1f0-b83837e393a0",
+    "external_id": "KOL:Line:8_2017",
+    "kol_id": "2017",
+    "name": "50",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "50"
+  },
+  {
+    "id": "3953ba12-076c-4dd3-897d-5642c6076108",
+    "external_id": "KOL:Line:8_6204",
+    "kol_id": "6204",
+    "name": "SK2904",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2904"
+  },
+  {
+    "id": "39c190ed-cd73-4eb7-a86e-fc59537cbd66",
+    "external_id": "KOL:Line:8_2000",
+    "kol_id": "2000",
+    "name": "81",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "81"
+  },
+  {
+    "id": "3a70d3dd-3281-4017-b28d-55b44cc1dd43",
+    "external_id": "KOL:Line:8_3389",
+    "kol_id": "3389",
+    "name": "SK6031",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK6031"
+  },
+  {
+    "id": "3a8808da-18b2-498b-83f1-8a612dc9ed2c",
+    "external_id": "KOL:Line:8_1028",
+    "kol_id": "1028",
+    "name": "12",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "12"
+  },
+  {
+    "id": "3d18bbfc-603c-4fe9-aa44-9a3529acde4f",
+    "external_id": "KOL:Line:8_2649",
+    "kol_id": "2649",
+    "name": "SK1903",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1903"
+  },
+  {
+    "id": "3e1ba568-004c-49e2-aeb7-35e19691a1c7",
+    "external_id": "KOL:Line:8_3329",
+    "kol_id": "3329",
+    "name": "SK4925",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4925"
+  },
+  {
+    "id": "3ebff504-6498-426b-8481-981bd42c2ea3",
+    "external_id": "KOL:Line:8_3372",
+    "kol_id": "3372",
+    "name": "SK4921",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4921"
+  },
+  {
+    "id": "3f1685ae-658f-4ab1-911b-a5b23a1b36e7",
+    "external_id": "KOL:Line:8_4618",
+    "kol_id": "4618",
+    "name": "SK3414",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3414"
+  },
+  {
+    "id": "3f67dae9-43c3-48a7-b222-61fdd3462a7e",
+    "external_id": "KOL:Line:8_4621",
+    "kol_id": "4621",
+    "name": "SK3417",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3417"
+  },
+  {
+    "id": "400f3819-005c-4f99-9f19-837e85dbb58a",
+    "external_id": "KOL:Line:8_2683",
+    "kol_id": "2683",
+    "name": "SK1203",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1203"
+  },
+  {
+    "id": "40407792-a002-4538-b698-41e9bf530153",
+    "external_id": "KOL:Line:8_2650",
+    "kol_id": "2650",
+    "name": "SK1904",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1904"
+  },
+  {
+    "id": "40bc1c5a-66d5-4853-a15e-006db4933ebe",
+    "external_id": "KOL:Line:8_2670",
+    "kol_id": "2670",
+    "name": "SK2002",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2002"
+  },
+  {
+    "id": "41195475-a612-4f31-a58a-2855a65393df",
+    "external_id": "KOL:Line:8_4502",
+    "kol_id": "4502",
+    "name": "162",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "162"
+  },
+  {
+    "id": "4149d367-b0f1-4ef9-acf1-9b4e52ebf32d",
+    "external_id": "KOL:Line:8_4629",
+    "kol_id": "4629",
+    "name": "SK3426",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3426"
+  },
+  {
+    "id": "426c9cb6-8564-444a-b548-491d794db6d5",
+    "external_id": "KOL:Line:8_3053",
+    "kol_id": "3053",
+    "name": "247",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "247"
+  },
+  {
+    "id": "429bb07f-c64a-4a05-b78d-48add1f61c1d",
+    "external_id": "VYX:Line:5",
+    "kol_id": "5",
+    "name": "VY190 Ulsteinvik-Bergen-Kristiansand-Oslo",
+    "transport_mode": "coach",
+    "transport_sub_mode": "undefined",
+    "public_code": "VY190"
+  },
+  {
+    "id": "43320d27-5af8-4612-9862-2f7f7ec8674a",
+    "external_id": "KOL:Line:8_1306",
+    "kol_id": "1306",
+    "name": "N85",
+    "transport_mode": "bus",
+    "transport_sub_mode": "nightBus",
+    "public_code": "N85"
+  },
+  {
+    "id": "43481161-5e9d-43ea-a2f0-47c30ec035cf",
+    "external_id": "KOL:Line:8_4630",
+    "kol_id": "4630",
+    "name": "SK3509",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3509"
+  },
+  {
+    "id": "470b7de0-8da6-4134-98c3-8e3d45d3c32d",
+    "external_id": "KOL:Line:8_3382",
+    "kol_id": "3382",
+    "name": "SK4924",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4924"
+  },
+  {
+    "id": "482f9f81-b148-4acc-a99f-c17db0c850c7",
+    "external_id": "KOL:Line:8_3051",
+    "kol_id": "3051",
+    "name": "245",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "245"
+  },
+  {
+    "id": "4842db0d-4d74-44f7-b86e-98ee03bd1b6e",
+    "external_id": "KOL:Line:8_3380",
+    "kol_id": "3380",
+    "name": "SK4909",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4909"
+  },
+  {
+    "id": "49087b75-f12c-4115-9204-ae1c78119998",
+    "external_id": "KOL:Line:8_1022",
+    "kol_id": "1022",
+    "name": "41",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "41"
+  },
+  {
+    "id": "4a94f7e3-6a54-4159-b40f-70a7ec0414d0",
+    "external_id": "KOL:Line:8_3203",
+    "kol_id": "3203",
+    "name": "N284",
+    "transport_mode": "bus",
+    "transport_sub_mode": "nightBus",
+    "public_code": "N284"
+  },
+  {
+    "id": "4b38493c-3c46-4c2f-bcec-404acfff60e8",
+    "external_id": "KOL:Line:8_1012",
+    "kol_id": "1012",
+    "name": "42",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "42"
+  },
+  {
+    "id": "4d777d9f-9ea4-4feb-899d-e4d8a0ce88f3",
+    "external_id": "KOL:Line:8_2615",
+    "kol_id": "2615",
+    "name": "SK0116",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0116"
+  },
+  {
+    "id": "4d845328-fe7a-4b91-89c6-0e327d07edfa",
+    "external_id": "KOL:Line:8_3355",
+    "kol_id": "3355",
+    "name": "SK6014",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK6014"
+  },
+  {
+    "id": "4de7afc2-4437-4aaf-aaf4-3b92ec1a5304",
+    "external_id": "KOL:Line:30_1130",
+    "kol_id": "1130",
+    "name": "Mortavika - Arsvågen",
+    "transport_mode": "water",
+    "transport_sub_mode": "localCarFerry",
+    "public_code": "1130"
+  },
+  {
+    "id": "4e61c912-8071-4e57-8a80-b5f8de9ea1bb",
+    "external_id": "KOL:Line:8_3073",
+    "kol_id": "3073",
+    "name": "152",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "152"
+  },
+  {
+    "id": "4eaec651-2ee0-41bf-952e-ebc692728de7",
+    "external_id": "KOL:Line:8_3012",
+    "kol_id": "3012",
+    "name": "X210",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "X210"
+  },
+  {
+    "id": "4f220b75-5fe8-4924-8285-3322ace8bf70",
+    "external_id": "KOL:Line:8_2678",
+    "kol_id": "2678",
+    "name": "SK2007",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2007"
+  },
+  {
+    "id": "4fd35e26-0d4c-4cf4-b5a4-1f3c4494d403",
+    "external_id": "KOL:Line:8_3009",
+    "kol_id": "3009",
+    "name": "208",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "208"
+  },
+  {
+    "id": "517e4f8a-9349-47c8-bb8a-467b43152763",
+    "external_id": "KOL:Line:8_4504",
+    "kol_id": "4504",
+    "name": "163",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "163"
+  },
+  {
+    "id": "51843a27-49bb-4965-8c09-ce204eb67ccc",
+    "external_id": "KOL:Line:8_3304",
+    "kol_id": "3304",
+    "name": "SK4511",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4511"
+  },
+  {
+    "id": "536e8f11-cf29-48c7-8068-2d16310801d8",
+    "external_id": "KOL:Line:8_3365",
+    "kol_id": "3365",
+    "name": "SK6020",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK6020"
+  },
+  {
+    "id": "5397468d-7644-40ed-b74e-d255f3909049",
+    "external_id": "KOL:Line:8_3307",
+    "kol_id": "3307",
+    "name": "SK4620",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4620"
+  },
+  {
+    "id": "5461c44b-a0af-4021-a7d0-bff79e57b3e7",
+    "external_id": "KOL:Line:8_1017",
+    "kol_id": "1017",
+    "name": "33",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "33"
+  },
+  {
+    "id": "54d638cf-a66c-4228-a799-23080520a66c",
+    "external_id": "KOL:Line:8_1033",
+    "kol_id": "1033",
+    "name": "X60",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "X60"
+  },
+  {
+    "id": "54da8d1c-9969-49ff-b458-d3764034f31f",
+    "external_id": "KOL:Line:8_5961",
+    "kol_id": "5961",
+    "name": "580",
+    "transport_mode": "water",
+    "transport_sub_mode": "localCarFerry",
+    "public_code": "580"
+  },
+  {
+    "id": "5512d87b-48c4-4ccc-ba43-8cc4a2d28532",
+    "external_id": "KOL:Line:8_2665",
+    "kol_id": "2665",
+    "name": "SK2101",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2101"
+  },
+  {
+    "id": "55c93bf1-a55f-424f-bc5f-df40d74d6552",
+    "external_id": "KOL:Line:8_5962",
+    "kol_id": "5962",
+    "name": "590",
+    "transport_mode": "water",
+    "transport_sub_mode": "localCarFerry",
+    "public_code": "590"
+  },
+  {
+    "id": "561df0c9-46c8-4a82-9937-033e1d290d3d",
+    "external_id": "KOL:Line:8_2635",
+    "kol_id": "2635",
+    "name": "SK1405",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1405"
+  },
+  {
+    "id": "568fa0bf-0f6f-4c73-9bf4-f5ceb55c288f",
+    "external_id": "KOL:Line:8_5900",
+    "kol_id": "5900",
+    "name": "518",
+    "transport_mode": "water",
+    "transport_sub_mode": "highSpeedPassengerService",
+    "public_code": "518"
+  },
+  {
+    "id": "56a0d6d4-d5bd-4c8e-b310-c84acffe02ee",
+    "external_id": "KOL:Line:8_6305",
+    "kol_id": "6305",
+    "name": "SK3005",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3005"
+  },
+  {
+    "id": "56d92fc3-6ce0-4f62-b04e-7a34551c781b",
+    "external_id": "KOL:Line:8_1039",
+    "kol_id": "1039",
+    "name": "X76",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "X76"
+  },
+  {
+    "id": "5736e54a-c369-4678-bd8a-d6d0114a5d21",
+    "external_id": "KOL:Line:8_1038",
+    "kol_id": "1038",
+    "name": "X74",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "X74"
+  },
+  {
+    "id": "581bf55c-6b53-4622-b574-64b51c56c0d1",
+    "external_id": "KOL:Line:8_2694",
+    "kol_id": "2694",
+    "name": "SK0120",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0120"
+  },
+  {
+    "id": "58402dac-ef2a-42de-b7a7-fd3b02bc8119",
+    "external_id": "KOL:Line:8_2010",
+    "kol_id": "2010",
+    "name": "21",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "21"
+  },
+  {
+    "id": "589e1a5c-c446-49dc-8e15-9410575506e9",
+    "external_id": "KOL:Line:8_3061",
+    "kol_id": "3061",
+    "name": "252",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "252"
+  },
+  {
+    "id": "59f20113-b4d4-4901-811d-bfb740ffe99a",
+    "external_id": "KOL:Line:8_2641",
+    "kol_id": "2641",
+    "name": "SK1411",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1411"
+  },
+  {
+    "id": "5a79a372-9df3-45db-8bb4-fc6bd7de0168",
+    "external_id": "KOL:Line:8_3318",
+    "kol_id": "3318",
+    "name": "SK4913",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4913"
+  },
+  {
+    "id": "5a94821d-ffcc-4320-9317-95bea19c4fda",
+    "external_id": "KOL:Line:8_5986",
+    "kol_id": "5986",
+    "name": "Fogn - Judaberg - Helgøy",
+    "transport_mode": "water",
+    "transport_sub_mode": "localCarFerry",
+    "public_code": "1025"
+  },
+  {
+    "id": "5af59850-af28-41fb-8d24-8fed8837dccb",
+    "external_id": "KOL:Line:8_1504",
+    "kol_id": "1504",
+    "name": "SK2701",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2701"
+  },
+  {
+    "id": "5cde2520-68dd-4ec5-996d-65e30d806c88",
+    "external_id": "KOL:Line:8_6141",
+    "kol_id": "6141",
+    "name": "141",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "141"
+  },
+  {
+    "id": "5da24da5-fec0-4c06-bd9a-cb9830619531",
+    "external_id": "KOL:Line:8_3083",
+    "kol_id": "3083",
+    "name": "206",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "206"
+  },
+  {
+    "id": "5ea8d24b-b92f-45aa-b982-56006688c2a1",
+    "external_id": "KOL:Line:8_3305",
+    "kol_id": "3305",
+    "name": "SK4512",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4512"
+  },
+  {
+    "id": "5f27dce8-66fc-4670-ae47-b51bf7f0a3f5",
+    "external_id": "KOL:Line:8_2023",
+    "kol_id": "2023",
+    "name": "58",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "58"
+  },
+  {
+    "id": "5f64a55a-3369-4365-8204-e2d748f81685",
+    "external_id": "KOL:Line:8_3384",
+    "kol_id": "3384",
+    "name": "SK4908",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4908"
+  },
+  {
+    "id": "5fbad0b0-7439-4eb6-b91d-b577ac6da774",
+    "external_id": "KOL:Line:8_3299",
+    "kol_id": "3299",
+    "name": "SK0611",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0611"
+  },
+  {
+    "id": "5feb4b7d-519f-496b-b83c-82d8959b9c0a",
+    "external_id": "KOL:Line:8_3319",
+    "kol_id": "3319",
+    "name": "SK4914",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4914"
+  },
+  {
+    "id": "613c1c31-8b81-4b2f-a023-04e1301acdf2",
+    "external_id": "KOL:Line:8_1009",
+    "kol_id": "1009",
+    "name": "14",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "14"
+  },
+  {
+    "id": "61667772-c372-415b-a42f-1e6a639b9e8d",
+    "external_id": "KOL:Line:8_3074",
+    "kol_id": "3074",
+    "name": "260",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "260"
+  },
+  {
+    "id": "61f2e1b7-96c6-481e-9e6e-19c845f40ba7",
+    "external_id": "KOL:Line:8_2003",
+    "kol_id": "2003",
+    "name": "25",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "25"
+  },
+  {
+    "id": "62005534-64fb-450d-832f-e3f660532204",
+    "external_id": "KOL:Line:8_4505",
+    "kol_id": "4505",
+    "name": "165",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "165"
+  },
+  {
+    "id": "6290970e-146a-46c5-8781-38ccbeb80400",
+    "external_id": "KOL:Line:8_2035",
+    "kol_id": "2035",
+    "name": "92",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "92"
+  },
+  {
+    "id": "647b9b58-a3cb-4d7d-92f9-c784aa3deede",
+    "external_id": "KOL:Line:8_6203",
+    "kol_id": "6203",
+    "name": "SK2903",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2903"
+  },
+  {
+    "id": "6637a2e5-c0c7-4da6-ae24-01bd569ad2b4",
+    "external_id": "KOL:Line:8_2666",
+    "kol_id": "2666",
+    "name": "SK2107",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2107"
+  },
+  {
+    "id": "66efd395-b3ed-410d-8018-0ebdde7878cd",
+    "external_id": "KOL:Line:8_3060",
+    "kol_id": "3060",
+    "name": "251",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "251"
+  },
+  {
+    "id": "66f240dd-8f6a-4ed6-82f1-6462aa0ec456",
+    "external_id": "KOL:Line:8_6310",
+    "kol_id": "6310",
+    "name": "SK3010",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3010"
+  },
+  {
+    "id": "6743afa8-c1dc-4127-84f0-03f3f3752a16",
+    "external_id": "KOL:Line:8_1018",
+    "kol_id": "1018",
+    "name": "34",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "34"
+  },
+  {
+    "id": "679408e4-85a6-4c53-b338-cbf167b08224",
+    "external_id": "KOL:Line:8_3316",
+    "kol_id": "3316",
+    "name": "SK4910",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4910"
+  },
+  {
+    "id": "6838dc6d-0ec6-4e1c-bb84-6b226fa3f518",
+    "external_id": "KOL:Line:8_6121",
+    "kol_id": "6121",
+    "name": "121",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "121"
+  },
+  {
+    "id": "684d432e-a7a5-4391-9596-557017257aa5",
+    "external_id": "KOL:Line:8_1015",
+    "kol_id": "1015",
+    "name": "15",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "15"
+  },
+  {
+    "id": "68b60f34-b02e-4ddf-bbf7-6044c431a6ba",
+    "external_id": "KOL:Line:8_2624",
+    "kol_id": "2624",
+    "name": "SK1111",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1111"
+  },
+  {
+    "id": "693e13be-ae75-4a37-99dc-daf14e470861",
+    "external_id": "KOL:Line:8_3026",
+    "kol_id": "3026",
+    "name": "224",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "224"
+  },
+  {
+    "id": "69e60909-b767-4d22-9eed-498a2fe4d9c0",
+    "external_id": "KOL:Line:8_6314",
+    "kol_id": "6314",
+    "name": "SK3014",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3014"
+  },
+  {
+    "id": "69ea37e9-0e08-4dd6-86d8-93090abbd930",
+    "external_id": "KOL:Line:8_2033",
+    "kol_id": "2033",
+    "name": "98",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "98"
+  },
+  {
+    "id": "6b1c84bf-57bf-47ea-bd6f-aa034d219a36",
+    "external_id": "KOL:Line:8_2007",
+    "kol_id": "2007",
+    "name": "28",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "28"
+  },
+  {
+    "id": "6b2760c3-8754-4c77-a26d-dc46aca729e7",
+    "external_id": "KOL:Line:8_5750",
+    "kol_id": "5750",
+    "name": "700",
+    "transport_mode": "water",
+    "transport_sub_mode": "highSpeedPassengerService",
+    "public_code": "700"
+  },
+  {
+    "id": "6b97bbd7-458f-4afb-976e-c259548da1c1",
+    "external_id": "KOL:Line:8_4605",
+    "kol_id": "4605",
+    "name": "SK3405",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3405"
+  },
+  {
+    "id": "6ca6b7e8-3e6e-4f62-b893-623b2ab0b76a",
+    "external_id": "KOL:Line:8_3388",
+    "kol_id": "3388",
+    "name": "SK4640",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4640"
+  },
+  {
+    "id": "6dc0e0a6-632a-4849-aa1a-519ab601a4f1",
+    "external_id": "KOL:Line:8_5529",
+    "kol_id": "5529",
+    "name": "532",
+    "transport_mode": "water",
+    "transport_sub_mode": "highSpeedPassengerService",
+    "public_code": "532"
+  },
+  {
+    "id": "6dd2e7b6-0604-4b39-9868-7db3d6dfe467",
+    "external_id": "KOL:Line:8_6307",
+    "kol_id": "6307",
+    "name": "SK3007",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3007"
+  },
+  {
+    "id": "6e9ab565-5dfb-45a5-a907-b096c3f5bfc1",
+    "external_id": "GOA:Line:53",
+    "kol_id": "53",
+    "name": "Sørtoget lokal",
+    "transport_mode": "rail",
+    "transport_sub_mode": "undefined",
+    "public_code": "R50"
+  },
+  {
+    "id": "6efa0762-016b-435c-bc13-8c4deea97e1b",
+    "external_id": "KOL:Line:8_2609",
+    "kol_id": "2609",
+    "name": "SK0110",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0110"
+  },
+  {
+    "id": "6f0f0d2e-cdd2-4a45-a1c9-e241fc9e67fc",
+    "external_id": "KOL:Line:8_3300",
+    "kol_id": "3300",
+    "name": "SK0610",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0610"
+  },
+  {
+    "id": "6f6c0709-be8d-432d-be0a-e1d2810203cd",
+    "external_id": "KOL:Line:8_3311",
+    "kol_id": "3311",
+    "name": "SK4643",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4643"
+  },
+  {
+    "id": "6fdb4c21-148d-4f41-acf7-60317c88601e",
+    "external_id": "KOL:Line:8_3313",
+    "kol_id": "3313",
+    "name": "SK4647",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4647"
+  },
+  {
+    "id": "6fe194ea-28ce-47a5-ad89-435e0a2934cf",
+    "external_id": "KOL:Line:8_3310",
+    "kol_id": "3310",
+    "name": "SK4642",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4642"
+  },
+  {
+    "id": "7174c4f0-16aa-407b-b1a7-aa484fa8a2ee",
+    "external_id": "KOL:Line:8_2634",
+    "kol_id": "2634",
+    "name": "SK1404",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1404"
+  },
+  {
+    "id": "71dd6793-687b-4702-ba05-50253b1c77a1",
+    "external_id": "KOL:Line:8_1505",
+    "kol_id": "1505",
+    "name": "SK2702",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2702"
+  },
+  {
+    "id": "720624f3-d5e0-4adb-8e21-e9fd6beed737",
+    "external_id": "KOL:Line:8_2029",
+    "kol_id": "2029",
+    "name": "93",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "93"
+  },
+  {
+    "id": "7219a86f-be74-4bb8-96d7-8f2fea652bb8",
+    "external_id": "KOL:Line:8_2653",
+    "kol_id": "2653",
+    "name": "SK1907",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1907"
+  },
+  {
+    "id": "72365025-3d5e-4e05-8a6a-9d9c638e2f81",
+    "external_id": "KOL:Line:8_3376",
+    "kol_id": "3376",
+    "name": "SK4931",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4931"
+  },
+  {
+    "id": "73dddcc4-ab0d-400e-9637-812c3fd94163",
+    "external_id": "KOL:Line:8_3205",
+    "kol_id": "3205",
+    "name": "N285",
+    "transport_mode": "bus",
+    "transport_sub_mode": "nightBus",
+    "public_code": "N285"
+  },
+  {
+    "id": "753b616d-085c-4a9b-8077-bd9363f70580",
+    "external_id": "UNI:Line:LP1",
+    "kol_id": "",
+    "name": "Lavprisekspressen",
+    "transport_mode": "coach",
+    "transport_sub_mode": "undefined",
+    "public_code": "LP1"
+  },
+  {
+    "id": "75a6e51f-cc1d-4418-9e24-75e4286be070",
+    "external_id": "KOL:Line:8_6130",
+    "kol_id": "6130",
+    "name": "130",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "130"
+  },
+  {
+    "id": "79d79be4-20ff-4acd-8518-26684c454c08",
+    "external_id": "NWY:Line:df3055dd-b1f6-497c-aba6-44c7f337a08d",
+    "kol_id": "192",
+    "name": "Konkurrenten",
+    "transport_mode": "coach",
+    "transport_sub_mode": "undefined",
+    "public_code": "NW192"
+  },
+  {
+    "id": "7bd0533f-3fe6-4ac8-8496-114bb611be3e",
+    "external_id": "KOL:Line:8_4631",
+    "kol_id": "4631",
+    "name": "SK6018",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK6018"
+  },
+  {
+    "id": "7c68b535-8df8-47fc-93fc-e71adc1fcf77",
+    "external_id": "KOL:Line:8_6406",
+    "kol_id": "6406",
+    "name": "SK3306",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3306"
+  },
+  {
+    "id": "7d34891f-2ad7-4729-870a-cbae58e5f979",
+    "external_id": "KOL:Line:8_4614",
+    "kol_id": "4614",
+    "name": "SK3412",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3412"
+  },
+  {
+    "id": "7dfd05e7-afd2-4646-822d-d0dada1305c5",
+    "external_id": "KOL:Line:8_2621",
+    "kol_id": "2621",
+    "name": "SK0207",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0207"
+  },
+  {
+    "id": "7eed5f56-3202-4eac-9480-c82b6fa120f6",
+    "external_id": "KOL:Line:8_2043",
+    "kol_id": "2043",
+    "name": "X39",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "X39"
+  },
+  {
+    "id": "7f3b4183-052a-44b6-b756-4c5586dac056",
+    "external_id": "KOL:Line:8_3353",
+    "kol_id": "3353",
+    "name": "SK6012",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK6012"
+  },
+  {
+    "id": "7f4f269b-9870-4106-b777-6dcde170155b",
+    "external_id": "KOL:Line:8_2030",
+    "kol_id": "2030",
+    "name": "85",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "85"
+  },
+  {
+    "id": "7f8f0687-ca9f-491b-9773-d465c28d5a49",
+    "external_id": "KOL:Line:8_6303",
+    "kol_id": "6303",
+    "name": "SK3003",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3003"
+  },
+  {
+    "id": "81d83f71-3b29-4296-923a-d2bb17459de3",
+    "external_id": "GOA:Line:50",
+    "kol_id": "50",
+    "name": "Sørtoget region",
+    "transport_mode": "rail",
+    "transport_sub_mode": "undefined",
+    "public_code": "F5"
+  },
+  {
+    "id": "81eb4e2d-dc9a-41af-afcc-d3dfdaad978a",
+    "external_id": "KOL:Line:8_3011",
+    "kol_id": "3011",
+    "name": "210",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "210"
+  },
+  {
+    "id": "829e8f47-c8b8-4d90-a0cf-33947840d1ca",
+    "external_id": "KOL:Line:8_3326",
+    "kol_id": "3326",
+    "name": "SK4922",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4922"
+  },
+  {
+    "id": "829f9682-257f-45cd-ac0d-15824b9b17c0",
+    "external_id": "KOL:Line:8_5408",
+    "kol_id": "5408",
+    "name": "506",
+    "transport_mode": "water",
+    "transport_sub_mode": "highSpeedPassengerService",
+    "public_code": "506"
+  },
+  {
+    "id": "8320e5c9-a8e3-4537-9d3f-7bd31dd91d87",
+    "external_id": "KOL:Line:8_1503",
+    "kol_id": "1503",
+    "name": "SK2401",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2401"
+  },
+  {
+    "id": "83779194-457b-4af5-a9ce-fa0aac451147",
+    "external_id": "KOL:Line:8_5502",
+    "kol_id": "5502",
+    "name": "504",
+    "transport_mode": "water",
+    "transport_sub_mode": "highSpeedPassengerService",
+    "public_code": "504"
+  },
+  {
+    "id": "84fa90ab-df3d-4a74-9b5b-b04ebb659e91",
+    "external_id": "KOL:Line:8_5531",
+    "kol_id": "5531",
+    "name": "524",
+    "transport_mode": "water",
+    "transport_sub_mode": "highSpeedPassengerService",
+    "public_code": "524"
+  },
+  {
+    "id": "86cdc667-03a6-4818-a9b0-bd74fb753c01",
+    "external_id": "KOL:Line:8_1031",
+    "kol_id": "1031",
+    "name": "X40",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "X40"
+  },
+  {
+    "id": "87e6426a-24bb-44d6-9950-db4997e55f9b",
+    "external_id": "KOL:Line:8_3206",
+    "kol_id": "3206",
+    "name": "N286",
+    "transport_mode": "bus",
+    "transport_sub_mode": "nightBus",
+    "public_code": "N286"
+  },
+  {
+    "id": "8cc08aa5-4832-4a7a-86dd-5d4220ddcd46",
+    "external_id": "KOL:Line:8_6301",
+    "kol_id": "6301",
+    "name": "SK3001",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3001"
+  },
+  {
+    "id": "8d5633a3-e237-4e55-9865-3dd45b770ddd",
+    "external_id": "KOL:Line:8_1006",
+    "kol_id": "1006",
+    "name": "5",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "5"
+  },
+  {
+    "id": "8f4d2e2c-7837-48f3-89af-bd66d97e9c55",
+    "external_id": "KOL:Line:8_2021",
+    "kol_id": "2021",
+    "name": "56",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "56"
+  },
+  {
+    "id": "8f5cee31-a1d8-4b12-ab7e-cd3cda73208f",
+    "external_id": "KOL:Line:8_2015",
+    "kol_id": "2015",
+    "name": "47",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "47"
+  },
+  {
+    "id": "90def300-ac5e-47e2-b42a-5df8d87bb9cc",
+    "external_id": "KOL:Line:8_3071",
+    "kol_id": "3071",
+    "name": "151",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "151"
+  },
+  {
+    "id": "918339fb-ca3c-44f3-a91f-bb931d4b4b81",
+    "external_id": "KOL:Line:8_3357",
+    "kol_id": "3357",
+    "name": "SK4646",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4646"
+  },
+  {
+    "id": "91f47591-0e60-4d62-8af7-556b5d978ffa",
+    "external_id": "KOL:Line:8_3370",
+    "kol_id": "3370",
+    "name": "SK6022",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK6022"
+  },
+  {
+    "id": "921c6ea6-e029-48fe-b1aa-c7a57c35a5d7",
+    "external_id": "KOL:Line:8_2692",
+    "kol_id": "2692",
+    "name": "SK0220",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0220"
+  },
+  {
+    "id": "95d9c55e-d009-45d6-b985-fa82f9116641",
+    "external_id": "KOL:Line:8_3373",
+    "kol_id": "3373",
+    "name": "SK4650",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4650"
+  },
+  {
+    "id": "95ec4d6c-bc1c-4990-aa65-56b6c0492275",
+    "external_id": "KOL:Line:8_2686",
+    "kol_id": "2686",
+    "name": "SK1912",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1912"
+  },
+  {
+    "id": "9633c3ba-3c73-4ee9-99c9-f3a5d0241dfb",
+    "external_id": "KOL:Line:8_3360",
+    "kol_id": "3360",
+    "name": "SK6017",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK6017"
+  },
+  {
+    "id": "963af762-471e-4c31-bb12-9079e68ac097",
+    "external_id": "KOL:Line:8_2693",
+    "kol_id": "2693",
+    "name": "SK0221",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0221"
+  },
+  {
+    "id": "964c4f0e-c7e3-4fab-87cb-30a33ac1fc81",
+    "external_id": "KOL:Line:8_2695",
+    "kol_id": "2695",
+    "name": "SK0121",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0121"
+  },
+  {
+    "id": "96a69da8-8a1a-4c04-aa0c-d5fce0f14573",
+    "external_id": "KOL:Line:8_6202",
+    "kol_id": "6202",
+    "name": "SK2902",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2902"
+  },
+  {
+    "id": "99e8e217-d0ca-49ff-9031-7d4deef625b6",
+    "external_id": "KOL:Line:8_4500",
+    "kol_id": "4500",
+    "name": "160",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "160"
+  },
+  {
+    "id": "9bfa7c6a-e81f-4e8f-afc7-014c531ff99f",
+    "external_id": "KOL:Line:8_2668",
+    "kol_id": "2668",
+    "name": "SK2004",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2004"
+  },
+  {
+    "id": "9e79264c-d044-4167-bcc7-bd3c12909dbe",
+    "external_id": "KOL:Line:8_2674",
+    "kol_id": "2674",
+    "name": "SK2006",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2006"
+  },
+  {
+    "id": "9f3205a4-73d7-4ccf-9a8d-49a4f4fdde2f",
+    "external_id": "KOL:Line:8_2645",
+    "kol_id": "2645",
+    "name": "SK2203",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2203"
+  },
+  {
+    "id": "a00e4483-a3da-4ed4-b304-657a33007990",
+    "external_id": "KOL:Line:8_6403",
+    "kol_id": "6403",
+    "name": "SK3303",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3303"
+  },
+  {
+    "id": "a0f37d76-617e-4e58-aa72-065c75c45b76",
+    "external_id": "KOL:Line:8_2685",
+    "kol_id": "2685",
+    "name": "SK1911",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1911"
+  },
+  {
+    "id": "a105691a-50e3-40fc-8c90-05a6e29f4228",
+    "external_id": "KOL:Line:8_3350",
+    "kol_id": "3350",
+    "name": "SK6010",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK6010"
+  },
+  {
+    "id": "a28d541d-4de3-4e51-b059-60e639b9e2ca",
+    "external_id": "KOL:Line:8_2026",
+    "kol_id": "2026",
+    "name": "X49",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "X49"
+  },
+  {
+    "id": "a29baed3-a052-4e16-b28a-b8bd19bd6e50",
+    "external_id": "KOL:Line:8_2020",
+    "kol_id": "2020",
+    "name": "54",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "54"
+  },
+  {
+    "id": "a2a310be-b952-498a-a954-cdee3a531b57",
+    "external_id": "SKY:Line:700",
+    "kol_id": "",
+    "name": "Rute 700 Stord-Haugesund",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "700"
+  },
+  {
+    "id": "a420386e-2b1a-4869-b927-3c99785a205c",
+    "external_id": "KOL:Line:8_2644",
+    "kol_id": "2644",
+    "name": "SK2202",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2202"
+  },
+  {
+    "id": "a4ff0d72-2173-45b7-af4b-bd9b6f9cc733",
+    "external_id": "KOL:Line:8_2671",
+    "kol_id": "2671",
+    "name": "SK2005",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2005"
+  },
+  {
+    "id": "a515a73d-12c7-446d-b404-a57b22361b12",
+    "external_id": "KOL:Line:8_2648",
+    "kol_id": "2648",
+    "name": "SK1902",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1902"
+  },
+  {
+    "id": "a5579327-9154-4ab7-a45c-08dbf5a0569d",
+    "external_id": "KOL:Line:8_6209",
+    "kol_id": "6209",
+    "name": "SK2905",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2905"
+  },
+  {
+    "id": "a579a032-1d24-4189-84bf-834659efe2c7",
+    "external_id": "KOL:Line:8_3314",
+    "kol_id": "3314",
+    "name": "SK4648",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4648"
+  },
+  {
+    "id": "a77edbd2-9234-436c-aea3-1d9fd91ea95c",
+    "external_id": "KOL:Line:8_3337",
+    "kol_id": "3337",
+    "name": "SK4651",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4651"
+  },
+  {
+    "id": "a7999e58-17ed-44f6-bd21-0cf19ad5743d",
+    "external_id": "KOL:Line:8_2656",
+    "kol_id": "2656",
+    "name": "SK1910",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1910"
+  },
+  {
+    "id": "a7e187c2-0b33-4b51-83fe-e6c732981ed4",
+    "external_id": "KOL:Line:8_6405",
+    "kol_id": "6405",
+    "name": "SK3305",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3305"
+  },
+  {
+    "id": "aa60cfe5-bba4-41a2-9677-596d0c2c0422",
+    "external_id": "KOL:Line:8_2608",
+    "kol_id": "2608",
+    "name": "SK0109",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0109"
+  },
+  {
+    "id": "ab16f9f6-0033-444a-be7a-0d4ce625fc05",
+    "external_id": "KOL:Line:8_2629",
+    "kol_id": "2629",
+    "name": "SK1205",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1205"
+  },
+  {
+    "id": "ab6568fe-46ce-4cca-94a0-4cd703b819dd",
+    "external_id": "KOL:Line:8_3356",
+    "kol_id": "3356",
+    "name": "SK6015",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK6015"
+  },
+  {
+    "id": "acfb6778-5443-435a-a049-ea70020cb7f9",
+    "external_id": "KOL:Line:8_5960",
+    "kol_id": "5960",
+    "name": "898",
+    "transport_mode": "water",
+    "transport_sub_mode": "localCarFerry",
+    "public_code": "898"
+  },
+  {
+    "id": "ae6600a1-953f-420c-9543-e24452868bba",
+    "external_id": "KOL:Line:8_5430",
+    "kol_id": "5430",
+    "name": "528",
+    "transport_mode": "water",
+    "transport_sub_mode": "highSpeedPassengerService",
+    "public_code": "528"
+  },
+  {
+    "id": "aeedc0d3-2ad0-4cbe-ae90-794b17f22b2b",
+    "external_id": "KOL:Line:8_1011",
+    "kol_id": "1011",
+    "name": "8",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "8"
+  },
+  {
+    "id": "af47c8c2-d0f4-4132-acac-d0f5ba12d472",
+    "external_id": "KOL:Line:8_2600",
+    "kol_id": "2600",
+    "name": "SK0101",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0101"
+  },
+  {
+    "id": "b0ebe1da-0b41-4500-b353-32397af04a58",
+    "external_id": "KOL:Line:8_3501",
+    "kol_id": "3501",
+    "name": "SK6011",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK6011"
+  },
+  {
+    "id": "b1e55908-7b66-4044-9bf5-7c5b8381c8c7",
+    "external_id": "KOL:Line:8_5650",
+    "kol_id": "5650",
+    "name": "350",
+    "transport_mode": "water",
+    "transport_sub_mode": "localCarFerry",
+    "public_code": "350"
+  },
+  {
+    "id": "b239bfbb-6cad-42c7-86a0-b4060ac6640f",
+    "external_id": "KOL:Line:8_1036",
+    "kol_id": "1036",
+    "name": "X71",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "X71"
+  },
+  {
+    "id": "b3064432-89ad-4edb-99c1-5999b612e30b",
+    "external_id": "TID:Line:FB49",
+    "kol_id": "",
+    "name": "Flybuss Haugesund",
+    "transport_mode": "bus",
+    "transport_sub_mode": "airportLinkBus",
+    "public_code": "FB49"
+  },
+  {
+    "id": "b31d1d58-a7ea-4232-b2ab-11e3155a8e4f",
+    "external_id": "KOL:Line:8_3000",
+    "kol_id": "3000",
+    "name": "201",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "201"
+  },
+  {
+    "id": "b337528a-ed09-4285-80bf-eb6217ec688f",
+    "external_id": "KOL:Line:8_4602",
+    "kol_id": "4602",
+    "name": "SK3402",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3402"
+  },
+  {
+    "id": "b384da76-1621-41be-aab2-0c6250304f12",
+    "external_id": "KOL:Line:8_2647",
+    "kol_id": "2647",
+    "name": "SK1901",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1901"
+  },
+  {
+    "id": "b38bf178-a710-445f-96e4-992364b66177",
+    "external_id": "KOL:Line:8_2697",
+    "kol_id": "2697",
+    "name": "SK0123",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0123"
+  },
+  {
+    "id": "b4220777-7148-4044-8d0a-a684c54bcd30",
+    "external_id": "KOL:Line:8_3504",
+    "kol_id": "3504",
+    "name": "SK6028",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK6028"
+  },
+  {
+    "id": "b612e2e2-567b-49c0-a483-df206f128711",
+    "external_id": "KOL:Line:8_1043",
+    "kol_id": "1043",
+    "name": "X31",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "X31"
+  },
+  {
+    "id": "b693176c-99bf-48ef-a9e9-7581e503af2e",
+    "external_id": "KOL:Line:8_6308",
+    "kol_id": "6308",
+    "name": "SK3008",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3008"
+  },
+  {
+    "id": "b701418e-924d-408b-b030-d543b0fe44c0",
+    "external_id": "KOL:Line:8_2016",
+    "kol_id": "2016",
+    "name": "48",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "48"
+  },
+  {
+    "id": "b82ac829-753f-4f5e-be31-658b967df691",
+    "external_id": "KOL:Line:8_2667",
+    "kol_id": "2667",
+    "name": "SK2003",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2003"
+  },
+  {
+    "id": "b89f8ac9-194a-405c-abaa-4f61eb29626b",
+    "external_id": "KOL:Line:8_1010",
+    "kol_id": "1010",
+    "name": "16",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "16"
+  },
+  {
+    "id": "ba4c8e7e-3641-4956-b016-b004a2ec8b57",
+    "external_id": "KOL:Line:8_1016",
+    "kol_id": "1016",
+    "name": "31",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "31"
+  },
+  {
+    "id": "bce2d943-703e-4886-8a05-03f230670d8e",
+    "external_id": "KOL:Line:8_3323",
+    "kol_id": "3323",
+    "name": "SK4918",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4918"
+  },
+  {
+    "id": "bd393607-726f-4a80-93c6-a93d73312835",
+    "external_id": "KOL:Line:8_3008",
+    "kol_id": "3008",
+    "name": "207",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "207"
+  },
+  {
+    "id": "bd5f57b5-2717-4b00-b83d-59318352eede",
+    "external_id": "KOL:Line:8_4606",
+    "kol_id": "4606",
+    "name": "SK3406",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3406"
+  },
+  {
+    "id": "bf25d140-c03d-4224-9f70-fe6633359258",
+    "external_id": "KOL:Line:8_2018",
+    "kol_id": "2018",
+    "name": "53",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "53"
+  },
+  {
+    "id": "c1349f2a-4389-4ebd-8c64-39f806fbb342",
+    "external_id": "KOL:Line:8_3034",
+    "kol_id": "3034",
+    "name": "231",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "231"
+  },
+  {
+    "id": "c18acf26-2700-4fcd-9b2f-c9d1422602ba",
+    "external_id": "SKY:Line:2080",
+    "kol_id": "",
+    "name": "Sunnhordland - Austevoll - Bergen",
+    "transport_mode": "water",
+    "transport_sub_mode": "localPassengerFerry",
+    "public_code": "2080"
+  },
+  {
+    "id": "c2792089-6c6d-4fbf-8a3e-72a3032bae9e",
+    "external_id": "KOL:Line:8_2022",
+    "kol_id": "2022",
+    "name": "57",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "57"
+  },
+  {
+    "id": "c31ca9a0-4fc0-4a61-b04e-008478828429",
+    "external_id": "KOL:Line:8_2011",
+    "kol_id": "2011",
+    "name": "22",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "22"
+  },
+  {
+    "id": "c3a824e6-7dbd-4f40-8b97-2bf0f8fa3415",
+    "external_id": "KOL:Line:8_1000",
+    "kol_id": "1000",
+    "name": "1",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "1"
+  },
+  {
+    "id": "c4108610-a344-4de0-845e-aeb66af4f436",
+    "external_id": "KOL:Line:8_9901",
+    "kol_id": "9901",
+    "name": "18",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "18"
+  },
+  {
+    "id": "c450866e-bcaa-48d6-ad89-c8e94d84e28d",
+    "external_id": "KOL:Line:8_6100",
+    "kol_id": "6100",
+    "name": "100",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "100"
+  },
+  {
+    "id": "c573490d-b599-4acf-b3cf-706256ca0c8d",
+    "external_id": "KOL:Line:8_2651",
+    "kol_id": "2651",
+    "name": "SK1905",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1905"
+  },
+  {
+    "id": "c6149404-c56e-45c2-88ce-6a677d6b1daf",
+    "external_id": "KOL:Line:8_2013",
+    "kol_id": "2013",
+    "name": "45",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "45"
+  },
+  {
+    "id": "c64386e0-4822-4461-a638-999663b6ec34",
+    "external_id": "KOL:Line:8_5400",
+    "kol_id": "5400",
+    "name": "500",
+    "transport_mode": "water",
+    "transport_sub_mode": "highSpeedPassengerService",
+    "public_code": "500"
+  },
+  {
+    "id": "c6acf999-97f3-45f9-a993-cea317e17e2f",
+    "external_id": "KOL:Line:8_2662",
+    "kol_id": "2662",
+    "name": "SK2106",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2106"
+  },
+  {
+    "id": "c7bfb5ea-7176-4312-8cba-6cb9a8f4acbb",
+    "external_id": "KOL:Line:8_6404",
+    "kol_id": "6404",
+    "name": "SK3304",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3304"
+  },
+  {
+    "id": "c7f97d1f-b345-4b8a-bcdb-ff2de7aa0da7",
+    "external_id": "KOL:Line:8_3321",
+    "kol_id": "3321",
+    "name": "SK4916",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4916"
+  },
+  {
+    "id": "c87356b8-100d-4acb-a478-ac259024b152",
+    "external_id": "KOL:Line:8_5956",
+    "kol_id": "5956",
+    "name": "Mekjarvik - Kvitsøy",
+    "transport_mode": "water",
+    "transport_sub_mode": "localCarFerry",
+    "public_code": "1023"
+  },
+  {
+    "id": "c87572dd-faac-4e31-8dd0-cd70466423e2",
+    "external_id": "KOL:Line:8_2606",
+    "kol_id": "2606",
+    "name": "SK0107",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0107"
+  },
+  {
+    "id": "cbb5542d-e00f-432c-9953-03a6136e44e0",
+    "external_id": "KOL:Line:8_1013",
+    "kol_id": "1013",
+    "name": "10",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "10"
+  },
+  {
+    "id": "cdec78b2-a90c-4c52-9f44-2c5ba280b4ef",
+    "external_id": "KOL:Line:8_3010",
+    "kol_id": "3010",
+    "name": "209",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "209"
+  },
+  {
+    "id": "cee89dde-37ab-4628-b4b4-0dc7778a3f32",
+    "external_id": "KOL:Line:8_1007",
+    "kol_id": "1007",
+    "name": "6",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "6"
+  },
+  {
+    "id": "cef0fb8c-29d6-47c4-9056-ffb62abba290",
+    "external_id": "KOL:Line:8_6140",
+    "kol_id": "6140",
+    "name": "140",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "140"
+  },
+  {
+    "id": "cf5814e9-cbaa-4cd6-929a-8d5eddc6a837",
+    "external_id": "KOL:Line:8_2677",
+    "kol_id": "2677",
+    "name": "SK2110",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2110"
+  },
+  {
+    "id": "cfb9674b-cc90-4d4c-9c0f-9fbfbaa71952",
+    "external_id": "KOL:Line:8_3354",
+    "kol_id": "3354",
+    "name": "SK6013",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK6013"
+  },
+  {
+    "id": "cfd0230e-253b-4cb7-9faf-e74a02daf440",
+    "external_id": "KOL:Line:8_2032",
+    "kol_id": "2032",
+    "name": "87",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "87"
+  },
+  {
+    "id": "d00e47a7-4dfa-4e50-bd2f-157475cf187d",
+    "external_id": "KOL:Line:8_1021",
+    "kol_id": "1021",
+    "name": "37",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "37"
+  },
+  {
+    "id": "d0d04b0a-8dcd-4c71-86d6-ae002f3d708c",
+    "external_id": "KOL:Line:8_3029",
+    "kol_id": "3029",
+    "name": "226",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "226"
+  },
+  {
+    "id": "d3c5134e-db47-4239-9e8d-847fa58cd824",
+    "external_id": "KOL:Line:8_3200",
+    "kol_id": "3200",
+    "name": "N281",
+    "transport_mode": "bus",
+    "transport_sub_mode": "nightBus",
+    "public_code": "N281"
+  },
+  {
+    "id": "d3fb8fbe-3300-40af-8cc1-83d68086d54f",
+    "external_id": "KOL:Line:8_2638",
+    "kol_id": "2638",
+    "name": "SK1408",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1408"
+  },
+  {
+    "id": "d4686118-4c03-403d-9019-bca2a8637a64",
+    "external_id": "KOL:Line:8_2658",
+    "kol_id": "2658",
+    "name": "SK2102",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2102"
+  },
+  {
+    "id": "d4e0016b-920d-4949-a7cd-2f67e3f3f299",
+    "external_id": "KOL:Line:8_3505",
+    "kol_id": "3505",
+    "name": "SK6029",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK6029"
+  },
+  {
+    "id": "d50fb7fb-1b17-4377-aeb1-af7b5ff7a604",
+    "external_id": "KOL:Line:8_3308",
+    "kol_id": "3308",
+    "name": "SK4635",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4635"
+  },
+  {
+    "id": "d51e4308-4f1e-4e7e-a055-849641145df7",
+    "external_id": "KOL:Line:8_2005",
+    "kol_id": "2005",
+    "name": "26",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "26"
+  },
+  {
+    "id": "d625ab24-482e-4055-877e-d07622b40e61",
+    "external_id": "KOL:Line:8_2682",
+    "kol_id": "2682",
+    "name": "SK0201",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0201"
+  },
+  {
+    "id": "d6ff79aa-e033-4210-ac7b-2e701187581f",
+    "external_id": "KOL:Line:8_2616",
+    "kol_id": "2616",
+    "name": "SK0117",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0117"
+  },
+  {
+    "id": "d790369b-8dc6-4504-a76e-83e61bb56841",
+    "external_id": "KOL:Line:8_3312",
+    "kol_id": "3312",
+    "name": "SK4645",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4645"
+  },
+  {
+    "id": "d79c151d-379d-4413-8e52-42d3fdcde0c5",
+    "external_id": "KOL:Line:25_2900",
+    "kol_id": "2900",
+    "name": "Flybussen Stavanger",
+    "transport_mode": "bus",
+    "transport_sub_mode": "airportLinkBus",
+    "public_code": "FB40"
+  },
+  {
+    "id": "d7cf5d6e-6a3f-4873-b1b7-815e25d8078b",
+    "external_id": "KOL:Line:8_1004",
+    "kol_id": "1004",
+    "name": "3",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "3"
+  },
+  {
+    "id": "d7fbc71c-f85e-47fb-b988-5ef69a0ccfbb",
+    "external_id": "KOL:Line:8_4619",
+    "kol_id": "4619",
+    "name": "SK3415",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3415"
+  },
+  {
+    "id": "d908e11e-3867-4021-a6f1-0453575d4633",
+    "external_id": "KOL:Line:8_3359",
+    "kol_id": "3359",
+    "name": "SK6016",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK6016"
+  },
+  {
+    "id": "d9753607-a62c-4b7f-ba22-48cd840ddb95",
+    "external_id": "KOL:Line:8_4501",
+    "kol_id": "4501",
+    "name": "161",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "161"
+  },
+  {
+    "id": "d97dd951-b498-42a5-ab13-efd4193f56f6",
+    "external_id": "KOL:Line:8_1305",
+    "kol_id": "1305",
+    "name": "N84",
+    "transport_mode": "bus",
+    "transport_sub_mode": "nightBus",
+    "public_code": "N84"
+  },
+  {
+    "id": "d9d73633-4636-4a0b-b7de-90d4953bada0",
+    "external_id": "KOL:Line:8_1030",
+    "kol_id": "1030",
+    "name": "X30",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "X30"
+  },
+  {
+    "id": "d9d85bcc-cb46-4d8c-82ae-6d878932b26c",
+    "external_id": "KOL:Line:8_2625",
+    "kol_id": "2625",
+    "name": "SK1122",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1122"
+  },
+  {
+    "id": "dae674c6-32c6-4ee4-bd71-8aea795a2e72",
+    "external_id": "KOL:Line:8_6201",
+    "kol_id": "6201",
+    "name": "SK2901",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2901"
+  },
+  {
+    "id": "db6591e4-3f98-4ce8-a298-732ff94365e7",
+    "external_id": "KOL:Line:26_5958",
+    "kol_id": "5958",
+    "name": "Hjelmeland - Nesvik - Skipavik",
+    "transport_mode": "water",
+    "transport_sub_mode": "localCarFerry",
+    "public_code": "1054"
+  },
+  {
+    "id": "dc3bc3e0-7719-4383-9968-7d9f9bf327ea",
+    "external_id": "KOL:Line:8_6304",
+    "kol_id": "6304",
+    "name": "SK3004",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3004"
+  },
+  {
+    "id": "dc5411c2-aa11-4257-9655-d51a20b32237",
+    "external_id": "KOL:Line:8_2655",
+    "kol_id": "2655",
+    "name": "SK1909",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1909"
+  },
+  {
+    "id": "dc88305c-5dc0-4029-b21b-f1ebbd50a621",
+    "external_id": "KOL:Line:8_3202",
+    "kol_id": "3202",
+    "name": "N283",
+    "transport_mode": "bus",
+    "transport_sub_mode": "nightBus",
+    "public_code": "N283"
+  },
+  {
+    "id": "dca48f59-f2d2-44e2-9595-227fb284ae26",
+    "external_id": "KOL:Line:8_1008",
+    "kol_id": "1008",
+    "name": "7",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "7"
+  },
+  {
+    "id": "dd15ad3c-bee6-4f72-8a42-4a401046159f",
+    "external_id": "KOL:Line:8_2004",
+    "kol_id": "2004",
+    "name": "24",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "24"
+  },
+  {
+    "id": "dd325c4c-f94e-4387-bed5-d07c7762824f",
+    "external_id": "KOL:Line:8_1502",
+    "kol_id": "1502",
+    "name": "SK0302",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0302"
+  },
+  {
+    "id": "deeec122-15ee-4088-96ad-f603f7f716db",
+    "external_id": "KOL:Line:8_2605",
+    "kol_id": "2605",
+    "name": "SK0106",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0106"
+  },
+  {
+    "id": "df7ea6a2-cba5-4318-bffd-32d05ed859b8",
+    "external_id": "KOL:Line:8_1512",
+    "kol_id": "1512",
+    "name": "SK4202",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4202"
+  },
+  {
+    "id": "df8376d4-77b6-46da-9d1c-818ea52f5840",
+    "external_id": "KOL:Line:8_2025",
+    "kol_id": "2025",
+    "name": "62",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "62"
+  },
+  {
+    "id": "e08cc527-5021-43ba-8707-a514f8c8e2dc",
+    "external_id": "KOL:Line:8_3049",
+    "kol_id": "3049",
+    "name": "243",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "243"
+  },
+  {
+    "id": "e2117fba-2b63-4d54-b116-073706c8f235",
+    "external_id": "KOL:Line:8_2040",
+    "kol_id": "2040",
+    "name": "E90",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "E90"
+  },
+  {
+    "id": "e2f0ba7c-f9b7-48bd-922b-15c6d1bb31f1",
+    "external_id": "KOL:Line:8_6302",
+    "kol_id": "6302",
+    "name": "SK3002",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3002"
+  },
+  {
+    "id": "e3345dd2-a428-4dc2-b8ba-e40f45ee68c5",
+    "external_id": "KOL:Line:8_2014",
+    "kol_id": "2014",
+    "name": "46",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "46"
+  },
+  {
+    "id": "e33eaeac-1eee-4a68-828f-59f0c9905ce9",
+    "external_id": "KOL:Line:8_3078",
+    "kol_id": "3078",
+    "name": "150",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "150"
+  },
+  {
+    "id": "e3b09de1-4a14-405c-a9a4-35b2d5cc76c1",
+    "external_id": "KOL:Line:8_2680",
+    "kol_id": "2680",
+    "name": "SK1202",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1202"
+  },
+  {
+    "id": "e495eb30-a562-494e-9587-15859d67f9a1",
+    "external_id": "KOL:Line:8_6101",
+    "kol_id": "6101",
+    "name": "101",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "101"
+  },
+  {
+    "id": "e4b1c929-4e4f-4a2e-8df4-9bcdec73ec2e",
+    "external_id": "KOL:Line:8_2652",
+    "kol_id": "2652",
+    "name": "SK1906",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1906"
+  },
+  {
+    "id": "e4b48ab7-7efe-43f8-b6f4-e1c04f2b2718",
+    "external_id": "KOL:Line:8_5560",
+    "kol_id": "5560",
+    "name": "510",
+    "transport_mode": "water",
+    "transport_sub_mode": "highSpeedPassengerService",
+    "public_code": "510"
+  },
+  {
+    "id": "e52069b0-1684-4bd1-aaf0-97b94fc6cb42",
+    "external_id": "KOL:Line:8_2637",
+    "kol_id": "2637",
+    "name": "SK1407",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1407"
+  },
+  {
+    "id": "e670a86b-d4f8-40d1-945c-06350f34d85d",
+    "external_id": "KOL:Line:8_3309",
+    "kol_id": "3309",
+    "name": "SK4636",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4636"
+  },
+  {
+    "id": "e7f62f08-dd41-4c3b-be54-d069c6c07867",
+    "external_id": "KOL:Line:8_3001",
+    "kol_id": "3001",
+    "name": "202",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "202"
+  },
+  {
+    "id": "e888d45a-4082-4006-8a08-94d063556682",
+    "external_id": "KOL:Line:8_3366",
+    "kol_id": "3366",
+    "name": "SK6024",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK6024"
+  },
+  {
+    "id": "e8f7b6a9-5a2e-4d13-8bd6-910d6c73c7ea",
+    "external_id": "KOL:Line:8_2696",
+    "kol_id": "2696",
+    "name": "SK0122",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "SK0122"
+  },
+  {
+    "id": "e93d1d26-ed05-415e-b554-394936117e6d",
+    "external_id": "KOL:Line:8_1310",
+    "kol_id": "1310",
+    "name": "N89",
+    "transport_mode": "bus",
+    "transport_sub_mode": "nightBus",
+    "public_code": "N89"
+  },
+  {
+    "id": "e9b02a85-6b4e-42ce-95e5-dc286b4503af",
+    "external_id": "KOL:Line:8_2306",
+    "kol_id": "2306",
+    "name": "N96",
+    "transport_mode": "bus",
+    "transport_sub_mode": "nightBus",
+    "public_code": "N96"
+  },
+  {
+    "id": "eb1dbeea-179b-4eb7-8715-60556a4a437b",
+    "external_id": "KOL:Line:8_1032",
+    "kol_id": "1032",
+    "name": "X50",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "X50"
+  },
+  {
+    "id": "eb6f4103-a644-4077-82f1-bb59fe600bd7",
+    "external_id": "KOL:Line:8_2610",
+    "kol_id": "2610",
+    "name": "SK0111",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0111"
+  },
+  {
+    "id": "ec51047c-061b-4d1b-b859-e050a998fde2",
+    "external_id": "KOL:Line:8_2679",
+    "kol_id": "2679",
+    "name": "SK2008",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2008"
+  },
+  {
+    "id": "ed6c73d6-f2cd-4885-bc84-3fd356bc21b7",
+    "external_id": "KOL:Line:8_6120",
+    "kol_id": "6120",
+    "name": "120",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "120"
+  },
+  {
+    "id": "ee004d2e-4844-426b-a192-a5d849157216",
+    "external_id": "KOL:Line:8_3327",
+    "kol_id": "3327",
+    "name": "SK4923",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4923"
+  },
+  {
+    "id": "ee4bb748-ced7-40db-8cc2-b17af0ffa228",
+    "external_id": "KOL:Line:8_2632",
+    "kol_id": "2632",
+    "name": "SK1402",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK1402"
+  },
+  {
+    "id": "ee4d2906-e9d0-43d6-979a-d39bb13e443e",
+    "external_id": "KOL:Line:8_6402",
+    "kol_id": "6402",
+    "name": "SK3302",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3302"
+  },
+  {
+    "id": "ee6827bb-3746-495d-827c-bfacb2587ef1",
+    "external_id": "KOL:Line:8_3324",
+    "kol_id": "3324",
+    "name": "SK4919",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4919"
+  },
+  {
+    "id": "f0740fde-240a-444b-af84-bdf7b8a915c7",
+    "external_id": "KOL:Line:8_2006",
+    "kol_id": "2006",
+    "name": "27",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "27"
+  },
+  {
+    "id": "f075dd4d-6c04-491c-86ba-a9dcd3e52abf",
+    "external_id": "KOL:Line:8_3052",
+    "kol_id": "3052",
+    "name": "246",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "246"
+  },
+  {
+    "id": "f077b36b-cf00-4ae5-b33c-e97d48f13c29",
+    "external_id": "KOL:Line:8_3385",
+    "kol_id": "3385",
+    "name": "SK3511",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3511"
+  },
+  {
+    "id": "f0e6cf17-19bc-4d64-bac8-270348f5351c",
+    "external_id": "KOL:Line:8_3050",
+    "kol_id": "3050",
+    "name": "244",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "244"
+  },
+  {
+    "id": "f3185084-0c11-468f-b91a-700e5dd45041",
+    "external_id": "KOL:Line:8_3503",
+    "kol_id": "3503",
+    "name": "SK6027",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK6027"
+  },
+  {
+    "id": "f34d7083-a4ab-42ce-acd7-1f08d95f9233",
+    "external_id": "KOL:Line:8_3084",
+    "kol_id": "3084",
+    "name": "240",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "240"
+  },
+  {
+    "id": "f470432c-8d21-4553-bfde-7fe241f53b5e",
+    "external_id": "KOL:Line:8_1020",
+    "kol_id": "1020",
+    "name": "38",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "38"
+  },
+  {
+    "id": "f552049e-7d33-406c-a47c-093f6eb58a9b",
+    "external_id": "KOL:Line:8_2659",
+    "kol_id": "2659",
+    "name": "SK2103",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2103"
+  },
+  {
+    "id": "f5eb7363-befe-457b-9f3a-92c83bb61cf8",
+    "external_id": "KOL:Line:8_3390",
+    "kol_id": "3390",
+    "name": "SK6032",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK6032"
+  },
+  {
+    "id": "f6644149-845a-43b9-aa1b-bb6e8836cd08",
+    "external_id": "KOL:Line:8_1307",
+    "kol_id": "1307",
+    "name": "N86",
+    "transport_mode": "bus",
+    "transport_sub_mode": "nightBus",
+    "public_code": "N86"
+  },
+  {
+    "id": "f704509d-96da-4a3d-9bd4-9697bda3f5f7",
+    "external_id": "KOL:Line:8_5550",
+    "kol_id": "5550",
+    "name": "522",
+    "transport_mode": "water",
+    "transport_sub_mode": "highSpeedPassengerService",
+    "public_code": "522"
+  },
+  {
+    "id": "f73e0f46-76e6-4334-86cc-55361d5e07de",
+    "external_id": "KOL:Line:8_2031",
+    "kol_id": "2031",
+    "name": "99",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "99"
+  },
+  {
+    "id": "f8a7a7a0-68d4-4ab3-9b48-c4acc45de45c",
+    "external_id": "KOL:Line:8_2607",
+    "kol_id": "2607",
+    "name": "SK0108",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0108"
+  },
+  {
+    "id": "f8ac92bb-bfb2-453d-97ae-d6eb4b1a159b",
+    "external_id": "KOL:Line:8_2044",
+    "kol_id": "2044",
+    "name": "X44",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "X44"
+  },
+  {
+    "id": "f9a44492-d046-4e21-a1d2-5320c8c92b90",
+    "external_id": "KOL:Line:8_2002",
+    "kol_id": "2002",
+    "name": "83",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "83"
+  },
+  {
+    "id": "fa4c0b0b-8a10-40ef-a332-254fa19a8b37",
+    "external_id": "KOL:Line:8_4613",
+    "kol_id": "4613",
+    "name": "SK3327",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3327"
+  },
+  {
+    "id": "fc0e3952-fc26-4cac-8c75-c134ae502748",
+    "external_id": "KOL:Line:8_2304",
+    "kol_id": "2304",
+    "name": "N94",
+    "transport_mode": "bus",
+    "transport_sub_mode": "nightBus",
+    "public_code": "N94"
+  },
+  {
+    "id": "fd39cc2f-9566-4b5c-8dcd-ade15e358b92",
+    "external_id": "NWY:Line:e5d4b903-2b98-486f-9899-92161af57267",
+    "kol_id": "180",
+    "name": "Haukeliekspressen",
+    "transport_mode": "coach",
+    "transport_sub_mode": "undefined",
+    "public_code": "NW180"
+  },
+  {
+    "id": "fe194728-ce4f-4078-9d38-5d2a600b8582",
+    "external_id": "KOL:Line:8_6401",
+    "kol_id": "6401",
+    "name": "SK3301",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK3301"
+  },
+  {
+    "id": "fe197889-eb4f-4fdc-8dfb-0ad855eb5c78",
+    "external_id": "KOL:Line:8_1029",
+    "kol_id": "1029",
+    "name": "13",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "13"
+  },
+  {
+    "id": "fe9daa3f-bf85-44e9-97dc-2aa2162404f2",
+    "external_id": "KOL:Line:8_4506",
+    "kol_id": "4506",
+    "name": "164",
+    "transport_mode": "bus",
+    "transport_sub_mode": "localBus",
+    "public_code": "164"
+  },
+  {
+    "id": "ff177fe5-bef9-47fa-b4ec-1062bc3b6d7f",
+    "external_id": "KOL:Line:8_2602",
+    "kol_id": "2602",
+    "name": "SK0103",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK0103"
+  },
+  {
+    "id": "ff181beb-09b9-47c9-aa3f-1ff4f6805329",
+    "external_id": "KOL:Line:8_3375",
+    "kol_id": "3375",
+    "name": "SK4912",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4912"
+  },
+  {
+    "id": "ff66889b-b18e-46b6-b1c5-9e86e55ea976",
+    "external_id": "KOL:Line:8_3322",
+    "kol_id": "3322",
+    "name": "SK4917",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK4917"
+  },
+  {
+    "id": "ff71695a-10e1-4b7d-8ed9-443b599457e0",
+    "external_id": "KOL:Line:8_2664",
+    "kol_id": "2664",
+    "name": "SK2108",
+    "transport_mode": "bus",
+    "transport_sub_mode": "schoolBus",
+    "public_code": "SK2108"
+  }
+]

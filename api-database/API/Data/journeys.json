@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "03d486b9-348f-45f3-851e-c259cf901711",
+    "external_id": "KOL:ServiceJourney:1043_230509093648510_5017",
+    "trip_id": "10435017",
+    "name": "Godeset via SUS",
+    "start_time": "18:00:00",
+    "end_time": "18:27:00",
+    "trip_state": null
+  },
+  {
+    "id": "049a0bb2-13a4-497c-9e9d-0ba9ccc51248",
+    "external_id": "KOL:ServiceJourney:2900_230626063543006_5035",
+    "trip_id": "29005035",
+    "name": "Stavanger Airport via SUS-UiS",
+    "start_time": "17:45:00",
+    "end_time": "18:15:00",
+    "trip_state": null
+  },
+  {
+    "id": "05243cd2-57a8-4ce0-9c55-a128c40eb64d",
+    "external_id": "NWY:ServiceJourney:86833f39-afe2-4717-a98c-2e300c12dfab",
+    "trip_id": "2206",
+    "name": "Oslo bussterminal",
+    "start_time": "12:30:00",
+    "end_time": "21:25:00",
+    "trip_state": null
+  },
+  {
+    "id": "06cbe9fd-a84d-478a-8bc0-0115ac57ee82",
+    "external_id": "VYX:ServiceJourney:befe31d83988be655915f817f702ce1d31d14e4c",
+    "trip_id": "VYX:ServiceJourney:befe31d83988be655915f817f702ce1d31d14e4c",
+    "name": "Kristiansand",
+    "start_time": "16:00:00",
+    "end_time": "20:18:00",
+    "trip_state": null
+  },
+  {
+    "id": "0ab4f984-80ed-4ed1-b62f-745ca3f3a023",
+    "external_id": "KOL:ServiceJourney:2008_230509093648914_6002",
+    "trip_id": "20086002",
+    "name": "Sandnes",
+    "start_time": "17:55:00",
+    "end_time": "18:08:00",
+    "trip_state": null
+  },
+  {
+    "id": "0b7fb559-0285-4aa0-972b-a65bd5022f4d",
+    "external_id": "KOL:ServiceJourney:3000_230509093653234_5016",
+    "trip_id": "30005016",
+    "name": "Amanda via Haugesund",
+    "start_time": "17:37:00",
+    "end_time": "18:07:00",
+    "trip_state": null
+  },
+  {
+    "id": "0c898446-3434-43f2-9806-5252f417a0c5",
+    "external_id": "VYX:ServiceJourney:fefcdf703711bcbf59cea3f4bce321522c1976c5",
+    "trip_id": "VYX:ServiceJourney:fefcdf703711bcbf59cea3f4bce321522c1976c5",
+    "name": "Oslo",
+    "start_time": "15:00:00",
+    "end_time": "19:18:00",
+    "trip_state": null
+  },
+  {
+    "id": "0cf8fb84-3423-435a-b3a8-e3f71d0088fa",
+    "external_id": "KOL:ServiceJourney:1013_230509093654069_6005",
+    "trip_id": "10136005",
+    "name": "Stavanger via Randaberg",
+    "start_time": "18:02:00",
+    "end_time": "19:00:00",
+    "trip_state": null
+  },
+  {
+    "id": "0ddd8fd0-29d4-48d8-9e24-75887c31fef3",
+    "external_id": "KOL:ServiceJourney:5750_230516062328638_5006",
+    "trip_id": "57505006",
+    "name": "Røvær",
+    "start_time": "18:00:00",
+    "end_time": "18:25:00",
+    "trip_state": null
+  },
+  {
+    "id": "0f48e866-6519-45b1-82d8-4df7276db3a3",
+    "external_id": "KOL:ServiceJourney:2900_230626052522522_6026",
+    "trip_id": "29006026",
+    "name": "Stavanger sentrum via UiS-SUS",
+    "start_time": "17:35:00",
+    "end_time": "18:08:00",
+    "trip_state": null
+  },
+  {
+    "id": "1394e7cb-f462-4006-ad50-a5eabd3ff2ad",
+    "external_id": "NWY:ServiceJourney:c043394b-a49e-4288-8f05-5c3b1ba9477d",
+    "trip_id": "610",
+    "name": "Stavanger bussterminal",
+    "start_time": "14:40:00",
+    "end_time": "19:00:00",
+    "trip_state": null
+  },
+  {
+    "id": "141fb9e9-6f95-4ee7-a677-51269f1f07ae",
+    "external_id": "VYX:ServiceJourney:0232748c77cc57f0063086bf7bc04b23f06d8368",
+    "trip_id": "VYX:ServiceJourney:0232748c77cc57f0063086bf7bc04b23f06d8368",
+    "name": "Oslo",
+    "start_time": "12:30:00",
+    "end_time": "20:48:00",
+    "trip_state": null
+  },
+  {
+    "id": "157d6a14-9484-4ee5-90f8-f7142f925f9a",
+    "external_id": "KOL:ServiceJourney:1012_230509093647659_6016",
+    "trip_id": "10126016",
+    "name": "Tananger via Stavanger lufthavn",
+    "start_time": "17:43:00",
+    "end_time": "18:45:00",
+    "trip_state": null
+  },
+  {
+    "id": "1809c7fe-ddf0-48b2-8f5e-23f8ad4529cb",
+    "external_id": "UNI:ServiceJourney:LP1-144745-34376893",
+    "trip_id": "LP1-144745-34376893",
+    "name": "Kristiansand - Oslo",
+    "start_time": "13:10:00",
+    "end_time": "21:50:00",
+    "trip_state": null
+  },
+  {
+    "id": "19adf2b8-afd1-451e-ab64-7fbdde77c226",
+    "external_id": "UNI:ServiceJourney:LP1-144745-34376822",
+    "trip_id": "LP1-144745-34376822",
+    "name": "Kristiansand - Oslo",
+    "start_time": "11:10:00",
+    "end_time": "19:50:00",
+    "trip_state": null
+  },
+  {
+    "id": "1e95ee96-4643-4329-a520-6ec500202d44",
+    "external_id": "KOL:ServiceJourney:1005_230509093654939_6031",
+    "trip_id": "10056031",
+    "name": "Rosenli via Madlamark-SUS",
+    "start_time": "17:52:00",
+    "end_time": "18:29:00",
+    "trip_state": null
+  },
+  {
+    "id": "215c4ce2-d536-4544-8f0a-99ed6eec050b",
+    "external_id": "KOL:ServiceJourney:1002_230509093655074_5020",
+    "trip_id": "10025020",
+    "name": "Sandnes via Stavanger-Varatun",
+    "start_time": "17:49:00",
+    "end_time": "19:12:00",
+    "trip_state": null
+  },
+  {
+    "id": "216fd9ee-6eb9-4853-adf3-e4b9057d578f",
+    "external_id": "KOL:ServiceJourney:1000_230509093645995_6036",
+    "trip_id": "10006036",
+    "name": "Hundvåg vest/øst",
+    "start_time": "17:45:00",
+    "end_time": "18:05:00",
+    "trip_state": null
+  },
+  {
+    "id": "21e53128-fe68-404e-8764-c6ca6a4ba960",
+    "external_id": "SKY:ServiceJourney:2080-166826-14051961",
+    "trip_id": "SKY:ServiceJourney:2080-166826-14051961",
+    "name": "Skånevik",
+    "start_time": "16:40:00",
+    "end_time": "19:06:00",
+    "trip_state": null
+  },
+  {
+    "id": "22a3b383-d9a5-4c3a-8953-e7b1d41a577d",
+    "external_id": "KOL:ServiceJourney:1130_230509093658344_6040",
+    "trip_id": "11306040",
+    "name": "Arsvågen",
+    "start_time": "18:00:00",
+    "end_time": "18:24:00",
+    "trip_state": null
+  },
+  {
+    "id": "234fd6dc-8707-4d40-b7af-e84963e5e16c",
+    "external_id": "KOL:ServiceJourney:1007_230509093656126_5016",
+    "trip_id": "10075016",
+    "name": "Sandnes via UiS",
+    "start_time": "17:56:00",
+    "end_time": "18:36:00",
+    "trip_state": null
+  },
+  {
+    "id": "23a189ec-da70-456e-90af-2a0d588e5e76",
+    "external_id": "KOL:ServiceJourney:1130_230509093658135_5040",
+    "trip_id": "11305040",
+    "name": "Mortavika",
+    "start_time": "18:00:00",
+    "end_time": "18:24:00",
+    "trip_state": null
+  },
+  {
+    "id": "247c187d-5142-45c6-9e87-3b7d673d4652",
+    "external_id": "KOL:ServiceJourney:1004_230509093655791_6019",
+    "trip_id": "10046019",
+    "name": "Viste Hageby via Stavanger",
+    "start_time": "17:46:00",
+    "end_time": "18:46:00",
+    "trip_state": null
+  },
+  {
+    "id": "294f5559-fa91-4758-a8e0-723ad3aba2eb",
+    "external_id": "NWY:ServiceJourney:d10fb729-2c77-49c5-af0d-7be106184728",
+    "trip_id": "603",
+    "name": "Oslo bussterminal",
+    "start_time": "13:10:00",
+    "end_time": "21:35:00",
+    "trip_state": null
+  },
+  {
+    "id": "2a46cfb0-3a0b-4097-8f4a-5308f13ea739",
+    "external_id": "KOL:ServiceJourney:1011_230509093647335_5015",
+    "trip_id": "10115015",
+    "name": "Randaberg",
+    "start_time": "18:00:00",
+    "end_time": "18:30:00",
+    "trip_state": null
+  },
+  {
+    "id": "2b5007cb-57f9-44ea-8028-088a5a4da5a9",
+    "external_id": "VYX:ServiceJourney:21009f0fa29faa4b0cfb4635255af41371266ba4",
+    "trip_id": "VYX:ServiceJourney:21009f0fa29faa4b0cfb4635255af41371266ba4",
+    "name": "Oslo",
+    "start_time": "08:58:00",
+    "end_time": "23:18:00",
+    "trip_state": null
+  },
+  {
+    "id": "2feac85e-db0c-44d3-9714-22e9825a67a4",
+    "external_id": "KOL:ServiceJourney:2900_230626052522274_5036",
+    "trip_id": "29005036",
+    "name": "Stavanger Airport via Forum",
+    "start_time": "18:00:00",
+    "end_time": "18:29:00",
+    "trip_state": null
+  },
+  {
+    "id": "32b8cf3e-d930-42fe-8184-30eeca5df122",
+    "external_id": "KOL:ServiceJourney:2006_230509093656597_6009",
+    "trip_id": "20066009",
+    "name": "Sandnes",
+    "start_time": "17:58:00",
+    "end_time": "18:16:00",
+    "trip_state": null
+  },
+  {
+    "id": "348906e5-1ce9-4766-ae15-fdd27a460f6a",
+    "external_id": "VYX:ServiceJourney:8420c6cec234ffba5138da9944189ce2c8e23ce9",
+    "trip_id": "VYX:ServiceJourney:8420c6cec234ffba5138da9944189ce2c8e23ce9",
+    "name": "Sandnes",
+    "start_time": "08:10:00",
+    "end_time": "21:10:00",
+    "trip_state": null
+  },
+  {
+    "id": "36babd6e-1c04-4990-a61a-b79bbf48901c",
+    "external_id": "KOL:ServiceJourney:5956_230509093650849_5007",
+    "trip_id": "59565007",
+    "name": "Mekjarvik",
+    "start_time": "17:40:00",
+    "end_time": "18:15:00",
+    "trip_state": null
+  },
+  {
+    "id": "389289db-efa4-4106-929c-ff6fcd60f499",
+    "external_id": "KOL:ServiceJourney:1007_230509093656125_5015",
+    "trip_id": "10075015",
+    "name": "Sandnes via UiS",
+    "start_time": "17:26:00",
+    "end_time": "18:06:00",
+    "trip_state": null
+  },
+  {
+    "id": "3cd0a783-448b-4761-97b3-d959baa7b157",
+    "external_id": "KOL:ServiceJourney:5958_230509093653016_8032",
+    "trip_id": "59588032",
+    "name": "Hjelmeland",
+    "start_time": "18:00:00",
+    "end_time": "18:13:00",
+    "trip_state": null
+  },
+  {
+    "id": "3cdca9a5-f95a-4b4d-a6b0-e2b354b05b97",
+    "external_id": "KOL:ServiceJourney:5958_230509093652990_7033",
+    "trip_id": "59587033",
+    "name": "Skipavik",
+    "start_time": "18:00:00",
+    "end_time": "18:15:00",
+    "trip_state": null
+  },
+  {
+    "id": "3d09a880-5836-4b57-8392-208d24d80304",
+    "external_id": "KOL:ServiceJourney:1000_230509093645928_5035",
+    "trip_id": "10005035",
+    "name": "Stavanger",
+    "start_time": "17:50:00",
+    "end_time": "18:10:00",
+    "trip_state": null
+  },
+  {
+    "id": "41045d29-fb56-4568-84bd-8ac36fae6d6a",
+    "external_id": "SKY:ServiceJourney:2080-166826-14051958",
+    "trip_id": "SKY:ServiceJourney:2080-166826-14051958",
+    "name": "Bergen",
+    "start_time": "15:05:00",
+    "end_time": "18:10:00",
+    "trip_state": null
+  },
+  {
+    "id": "4445ab98-f460-42fc-b72e-6908180edcac",
+    "external_id": "KOL:ServiceJourney:1043_230509093648541_6017",
+    "trip_id": "10436017",
+    "name": "Stavanger via SUS",
+    "start_time": "18:00:00",
+    "end_time": "18:27:00",
+    "trip_state": null
+  },
+  {
+    "id": "44a56108-0d03-44a4-90b0-fc9727e58171",
+    "external_id": "KOL:ServiceJourney:5986_230509093652528_5012",
+    "trip_id": "59865012",
+    "name": "Helgøy",
+    "start_time": "17:10:00",
+    "end_time": "18:15:00",
+    "trip_state": null
+  },
+  {
+    "id": "46185150-8dee-4572-917b-be4a89bb6a0b",
+    "external_id": "VYX:ServiceJourney:493a3ec9056d21f2abcb11402c1e3c77163475fb",
+    "trip_id": "VYX:ServiceJourney:493a3ec9056d21f2abcb11402c1e3c77163475fb",
+    "name": "Stavanger",
+    "start_time": "13:00:00",
+    "end_time": "21:14:00",
+    "trip_state": null
+  },
+  {
+    "id": "46b2a9d3-e06c-42ec-a2f8-00bd882a503a",
+    "external_id": "KOL:ServiceJourney:1004_230509093655577_5020",
+    "trip_id": "10045020",
+    "name": "Forus via Stavanger",
+    "start_time": "17:19:00",
+    "end_time": "18:19:00",
+    "trip_state": null
+  },
+  {
+    "id": "47db2113-0c70-4369-aecc-a223d1f9d9f0",
+    "external_id": "NWY:ServiceJourney:b1a759c0-4bc3-4a73-8568-70ded5951464",
+    "trip_id": "512",
+    "name": "Bergen busstasjon",
+    "start_time": "17:00:00",
+    "end_time": "22:10:00",
+    "trip_state": null
+  },
+  {
+    "id": "493b4ed8-a284-4a8c-96da-26b3f551addb",
+    "external_id": "NWY:ServiceJourney:c017eb67-ab39-4076-8e3e-98a5f9e6538c",
+    "trip_id": "601",
+    "name": "Oslo bussterminal",
+    "start_time": "10:15:00",
+    "end_time": "18:20:00",
+    "trip_state": null
+  },
+  {
+    "id": "4dadf919-716c-4e2c-ab52-379d78a17ee2",
+    "external_id": "VYX:ServiceJourney:38a2e077dbf6707f42e235951bfef73fb777f511",
+    "trip_id": "VYX:ServiceJourney:38a2e077dbf6707f42e235951bfef73fb777f511",
+    "name": "Arendal",
+    "start_time": "12:50:00",
+    "end_time": "23:02:00",
+    "trip_state": null
+  },
+  {
+    "id": "4e3bec44-abd8-474e-b530-db56b2ae8d30",
+    "external_id": "KOL:ServiceJourney:1005_230509093654843_5031",
+    "trip_id": "10055031",
+    "name": "Madlakrossen via SUS-Madlamark",
+    "start_time": "17:37:00",
+    "end_time": "18:11:00",
+    "trip_state": null
+  },
+  {
+    "id": "511c5058-c381-4561-88e4-2136eb5117b6",
+    "external_id": "NWY:ServiceJourney:20b81cda-7dd2-429f-acec-c32a679dfdb2",
+    "trip_id": "214",
+    "name": "Oslo bussterminal",
+    "start_time": "16:00:00",
+    "end_time": "20:05:00",
+    "trip_state": null
+  },
+  {
+    "id": "5513ce92-b2e1-4840-b161-7dc43b63fd6e",
+    "external_id": "KOL:ServiceJourney:3078_230509093651546_5000",
+    "trip_id": "30785000",
+    "name": "Sauda via Ropeid",
+    "start_time": "17:25:00",
+    "end_time": "18:45:00",
+    "trip_state": null
+  },
+  {
+    "id": "58faf547-ef75-4d82-b138-2ff92ea1a183",
+    "external_id": "KOL:ServiceJourney:6100_230509093651123_6011",
+    "trip_id": "61006011",
+    "name": "Jørpeland",
+    "start_time": "18:03:00",
+    "end_time": "18:58:00",
+    "trip_state": null
+  },
+  {
+    "id": "5af0c0c7-b4e7-4e4a-b51b-6cb3835fc71b",
+    "external_id": "VYX:ServiceJourney:54edd03fddfe3f4bdbab4329b5e41eef5b296308",
+    "trip_id": "VYX:ServiceJourney:54edd03fddfe3f4bdbab4329b5e41eef5b296308",
+    "name": "Bergen (Ostereidet)",
+    "start_time": "08:00:00",
+    "end_time": "21:57:00",
+    "trip_state": null
+  },
+  {
+    "id": "5c6674af-e4d5-4768-8db1-2917c0646c8f",
+    "external_id": "VYX:ServiceJourney:eb9849d0d96901b319d03312a6764994f829aca2",
+    "trip_id": "VYX:ServiceJourney:eb9849d0d96901b319d03312a6764994f829aca2",
+    "name": "Kristiansand",
+    "start_time": "15:00:00",
+    "end_time": "19:18:00",
+    "trip_state": null
+  },
+  {
+    "id": "5d1fcb78-fb4f-4f66-810d-6638e99df6be",
+    "external_id": "KOL:ServiceJourney:2900_230626075421722_6027",
+    "trip_id": "29006027",
+    "name": "Stavanger sentrum via Forum",
+    "start_time": "17:50:00",
+    "end_time": "18:20:00",
+    "trip_state": null
+  },
+  {
+    "id": "5d706650-3126-4aa4-9ee6-9ab46d4eed1b",
+    "external_id": "NWY:ServiceJourney:3c80c927-b72a-4cb6-84f5-05309daf7251",
+    "trip_id": "508",
+    "name": "Bergen busstasjon",
+    "start_time": "15:00:00",
+    "end_time": "20:10:00",
+    "trip_state": null
+  },
+  {
+    "id": "5d8bc5f1-85d5-4c75-898b-e8d27299c3b7",
+    "external_id": "KOL:ServiceJourney:3011_230509093650122_6004",
+    "trip_id": "30116004",
+    "name": "Haugesund via Veavågen-Kopervik",
+    "start_time": "17:54:00",
+    "end_time": "19:17:00",
+    "trip_state": null
+  },
+  {
+    "id": "5e9f8b61-4a53-41b2-8532-16546da4c91d",
+    "external_id": "KOL:ServiceJourney:1008_230509093646760_6017",
+    "trip_id": "10086017",
+    "name": "Stavanger via UiS",
+    "start_time": "18:01:00",
+    "end_time": "18:34:00",
+    "trip_state": null
+  },
+  {
+    "id": "5fb48a4d-7d5d-45cb-9757-d4c98a6a90a8",
+    "external_id": "KOL:ServiceJourney:1011_230509093647363_6015",
+    "trip_id": "10116015",
+    "name": "Stavanger",
+    "start_time": "17:40:00",
+    "end_time": "18:09:00",
+    "trip_state": null
+  },
+  {
+    "id": "6079aea7-c148-4319-99bb-698c190b8b78",
+    "external_id": "KOL:ServiceJourney:2003_230615051103286_6002",
+    "trip_id": "20036002",
+    "name": "Sandnes",
+    "start_time": "17:55:00",
+    "end_time": "18:05:00",
+    "trip_state": null
+  },
+  {
+    "id": "60cc4bf5-a278-448e-89bc-fdb2f8fd394b",
+    "external_id": "KOL:ServiceJourney:2010_230509093652760_6009",
+    "trip_id": "20106009",
+    "name": "Sandnes",
+    "start_time": "17:44:00",
+    "end_time": "18:05:00",
+    "trip_state": null
+  },
+  {
+    "id": "64c6e096-c22e-4754-8eea-9303ba1945ab",
+    "external_id": "NWY:ServiceJourney:a831b876-e814-4a47-a913-d80bf8a12e3d",
+    "trip_id": "509",
+    "name": "Bergen busstasjon",
+    "start_time": "16:00:00",
+    "end_time": "21:10:00",
+    "trip_state": null
+  },
+  {
+    "id": "655d83b6-6dcb-4259-bf02-190b6546690a",
+    "external_id": "KOL:ServiceJourney:1004_230509093655790_6018",
+    "trip_id": "10046018",
+    "name": "Viste Hageby via Stavanger",
+    "start_time": "17:16:00",
+    "end_time": "18:16:00",
+    "trip_state": null
+  },
+  {
+    "id": "6841dd85-e39f-4cb4-b97b-65b172f6779a",
+    "external_id": "KOL:ServiceJourney:5986_230509093652605_6013",
+    "trip_id": "59866013",
+    "name": "Fogn",
+    "start_time": "17:45:00",
+    "end_time": "18:35:00",
+    "trip_state": null
+  },
+  {
+    "id": "69262cd5-6834-407c-af83-cf40792aa50c",
+    "external_id": "KOL:ServiceJourney:5650_230509093650680_6002",
+    "trip_id": "56506002",
+    "name": "Haugesund",
+    "start_time": "17:45:00",
+    "end_time": "18:55:00",
+    "trip_state": null
+  },
+  {
+    "id": "69f094ea-d01a-464a-8943-4a69eb9b17f0",
+    "external_id": "NWY:ServiceJourney:55e73c07-7207-44aa-ae3f-6a4dd17d2045",
+    "trip_id": "613",
+    "name": "Stavanger bussterminal",
+    "start_time": "16:20:00",
+    "end_time": "21:30:00",
+    "trip_state": null
+  },
+  {
+    "id": "75d3dffc-d037-4d8e-9eed-ed50e0a6ded4",
+    "external_id": "KOL:ServiceJourney:1033_230509093648222_5011",
+    "trip_id": "10335011",
+    "name": "Stavanger via UiS-SUS",
+    "start_time": "17:43:00",
+    "end_time": "18:26:00",
+    "trip_state": null
+  },
+  {
+    "id": "76488190-bc73-4bee-8891-4d61ba0e1447",
+    "external_id": "NWY:ServiceJourney:4bf490a2-a744-41b8-9a33-818b794dbc7a",
+    "trip_id": "500",
+    "name": "Haugesund bussterminal",
+    "start_time": "10:30:00",
+    "end_time": "19:00:00",
+    "trip_state": null
+  },
+  {
+    "id": "76e5c73f-48e2-4d97-a595-b6775283f4cb",
+    "external_id": "NWY:ServiceJourney:eb999f01-cca1-4684-b2fa-a24a246494e7",
+    "trip_id": "612",
+    "name": "Stavanger bussterminal",
+    "start_time": "15:20:00",
+    "end_time": "20:30:00",
+    "trip_state": null
+  },
+  {
+    "id": "7c5df73c-8714-4309-8c97-821ae28a3260",
+    "external_id": "VYX:ServiceJourney:240ad2e8219afe17d525536b8256e973662ca8a0",
+    "trip_id": "VYX:ServiceJourney:240ad2e8219afe17d525536b8256e973662ca8a0",
+    "name": "Oslo",
+    "start_time": "14:00:00",
+    "end_time": "18:18:00",
+    "trip_state": null
+  },
+  {
+    "id": "7e5fa06d-41fb-4788-94d5-076785dca3cb",
+    "external_id": "NWY:ServiceJourney:811333a6-1707-45ce-baec-bf71048bf632",
+    "trip_id": "1103",
+    "name": "Stavanger lufthavn",
+    "start_time": "13:00:00",
+    "end_time": "22:05:00",
+    "trip_state": null
+  },
+  {
+    "id": "7e716814-dd35-4483-b90c-2f801b4d7d1c",
+    "external_id": "KOL:ServiceJourney:1005_230509093654599_5034",
+    "trip_id": "10055034",
+    "name": "Madlakrossen via SUS-Tjensvoll",
+    "start_time": "18:02:00",
+    "end_time": "18:22:00",
+    "trip_state": null
+  },
+  {
+    "id": "7ea424d3-6606-4ed7-b63f-f21cf99956bd",
+    "external_id": "KOL:ServiceJourney:2011_230509093649034_6008",
+    "trip_id": "20116008",
+    "name": "Sandnes",
+    "start_time": "17:41:00",
+    "end_time": "18:05:00",
+    "trip_state": null
+  },
+  {
+    "id": "8125d5ce-abd2-4dc0-b922-bfd5f394f764",
+    "external_id": "UNI:ServiceJourney:LP1-144745-34376891",
+    "trip_id": "LP1-144745-34376891",
+    "name": "Kristiansand - Flekkefjord",
+    "start_time": "15:00:00",
+    "end_time": "23:45:00",
+    "trip_state": null
+  },
+  {
+    "id": "821af1d1-553b-471c-bd95-d14dc98c870d",
+    "external_id": "NWY:ServiceJourney:12b44263-f75e-4221-a75b-0b5ead6c6bdf",
+    "trip_id": "104",
+    "name": "Kristiansand rutebilstasjon",
+    "start_time": "15:00:00",
+    "end_time": "19:25:00",
+    "trip_state": null
+  },
+  {
+    "id": "8b95210c-d63a-4e40-9de0-ec436aa4f11c",
+    "external_id": "NWY:ServiceJourney:90342f6f-c0c6-4c13-add5-035f3d4ac385",
+    "trip_id": "115",
+    "name": "Kristiansand rutebilstasjon",
+    "start_time": "18:00:00",
+    "end_time": "22:05:00",
+    "trip_state": null
+  },
+  {
+    "id": "908040ff-9a97-41c5-a4fd-1e28e817816d",
+    "external_id": "NWY:ServiceJourney:0dc63028-7ae2-4e33-adef-e7c9ebd42174",
+    "trip_id": "410",
+    "name": "Kristiansand rutebilstasjon",
+    "start_time": "16:15:00",
+    "end_time": "20:10:00",
+    "trip_state": null
+  },
+  {
+    "id": "9094ce5b-0dd5-475f-a024-ec48fe843e11",
+    "external_id": "VYX:ServiceJourney:bceddcb8f2840028899118626e935bffc93c9488",
+    "trip_id": "VYX:ServiceJourney:bceddcb8f2840028899118626e935bffc93c9488",
+    "name": "Kristiansand",
+    "start_time": "17:00:00",
+    "end_time": "21:18:00",
+    "trip_state": null
+  },
+  {
+    "id": "91a7ee47-88d7-4917-8ab8-ca38604bada2",
+    "external_id": "NWY:ServiceJourney:9f70097d-e9ed-45c5-9c4e-f0b3e954a7d0",
+    "trip_id": "114",
+    "name": "Kristiansand rutebilstasjon",
+    "start_time": "16:00:00",
+    "end_time": "20:05:00",
+    "trip_state": null
+  },
+  {
+    "id": "92ee1aa4-5934-483a-8286-7505a3cd9550",
+    "external_id": "KOL:ServiceJourney:1015_230509093647919_5002",
+    "trip_id": "10155002",
+    "name": "Mekjarvik via Goa",
+    "start_time": "17:55:00",
+    "end_time": "18:25:00",
+    "trip_state": null
+  },
+  {
+    "id": "9720b73b-188d-41aa-b4b6-fd6e6444e3f9",
+    "external_id": "KOL:ServiceJourney:1012_230509093647658_6015",
+    "trip_id": "10126015",
+    "name": "Tananger via Stavanger lufthavn",
+    "start_time": "17:13:00",
+    "end_time": "18:15:00",
+    "trip_state": null
+  },
+  {
+    "id": "98c002b2-3a09-41fd-ad8e-596020feae57",
+    "external_id": "NWY:ServiceJourney:c7b3d57a-caf8-41a6-9182-01f855853924",
+    "trip_id": "614",
+    "name": "Stavanger bussterminal",
+    "start_time": "17:40:00",
+    "end_time": "22:00:00",
+    "trip_state": null
+  },
+  {
+    "id": "a055fb70-3685-48ec-ad4b-97b5f254c505",
+    "external_id": "KOL:ServiceJourney:1130_230509093658157_5039",
+    "trip_id": "11305039",
+    "name": "Mortavika",
+    "start_time": "17:45:00",
+    "end_time": "18:09:00",
+    "trip_state": null
+  },
+  {
+    "id": "a3632b28-d5c8-4344-add4-67a2cc15bdbb",
+    "external_id": "VYX:ServiceJourney:e39b8f1b51b1a2a6c0276c23d3d787a383295d12",
+    "trip_id": "VYX:ServiceJourney:e39b8f1b51b1a2a6c0276c23d3d787a383295d12",
+    "name": "Ørsta",
+    "start_time": "07:00:00",
+    "end_time": "00:10:00",
+    "trip_state": null
+  },
+  {
+    "id": "a6fc1287-199a-468c-a9f4-7961dd1c74b0",
+    "external_id": "KOL:ServiceJourney:5529_230509093650622_5001",
+    "trip_id": "55295001",
+    "name": "Foreneset",
+    "start_time": "17:40:00",
+    "end_time": "18:55:00",
+    "trip_state": null
+  },
+  {
+    "id": "a94ddfb5-9f16-4376-b1cc-ba76b4571aa1",
+    "external_id": "KOL:ServiceJourney:2017_230509093649445_6018",
+    "trip_id": "20176018",
+    "name": "Lyefjell",
+    "start_time": "18:02:00",
+    "end_time": "18:12:00",
+    "trip_state": null
+  },
+  {
+    "id": "aa35aeb5-cfab-4e14-bad4-d8cf50792cf7",
+    "external_id": "KOL:ServiceJourney:3074_230509093652082_5001",
+    "trip_id": "30745001",
+    "name": "Haugesund",
+    "start_time": "17:25:00",
+    "end_time": "18:24:00",
+    "trip_state": null
+  },
+  {
+    "id": "abfdf166-631d-407b-b517-61402a320ed7",
+    "external_id": "NWY:ServiceJourney:a18abd38-ca07-421d-9a5c-fbc24a4b9141",
+    "trip_id": "205",
+    "name": "Oslo bussterminal",
+    "start_time": "15:00:00",
+    "end_time": "19:25:00",
+    "trip_state": null
+  },
+  {
+    "id": "adfbe884-2f83-4253-a9ba-80ac2bd8cb25",
+    "external_id": "KOL:ServiceJourney:5961_230509093652044_5001",
+    "trip_id": "59615001",
+    "name": "Nedstrand",
+    "start_time": "18:00:00",
+    "end_time": "18:35:00",
+    "trip_state": null
+  },
+  {
+    "id": "b25df138-8a5f-4cba-9768-0a4f6e83e140",
+    "external_id": "KOL:ServiceJourney:3000_230509093653372_6016",
+    "trip_id": "30006016",
+    "name": "Bleikemyr via Haugesund",
+    "start_time": "17:35:00",
+    "end_time": "18:07:00",
+    "trip_state": null
+  },
+  {
+    "id": "b4fbbb68-bee1-4d39-bd69-22283728268d",
+    "external_id": "NWY:ServiceJourney:8c0b35b2-d36a-4c3c-a9e1-9bcf6d173fc3",
+    "trip_id": "502",
+    "name": "Seljord rutebilstasjon",
+    "start_time": "17:00:00",
+    "end_time": "19:27:00",
+    "trip_state": null
+  },
+  {
+    "id": "b5da1a0b-18d2-46e3-984b-5cb37c4dd752",
+    "external_id": "KOL:ServiceJourney:1012_230509093647633_5017",
+    "trip_id": "10125017",
+    "name": "Sandnes via Stavanger lufthavn",
+    "start_time": "17:51:00",
+    "end_time": "18:51:00",
+    "trip_state": null
+  },
+  {
+    "id": "b7cefa69-a599-4baf-bd1b-f9bd103df29a",
+    "external_id": "NWY:ServiceJourney:028f7fbc-a9e4-452a-8310-e4436e704ed7",
+    "trip_id": "507",
+    "name": "Bergen busstasjon",
+    "start_time": "14:00:00",
+    "end_time": "19:10:00",
+    "trip_state": null
+  },
+  {
+    "id": "b8415388-af32-476e-abc2-91a935098a47",
+    "external_id": "UNI:ServiceJourney:LP1-144745-34376888",
+    "trip_id": "LP1-144745-34376888",
+    "name": "Kristiansand - Stavanger",
+    "start_time": "12:00:00",
+    "end_time": "20:45:00",
+    "trip_state": null
+  },
+  {
+    "id": "b896e4e4-2c83-4b48-8d82-12ec598eaa37",
+    "external_id": "KOL:ServiceJourney:1002_230509093655352_6015",
+    "trip_id": "10026015",
+    "name": "Risavika via Varatun-Stavanger",
+    "start_time": "17:18:00",
+    "end_time": "18:43:00",
+    "trip_state": null
+  },
+  {
+    "id": "bcb665f8-3ccf-4b7a-ae12-2bfde7c37cc0",
+    "external_id": "VYX:ServiceJourney:d030070c64f3202cd96041315cda46b209e6bd68",
+    "trip_id": "VYX:ServiceJourney:d030070c64f3202cd96041315cda46b209e6bd68",
+    "name": "Haugesund",
+    "start_time": "10:30:00",
+    "end_time": "20:50:00",
+    "trip_state": null
+  },
+  {
+    "id": "bcea9503-56e2-4a20-9c8d-8c0928e25157",
+    "external_id": "NWY:ServiceJourney:7fbd3e6d-e701-4bbf-a8a4-5681cb11c709",
+    "trip_id": "609",
+    "name": "Stavanger bussterminal",
+    "start_time": "13:20:00",
+    "end_time": "18:30:00",
+    "trip_state": null
+  },
+  {
+    "id": "c4343abc-5975-4f78-bf80-eac9f28fa4a9",
+    "external_id": "KOL:ServiceJourney:4500_230509093650505_5002",
+    "trip_id": "45005002",
+    "name": "Nesflaten",
+    "start_time": "17:53:00",
+    "end_time": "18:28:00",
+    "trip_state": null
+  },
+  {
+    "id": "c449ebff-82e1-43c3-a357-4359be76ebd6",
+    "external_id": "KOL:ServiceJourney:1006_230509093646582_6035",
+    "trip_id": "10066035",
+    "name": "Stavanger",
+    "start_time": "17:52:00",
+    "end_time": "18:12:00",
+    "trip_state": null
+  },
+  {
+    "id": "c4957388-c448-422a-a1a4-053a8e83cfbc",
+    "external_id": "NWY:ServiceJourney:2640c116-fd16-4e0a-9c68-61c0d0788419",
+    "trip_id": "501",
+    "name": "Haugesund bussterminal",
+    "start_time": "13:55:00",
+    "end_time": "22:05:00",
+    "trip_state": null
+  },
+  {
+    "id": "c585bc96-baa5-414e-97e8-4c6d4f9c6b34",
+    "external_id": "NWY:ServiceJourney:c9e1e6ec-a44f-4a57-a2a5-c56043b624a8",
+    "trip_id": "611",
+    "name": "Stavanger bussterminal",
+    "start_time": "16:40:00",
+    "end_time": "21:00:00",
+    "trip_state": null
+  },
+  {
+    "id": "c75584da-2dad-4d61-96e8-1f3bc0b48de7",
+    "external_id": "KOL:ServiceJourney:5550_230509093650632_5001",
+    "trip_id": "55505001",
+    "name": "Sandeid",
+    "start_time": "17:00:00",
+    "end_time": "18:55:00",
+    "trip_state": null
+  },
+  {
+    "id": "cb172ae1-1121-446f-8b02-536dcc9f7a93",
+    "external_id": "KOL:ServiceJourney:1007_230509093656280_6016",
+    "trip_id": "10076016",
+    "name": "Stavanger via UiS",
+    "start_time": "17:33:00",
+    "end_time": "18:16:00",
+    "trip_state": null
+  },
+  {
+    "id": "cbac98e2-8ca8-42c1-9375-af12c5bedc9e",
+    "external_id": "KOL:ServiceJourney:3001_230509093649958_5007",
+    "trip_id": "30015007",
+    "name": "Amanda via Haugesund",
+    "start_time": "17:31:00",
+    "end_time": "18:15:00",
+    "trip_state": null
+  },
+  {
+    "id": "cbc83d73-8a7d-4904-8ba3-3dbfb0f2d61a",
+    "external_id": "NWY:ServiceJourney:48719b5c-e0e5-4e11-b0a6-01e40bd5d912",
+    "trip_id": "514",
+    "name": "Bergen busstasjon",
+    "start_time": "18:00:00",
+    "end_time": "23:20:00",
+    "trip_state": null
+  },
+  {
+    "id": "cf086ae0-631f-48bf-9cb3-514d9276e480",
+    "external_id": "KOL:ServiceJourney:6140_230509093651454_5001",
+    "trip_id": "61405001",
+    "name": "Hjelmeland via Fister",
+    "start_time": "17:33:00",
+    "end_time": "18:38:00",
+    "trip_state": null
+  },
+  {
+    "id": "cf491915-daf9-4b84-832f-5c2d353350a8",
+    "external_id": "KOL:ServiceJourney:1130_230509093658343_6039",
+    "trip_id": "11306039",
+    "name": "Arsvågen",
+    "start_time": "17:45:00",
+    "end_time": "18:09:00",
+    "trip_state": null
+  },
+  {
+    "id": "d29a2427-0bc3-4e9f-9c82-ca44f679c69b",
+    "external_id": "KOL:ServiceJourney:1007_230509093656281_6017",
+    "trip_id": "10076017",
+    "name": "Stavanger via UiS",
+    "start_time": "18:03:00",
+    "end_time": "18:46:00",
+    "trip_state": null
+  },
+  {
+    "id": "d61e3bb9-b4a5-4785-9c0b-6c4135c359dc",
+    "external_id": "KOL:ServiceJourney:1006_230509093646514_5034",
+    "trip_id": "10065034",
+    "name": "Vardenes",
+    "start_time": "17:59:00",
+    "end_time": "18:17:00",
+    "trip_state": null
+  },
+  {
+    "id": "d8b160c1-9a31-4e80-b311-d065a2413ede",
+    "external_id": "KOL:ServiceJourney:1002_230509093655270_6016",
+    "trip_id": "10026016",
+    "name": "Risavika via Smeaheia-Stavanger",
+    "start_time": "17:48:00",
+    "end_time": "19:13:00",
+    "trip_state": null
+  },
+  {
+    "id": "d95b7419-eabf-4fab-a578-a28c1c577e9d",
+    "external_id": "KOL:ServiceJourney:1012_230509093647632_5016",
+    "trip_id": "10125016",
+    "name": "Sandnes via Stavanger lufthavn",
+    "start_time": "17:21:00",
+    "end_time": "18:21:00",
+    "trip_state": null
+  },
+  {
+    "id": "da3a78af-f33f-4451-ac44-56bba1b3ec01",
+    "external_id": "KOL:ServiceJourney:3011_230509093650121_6003",
+    "trip_id": "30116003",
+    "name": "Haugesund via Veavågen-Kopervik",
+    "start_time": "16:54:00",
+    "end_time": "18:17:00",
+    "trip_state": null
+  },
+  {
+    "id": "dac575fd-7e2b-4cf3-b58f-f0d4a29bddc6",
+    "external_id": "KOL:ServiceJourney:5560_230509093650653_5001",
+    "trip_id": "55605001",
+    "name": "Sauda",
+    "start_time": "16:20:00",
+    "end_time": "18:50:00",
+    "trip_state": null
+  },
+  {
+    "id": "dad7bf24-a54a-4242-852c-a0ac8fa01835",
+    "external_id": "NWY:ServiceJourney:c330884b-e343-47fc-8c47-558acb44762e",
+    "trip_id": "513",
+    "name": "Sandvikvåg",
+    "start_time": "18:00:00",
+    "end_time": "22:30:00",
+    "trip_state": null
+  },
+  {
+    "id": "dc2cf863-7d8a-439c-aad2-fb84a981b2f3",
+    "external_id": "KOL:ServiceJourney:1033_230509093648247_6013",
+    "trip_id": "10336013",
+    "name": "Sandnes via SUS-UiS",
+    "start_time": "18:00:00",
+    "end_time": "18:42:00",
+    "trip_state": null
+  },
+  {
+    "id": "dc7c261e-ac3d-4be5-8bda-2d0aba7fbdee",
+    "external_id": "KOL:ServiceJourney:1002_230509093655269_6014",
+    "trip_id": "10026014",
+    "name": "Risavika via Smeaheia-Stavanger",
+    "start_time": "16:48:00",
+    "end_time": "18:13:00",
+    "trip_state": null
+  },
+  {
+    "id": "dfb77b2a-9a7b-40ec-9526-0279d9e32ccb",
+    "external_id": "NWY:ServiceJourney:c67524c0-de3a-4088-b64e-48cf5e59496d",
+    "trip_id": "511",
+    "name": "Bergen busstasjon",
+    "start_time": "16:30:00",
+    "end_time": "20:50:00",
+    "trip_state": null
+  },
+  {
+    "id": "e15c2eb9-2860-4233-97f1-64e702b5b23c",
+    "external_id": "KOL:ServiceJourney:1002_230509093655170_5019",
+    "trip_id": "10025019",
+    "name": "Sandnes via Stavanger-Smeaheia",
+    "start_time": "17:19:00",
+    "end_time": "18:42:00",
+    "trip_state": null
+  },
+  {
+    "id": "e9ad3efe-717a-427a-9286-1b183fc7e2b9",
+    "external_id": "NWY:ServiceJourney:19807d75-0d71-42b8-929f-d756035c679f",
+    "trip_id": "510",
+    "name": "Bergen busstasjon",
+    "start_time": "15:30:00",
+    "end_time": "19:50:00",
+    "trip_state": null
+  },
+  {
+    "id": "eab3e33d-8d92-4fd1-9c67-a571089883f5",
+    "external_id": "KOL:ServiceJourney:1004_230509093655578_5021",
+    "trip_id": "10045021",
+    "name": "Forus via Stavanger",
+    "start_time": "17:49:00",
+    "end_time": "18:49:00",
+    "trip_state": null
+  },
+  {
+    "id": "eb6743d8-b892-48aa-adc4-5f5985ac2870",
+    "external_id": "KOL:ServiceJourney:3001_230509093649972_6007",
+    "trip_id": "30016007",
+    "name": "Vormedal via Haugesund",
+    "start_time": "17:30:00",
+    "end_time": "18:14:00",
+    "trip_state": null
+  },
+  {
+    "id": "ec00d6c5-7bdc-4a5a-82ad-53bf11728795",
+    "external_id": "VYX:ServiceJourney:6e7fd2597d62adce6a38cba8733167e46c0339a4",
+    "trip_id": "VYX:ServiceJourney:6e7fd2597d62adce6a38cba8733167e46c0339a4",
+    "name": "Oslo",
+    "start_time": "18:00:00",
+    "end_time": "22:18:00",
+    "trip_state": null
+  },
+  {
+    "id": "f10a4087-914a-4da5-a017-927f02e32830",
+    "external_id": "NWY:ServiceJourney:e060d314-dd95-4a97-886b-452829c919c9",
+    "trip_id": "1101",
+    "name": "Stavanger lufthavn",
+    "start_time": "09:00:00",
+    "end_time": "18:05:00",
+    "trip_state": null
+  },
+  {
+    "id": "f3b145d6-4d3e-4cc0-a73c-5b4a42b6fc90",
+    "external_id": "KOL:ServiceJourney:5460_230509093658504_5001",
+    "trip_id": "54605001",
+    "name": "Lauvvik",
+    "start_time": "17:15:00",
+    "end_time": "19:15:00",
+    "trip_state": null
+  },
+  {
+    "id": "f3e5cfa1-7872-44bb-ac1b-a87f5bb28166",
+    "external_id": "NWY:ServiceJourney:5aa843cd-d71a-4ec0-98f2-b4d5433be682",
+    "trip_id": "105",
+    "name": "Kristiansand rutebilstasjon",
+    "start_time": "17:00:00",
+    "end_time": "21:25:00",
+    "trip_state": null
+  },
+  {
+    "id": "f48718f7-ffd8-4ae9-8ee2-d1f99424983b",
+    "external_id": "KOL:ServiceJourney:1000_230509093645996_6037",
+    "trip_id": "10006037",
+    "name": "Hundvåg øst/vest",
+    "start_time": "18:00:00",
+    "end_time": "18:20:00",
+    "trip_state": null
+  },
+  {
+    "id": "f929a005-f846-4907-86e6-c5a4117f1350",
+    "external_id": "SKY:ServiceJourney:2080-166826-14051959",
+    "trip_id": "SKY:ServiceJourney:2080-166826-14051959",
+    "name": "Bergen",
+    "start_time": "17:20:00",
+    "end_time": "20:20:00",
+    "trip_state": null
+  },
+  {
+    "id": "f9e43fc2-f811-448d-b6a5-a7644863c124",
+    "external_id": "NWY:ServiceJourney:c2eedf27-7ed5-4b63-be4f-5a8a90bff091",
+    "trip_id": "215",
+    "name": "Oslo bussterminal",
+    "start_time": "18:00:00",
+    "end_time": "22:05:00",
+    "trip_state": null
+  },
+  {
+    "id": "fa6a9288-333e-4026-9028-aa1a8d06e021",
+    "external_id": "KOL:ServiceJourney:3011_230509093650112_5004",
+    "trip_id": "30115004",
+    "name": "Skudeneshavn via Kopervik-Veavågen",
+    "start_time": "17:25:00",
+    "end_time": "18:48:00",
+    "trip_state": null
+  },
+  {
+    "id": "fd84365d-8a2f-448f-aae2-a5f52d3c1d5f",
+    "external_id": "KOL:ServiceJourney:2012_230509093649181_5010",
+    "trip_id": "20125010",
+    "name": "Ålgård",
+    "start_time": "17:43:00",
+    "end_time": "18:18:00",
+    "trip_state": null
+  },
+  {
+    "id": "fec4493c-a286-4bd0-a531-30f78025a04f",
+    "external_id": "KOL:ServiceJourney:1002_230509093655073_5018",
+    "trip_id": "10025018",
+    "name": "Sandnes via Stavanger-Varatun",
+    "start_time": "16:49:00",
+    "end_time": "18:12:00",
+    "trip_state": null
+  }
+]
