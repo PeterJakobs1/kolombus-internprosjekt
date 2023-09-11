@@ -1,0 +1,336 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+.trash {
+  height: 25px;
+}
+.header {
+  flex: 1;
+  background-color: #00aa50;
+  padding: 50px;
+  min-width: 350px;
+  min-height: 1300px;
+}
+.map {
+  margin-top: 240px;
+  position: relative;
+  border-radius: 25px;
+}
+.mapSelect {
+  margin-top: 50px;
+  position: relative;
+  border-radius: 25px;
+  margin-left: 200px;
+  /* z-index: -1; makes map not work yolo */
+}
+
+.context {
+  flex: 5;
+  padding: 50px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.dropdownBar,
+.searchBar {
+  padding-right: 0%;
+  border-radius: 10px;
+}
+
+.platformButton {
+  background-color: #00aa50;
+  margin-right: 10px;
+  margin-top: 10px;
+  max-width: 300px;
+}
+
+.lineButton {
+  background-color: #00aa50;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.ulList {
+  display: block;
+  font-size: 1.17em;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.departureList {
+  padding: 5px;
+  color: black;
+}
+.departures {
+  margin-top: 20px;
+}
+
+.departureList {
+  list-style: none;
+  padding: 0;
+}
+
+.departureItem {
+  margin-bottom: 10px;
+}
+
+.departureButton {
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.departureButton:hover {
+  background-color: #e0e0e0;
+}
+
+.destinationText {
+  font-weight: bold;
+  margin: 0;
+}
+
+.startTimeText {
+  margin: 0;
+}
+
+.departures {
+  margin-top: 20px;
+}
+
+.departureGrid {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1px;
+  list-style: none;
+  padding: 0;
+}
+
+.departureButton {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  box-sizing: border-box; /* Include padding and border in width */
+  min-height: 78px;
+}
+.card {
+  margin: 10px;
+}
+
+.clockNoticeStatus {
+  display: flex;
+  font-weight: 900;
+  margin-left: 10px;
+  flex-wrap: wrap;
+}
+
+.lineNameAndDestination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.departureButton:hover {
+  background-color: #303030;
+  border: #00aa50;
+}
+
+.destinationText {
+  font-weight: bold;
+  margin: 0;
+}
+
+.startTimeText {
+  margin: 0;
+}
+
+.input,
+select.selectContainer {
+  font-size: medium;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+p {
+  margin: inherit;
+}
+
+.notice {
+  color: yellow;
+  font-size: small;
+}
+
+button.delete {
+  background-color: #00aa50;
+  margin-left: 20px;
+  height: 45px;
+  align-items: center;
+}
+.delete {
+  padding: 10px;
+}
+
+.searchDropDown {
+  display: flex;
+  color: black;
+  width: 500px;
+}
+.whereFrom {
+  color: black;
+}
+.lineName {
+  background-color: #00aa50;
+  text-align: center;
+  font-size: larger;
+  line-height: 50px;
+  color: white;
+  margin-right: 10px;
+  border-radius: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.leftColumn {
+  grid-column: 1;
+}
+
+.rightColumn {
+  grid-column: 2;
+}
+
+.bottomSection {
+  grid-column: 1 / span 2;
+}
+
+.selection-container {
+  display: flex;
+  gap: 20px;
+}
+
+.whereTo,
+.transport {
+  flex: 3;
+  width: 400px;
+  padding: 10px;
+}
+
+.continue {
+  background-color: #00aa50;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 40px;
+  width: 850px;
+}
+
+.custom-datepicker {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: default;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  min-height: 45px;
+  min-width: 400px;
+  outline: 0 !important;
+  position: relative;
+  -webkit-transition: all 100ms;
+  transition: all 100ms;
+  background-color: hsl(0, 0%, 100%);
+  border-color: hsl(0, 0%, 80%);
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.pickStation {
+  margin-bottom: 10px;
+}
+.pickStop {
+  margin-bottom: 1px;
+}
+
+h3 {
+  margin: 2px;
+}
+.logo {
+  margin-top: 50px;
+  margin-left: -60px;
+}
+
+.noLinesAvailable {
+  font-size: medium;
+  margin-top: 10px;
+  color: #ffcc00;
+}
+
+.lineNamesCard {
+  border-radius: 5px;
+  background-color: #333333;
+  width: 100%;
+  min-height: 78px;
+}
+.lineNames {
+  margin: -5px;
+}
+.cardHeader {
+  margin: 10px;
+  padding-top: 20px;
+}
+
+.lineNameItem {
+  margin: 10px;
+  margin-top: 0px;
+}
+.settingsMap {
+  margin: 0%;
+  margin-top: 20px;
+}
+
+.toggleMap {
+  margin-top: 20px;
+  margin-left: 95px;
+  margin-bottom: 20px;
+}

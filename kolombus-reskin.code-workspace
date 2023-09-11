@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "kolombus-reskin",
+			"path": "."
+		}
+	],
+	"settings": {
+		"material-icon-theme.activeIconPack": "angular",
+		"material-icon-theme.folders.color": "#33a4ae",
+		"cSpell.words": [
+			"funnet",
+			"linjer",
+			"stopp",
+			"tilgjengelig",
+			"trashcann"
+		]
+	}
+}
