@@ -23,7 +23,7 @@ export const fetchPlatforms = async (selectedStation: Station) => {
   }
   const nsr_id = selectedStation.external_id;
 
- const platformsUrl = `http://localhost:5158/api/StopsPlaces/${nsr_id}/platforms`;
+ const platformsUrl = `http://localhost:5158/api/StopsPlaces/NSR%3AStopPlace%3A27407/platforms`;
   
  
   try {
