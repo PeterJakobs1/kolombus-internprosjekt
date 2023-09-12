@@ -40,19 +40,19 @@ public class DataController : ControllerBase
             {
                 Id = (Guid)record!["id"]!,
                 ExternalId = (string)record!["external_id"]!,
-                // jbv_code
+                Jbv_code = (string)record!["jbv_code"]!,
                 Name = (string)record!["name"]!,
-                // description
-                // modification
+                Description = (string)record!["description"]!,
+                Modification = (string)record!["modification"]!,
                 Latitude = (double)record!["latitude"]!,
                 Longitude = (double)record!["longitude"]!,
-                // type
-                // transport_mode
-                // sub_mode_type
+                Type = (string)record!["type"]!,
+                Transport_mode = (string)record!["transport_mode"]!,
+                Sub_mode_type = (string)record!["sub_mode_type"]!,
                 ValidFrom = (DateTimeOffset?)record!["valid_from"]!,
                 ValidTo = (DateTimeOffset?)record!["valid_to"],
-                // created
-                // changed
+                Created = (DateTimeOffset?)record!["created"]!,
+                Changed = (DateTimeOffset?)record!["changed"]!,
             }, cancellationToken);
         }
 
@@ -72,17 +72,17 @@ public class DataController : ControllerBase
                 ExternalId = (string)record!["external_id"]!,
                 StopPlaceId = (Guid)record!["stop_place_id"]!,
                 Name = (string)record!["name"]!,
-                // modification
-                // description
+                Modification = (string)record!["modification"]!,
+                Description = (string)record!["description"]!,
                 Latitude = (double)record!["latitude"]!,
                 Longitude = (double)record!["longitude"]!,
-                // type
-                // transport_mode
-                // sub_mode_type
+                Type = (string)record!["type"]!,
+                Transport_mode = (string)record!["transport_mode"]!,
+                Sub_mode_type = (string)record!["sub_mode_type"]!,
                 PublicCode = (string)record!["public_code"]!,
-                // private_code
-                // changed
-                // created
+                Private_code = (string)record!["private_code"]!,
+                Changed = (DateTimeOffset?)record!["changed"]!,
+                Created = (DateTimeOffset?)record!["created"]!,
             }, cancellationToken);
         }
 
@@ -100,8 +100,9 @@ public class DataController : ControllerBase
                 Id = (Guid)record!["id"]!,
                 ExternalId = (string)record!["external_id"]!,
                 Name = (string)record!["name"]!,
-                //"transport_mode": "bus",
-                //"transport_sub_mode": "localBus",
+                KolId = (string)record!["kol_id"]!,
+                TransportationType = (string)record!["transportation_type"]!,
+                Transport_Sub_Mode = (string)record!["transport_sub_mode"]!,
                 PublicCode = (string)record!["public_code"]!,
             }, cancellationToken);
         }
