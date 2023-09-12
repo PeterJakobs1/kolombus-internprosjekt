@@ -1,7 +1,7 @@
 import { Station, Platform } from "../../types/type";
 
 export const fetchStations = async () => {
-  const apiUrl = "http://localhost:5198/api/StopPlaces?name=ok";
+  const apiUrl = "http://localhost:5143/api/StopsPlaces";
   try {
     const response = await fetch(apiUrl);
 
