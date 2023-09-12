@@ -16,12 +16,13 @@ public sealed partial class StopsPlacesController : ControllerBase
         this.modelContext = modelContext;
     }
 
+
     [HttpGet]
-    public async Task<IActionResult> GetStopPlaces(string name, CancellationToken cancellationToken)
+    public async Task<IActionResult> GetStopPlaces(CancellationToken cancellationToken)
     {
         var stopPlaces = await modelContext.StopPlaces
             .AsNoTracking()
-            .Where(sp => sp.Name.StartsWith(name))
+
             .Select(sp => new StopPlaceVersion3()
             {
                 Id = sp.Id,
@@ -32,6 +33,8 @@ public sealed partial class StopsPlacesController : ControllerBase
 
         return Ok(stopPlaces);
     }
+
+
 
     [HttpGet]
     [Route("{externalId}/platforms")]

@@ -15,7 +15,7 @@ public sealed class Platform
     public double Longitude { get; set; }
     public string Type { get; set; } = string.Empty;
     public string Transport_mode { get; set; } = string.Empty;
-    public string Sub_mode_type { get; set; } = string.Empty;
+    //public required string Sub_mode_type { get; set; }
     public string? Private_code { get; set; }
     public DateTimeOffset? Created { get; set; }
     public DateTimeOffset? Changed { get; set; }

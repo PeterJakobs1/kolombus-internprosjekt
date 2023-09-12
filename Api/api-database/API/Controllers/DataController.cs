@@ -32,7 +32,7 @@ public class DataController : ControllerBase
 
     static async Task StopPlaces(SQLServerModelContext modelContext, CancellationToken cancellationToken)
     {
-        var stopPlaces = JsonNode.Parse(System.IO.File.OpenRead("Data\\stopplaces.json"))!.AsArray();
+        var stopPlaces = JsonNode.Parse(System.IO.File.OpenRead("Data/stopplaces.json"))!.AsArray();
 
         foreach (var record in stopPlaces!)
         {
@@ -61,7 +61,7 @@ public class DataController : ControllerBase
 
     static async Task Platforms(SQLServerModelContext modelContext, CancellationToken cancellationToken)
     {
-        var platforms = JsonNode.Parse(System.IO.File.OpenRead("Data\\platforms.json"))!.AsArray();
+        var platforms = JsonNode.Parse(System.IO.File.OpenRead("Data/platforms.json"))!.AsArray();
 
         foreach (var record in platforms!)
         {
@@ -78,7 +78,7 @@ public class DataController : ControllerBase
                 Longitude = (double)record!["longitude"]!,
                 Type = (string)record!["type"]!,
                 Transport_mode = (string)record!["transport_mode"]!,
-                Sub_mode_type = (string)record!["sub_mode_type"]!,
+                //Sub_mode_type = (string)record!["sub_mode_type"]!,
                 PublicCode = (string)record!["public_code"]!,
                 Private_code = (string)record!["private_code"]!,
                 Changed = (DateTimeOffset?)record!["changed"]!,
@@ -91,7 +91,7 @@ public class DataController : ControllerBase
 
     static async Task Lines(SQLServerModelContext modelContext, CancellationToken cancellationToken)
     {
-        var lines = JsonNode.Parse(System.IO.File.OpenRead("Data\\lines.json"))!.AsArray();
+        var lines = JsonNode.Parse(System.IO.File.OpenRead("Data/lines.json"))!.AsArray();
 
         foreach (var record in lines!)
         {
@@ -101,8 +101,8 @@ public class DataController : ControllerBase
                 ExternalId = (string)record!["external_id"]!,
                 Name = (string)record!["name"]!,
                 KolId = (string)record!["kol_id"]!,
-                TransportationType = (string)record!["transportation_type"]!,
-                Transport_Sub_Mode = (string)record!["transport_sub_mode"]!,
+                // TransportationType = (string)record!["transportation_type"]!,
+                //  Transport_Sub_Mode = (string)record!["transport_sub_mode"]!,
                 PublicCode = (string)record!["public_code"]!,
             }, cancellationToken);
         }
@@ -117,7 +117,7 @@ public class DataController : ControllerBase
             .Select(l => new KeyValuePair<string, Guid?>(l.ExternalId, l.Id))
             .ToArrayAsync(cancellationToken));
 
-        var routes = JsonNode.Parse(System.IO.File.OpenRead("Data\\routes.json"))!.AsArray();
+        var routes = JsonNode.Parse(System.IO.File.OpenRead("Data/routes.json"))!.AsArray();
 
         Guid? lineId = null;
 
@@ -146,7 +146,7 @@ public class DataController : ControllerBase
 
     static async Task Journeys(SQLServerModelContext modelContext, CancellationToken cancellationToken)
     {
-        var journeys = JsonNode.Parse(System.IO.File.OpenRead("Data\\journeys.json"))!.AsArray();
+        var journeys = JsonNode.Parse(System.IO.File.OpenRead("Data/journeys.json"))!.AsArray();
 
         foreach (var record in journeys!)
         {
@@ -176,7 +176,7 @@ public class DataController : ControllerBase
             .Select(l => new KeyValuePair<string, Guid?>(l.NSRId, l.Id))
             .ToArrayAsync(cancellationToken));
 
-        var stopTimes = JsonNode.Parse(System.IO.File.OpenRead("Data\\stoptimes.json"))!.AsArray();
+        var stopTimes = JsonNode.Parse(System.IO.File.OpenRead("Data/stoptimes.json"))!.AsArray();
 
         Guid? journeyId = null;
         Guid? platformId = null;

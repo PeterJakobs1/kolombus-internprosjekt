@@ -1,7 +1,7 @@
 import { Station, Platform } from "../../types/type";
 
 export const fetchStations = async () => {
-  const apiUrl = "http://localhost:5143/api/StopsPlaces";
+  const apiUrl = "http://localhost:5158/api/StopsPlaces";
   try {
     const response = await fetch(apiUrl);
 
@@ -22,9 +22,10 @@ export const fetchPlatforms = async (selectedStation: Station) => {
     throw new Error("No selected station provided");
   }
   const nsr_id = selectedStation.external_id;
- const platformsUrl = `http://localhost:5198/api/StopPlaces/${nsr_id}/platforms`;
-  //const platformsUrl = `https://api.kolumbus.no/api/stopplaces/${nsr_id}/platforms`;
 
+ const platformsUrl = `http://localhost:5158/api/StopsPlaces/${nsr_id}/platforms`;
+  
+ 
   try {
     const response = await fetch(platformsUrl);
 
