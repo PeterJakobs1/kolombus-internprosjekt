@@ -4,22 +4,14 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "target": "ESNext",
     "module": "CommonJS",
-    "moduleResolution": "node",
-
+    "moduleResolution": "node", // Set to "node"
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "jsx": "react",
-
-    /* Bundler mode */
-
-    "allowImportingTsExtensions": true,
-
     "isolatedModules": true,
     "noEmit": true,
-
-    /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
