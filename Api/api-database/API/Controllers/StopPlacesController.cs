@@ -17,6 +17,8 @@ public sealed partial class StopsPlacesController : ControllerBase
     }
 
 
+
+
     [HttpGet]
     public async Task<IActionResult> GetStopPlaces(CancellationToken cancellationToken)
     {
@@ -33,8 +35,6 @@ public sealed partial class StopsPlacesController : ControllerBase
 
         return Ok(stopPlaces);
     }
-
-
 
     [HttpGet]
     [Route("{externalId}/platforms")]

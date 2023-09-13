@@ -17,7 +17,7 @@ sealed record StopPlaceVersion3
     public string Name { get; set; }
 
     [JsonPropertyName("description")]
-    public string Description { get; set; }
+    public string? Description { get; set; }
 
     [JsonPropertyName("latitude")]
     public double Latitude { get; set; }

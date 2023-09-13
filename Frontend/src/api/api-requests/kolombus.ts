@@ -18,10 +18,11 @@ export const fetchStations = async () => {
 };
 
 export const fetchPlatforms = async (selectedStation: Station) => {
+  
   if (!selectedStation) {
     throw new Error("No selected station provided");
   }
-  const nsr_id = selectedStation.external_id;
+  const nsr_id = selectedStation.externalId;
 
  const platformsUrl = `http://localhost:5158/api/StopsPlaces/${nsr_id}/platforms`;
   
@@ -41,13 +42,15 @@ export const fetchPlatforms = async (selectedStation: Station) => {
   }
 };
 
-export const fetchLines = async (nsr_id_lines: string | null) => {
-  if (!nsr_id_lines) {
-    throw new Error("nsr_id_lines is null or undefined");
+export const fetchLines = async (id: string | null) => {
+  if (!id) {
+    throw new Error("id is null or undefined");
   }
-
-  const linesUrl = `http://localhost:5198/api/Platforms/${nsr_id_lines}/lines`; // Notice the '/' after nsr_id_lines
-  console.log(nsr_id_lines);
+  const thisDate = new Date().toISOString();
+  console.log(thisDate)
+  //const linesUrl = `http://localhost:5198/api/Platforms/${id}/departures??startTime=${thisDate}`;
+  const linesUrl = `http://localhost:5155/api/Platforms/${id}/departures`;
+  console.log(id);
 
   try {
     const response = await fetch(linesUrl);
@@ -116,7 +119,7 @@ export const fetchAllData = async (selectedStation: Station) => {
     const [stations, platforms, lines, departures] = await Promise.all([
       fetchStations(),
       fetchPlatforms(selectedStation),
-      fetchLines(selectedStation.external_id),
+      fetchLines(selectedStation.externalId),
       fetchDepartures(selectedStation.platforms),
     ]);
     return {

@@ -7,7 +7,7 @@ export interface Station {
   longitude: number;
   latitude: number;
   name: string;
-  external_id: string;
+  externalId: string;
   id: string;
 }
 export interface Delay {

@@ -15,7 +15,7 @@ import { Departure, Line, Platform, Station } from "../../types/type";
 import { sortDeparturesByArrivalTime } from "../help-components/sortDeparturesByArrivalTime";
 import { useDispatch } from "react-redux";
 import { stationActions } from "../../store/station";
-import { platformActions } from "../../store/platform";
+import platform, { platformActions } from "../../store/platform";
 import lines, { lineActions } from "../../store/lines";
 import MapComponent from "../map-components/mapComponent";
 import LineNamesCard from "../help-components/lineNameCard";
@@ -165,18 +165,21 @@ export const ApiComponent = () => {
     currentTarget: { getAttribute: (arg0: string) => any };
   }, lineName: string | null) {
     try {
-      const nsr_id_lines =
-        event.currentTarget.getAttribute("data-nsr_id_lines");
+      const id =
+        event.currentTarget.getAttribute("id");
 
-      const linesData = await fetchLines(nsr_id_lines);
+
+      const linesData = await fetchLines(id);
       setLines(linesData);
+
       dispatch(lineActions.selectLine(linesData));
       const noLinesAvailable = linesData.length === 0;
 
       if (linesData.length === 0) {
         console.log("No lines available.");
       } else {
-        const departuresData = await fetchDepartures(nsr_id_lines);
+        const departuresData = await fetchDepartures(id);
+
         const filteredDepartures = lineName
           ? departuresData.filter((departure: { line_name: string; }) => departure.line_name === lineName)
           : departuresData;
@@ -234,15 +237,19 @@ export const ApiComponent = () => {
               <p className="platformList">
                 {platforms.length > 0 ? (
                   platforms.map((platform) => (
+
                     <button
                       className="platformButton"
                       value={selectedOption}
                       onClick={getAllLinesAndDepartures}
-                      data-nsr_id_lines={platform.nsr_id}
+                      id={platform.id}
                       key={platform.id}
                     >
-                      {platform.name} {platform.public_code}
+                      {platform.name}
+
+
                     </button>
+
                   ))
                 ) : (
                   <span className="noPlatforms">Ingen busstopp funnet</span>
@@ -252,6 +259,7 @@ export const ApiComponent = () => {
                   <p className="noLinesAvailable">Ingen linjer tilgjengelig</p>
                 )}
 
+
               </p>
               <div className="lineNamesCard">
                 <LineNamesCard
@@ -260,6 +268,7 @@ export const ApiComponent = () => {
                   toggleLineSelection={toggleLineSelection}
                 />
               </div>
+
             </div>
           )}
         </div>
