@@ -1,5 +1,6 @@
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
+import React from "react";
 
 const SettingsMap = ({ stations, getAllLinesAndDepartures }) => {
     const defaultLatitude = 58.966036;

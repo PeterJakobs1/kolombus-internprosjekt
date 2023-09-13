@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./styles/App.css";
 import FrontFunc from "./pages/FrontPage";
 import { SettingsFunc } from "./pages/SettingsPage";
+import React from "react";
 
 export function App() {
   return (

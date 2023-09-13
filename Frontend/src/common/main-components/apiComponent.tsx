@@ -21,6 +21,7 @@ import MapComponent from "../map-components/mapComponent";
 import LineNamesCard from "../help-components/lineNameCard";
 import SettingsMap from "../map-components/settingsMapComponent";
 import trashcann from "../../Icons/images/trashcann.png";
+import React from "react";
 
 export const ApiComponent = () => {
   const [selectedOption, setSelectedOption] = useState("");
