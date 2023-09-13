@@ -15,7 +15,7 @@ import { Departure, Line, Platform, Station } from "../../types/type";
 import { sortDeparturesByArrivalTime } from "../help-components/sortDeparturesByArrivalTime";
 import { useDispatch } from "react-redux";
 import { stationActions } from "../../store/station";
-import platform, { platformActions } from "../../store/platform";
+import { platformActions } from "../../store/platform";
 import lines, { lineActions } from "../../store/lines";
 import MapComponent from "../map-components/mapComponent";
 import LineNamesCard from "../help-components/lineNameCard";
@@ -147,6 +147,7 @@ export const ApiComponent = () => {
       });
   }, [dispatch, selectedOption, selectedStation]);
 
+
   // gets all platforms from each stopplace
   useEffect(() => {
     dispatch(platformActions.selectPlatform(selectedStation));
@@ -156,11 +157,12 @@ export const ApiComponent = () => {
       fetchPlatforms(selectedStation[0])
         .then((data) => {
           setPlatforms(data);
-          console.log(data);
+          console.log(selectedStation);
         })
         .catch((error) => console.error("Error fetching platforms:", error));
     }
   }, [dispatch, selectedStation]);
+
 
 
   // gets all lines and departures from each platform
@@ -174,6 +176,7 @@ export const ApiComponent = () => {
 
       const linesData = await fetchLines(id);
       setLines(linesData);
+      console.log();
 
       dispatch(lineActions.selectLine(linesData));
       const noLinesAvailable = linesData.length === 0;
@@ -248,7 +251,7 @@ export const ApiComponent = () => {
                       id={platform.id}
                       key={platform.id}
                     >
-                      {platform.name} {platform.id}
+                      {platform.name}
 
 
                     </button>

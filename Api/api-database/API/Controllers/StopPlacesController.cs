@@ -16,9 +16,6 @@ public sealed partial class StopsPlacesController : ControllerBase
         this.modelContext = modelContext;
     }
 
-
-
-
     [HttpGet]
     public async Task<IActionResult> GetStopPlaces(CancellationToken cancellationToken)
     {
@@ -48,6 +45,10 @@ public sealed partial class StopsPlacesController : ControllerBase
                 Id = sp.Id,
                 ExternalId = sp.ExternalId,
                 Name = sp.Name,
+
+                Longitude = sp.Longitude,
+                Latitude = sp.Latitude,
+                Type = sp.Type,
             })
             .ToListAsync(cancellationToken);
 

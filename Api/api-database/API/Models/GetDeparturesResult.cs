@@ -13,6 +13,13 @@ sealed record StopTimeVersion4
     [JsonPropertyName("lineName")]
     public string LineName { get; set; }
 
+
+    [JsonPropertyName("latitude")]
+    public double Latitude { get; set; }
+
+    [JsonPropertyName("longitude")]
+    public double Longitude { get; set; }
+
     [JsonPropertyName("transportMode")]
     public string TransportMode { get; set; }
 
@@ -92,5 +99,5 @@ sealed record StopTimeVersion4
     public string VehicleId { get; set; }
 
     [JsonPropertyName("publicCode")]
-    public string Public_Code { get; set; }
+    public string PublicCode { get; set; }
 }

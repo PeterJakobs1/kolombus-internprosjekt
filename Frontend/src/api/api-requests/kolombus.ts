@@ -18,15 +18,16 @@ export const fetchStations = async () => {
 };
 
 export const fetchPlatforms = async (selectedStation: Station) => {
-  
+
   if (!selectedStation) {
     throw new Error("No selected station provided");
   }
   const nsr_id = selectedStation.externalId;
+  console.log(selectedStation.externalId)
 
- const platformsUrl = `http://localhost:5158/api/StopsPlaces/${nsr_id}/platforms`;
-  
- 
+  const platformsUrl = `http://localhost:5154/api/StopsPlaces/${nsr_id}/platforms`;
+
+
   try {
     const response = await fetch(platformsUrl);
 
@@ -48,9 +49,10 @@ export const fetchLines = async (id: string | null) => {
   }
   const thisDate = new Date().toISOString();
   console.log(thisDate)
-  //const linesUrl = `http://localhost:5198/api/Platforms/${id}/departures??startTime=${thisDate}`;
-  const linesUrl = `http://localhost:5155/api/Platforms/${id}/departures`;
-  console.log(id);
+  const linesUrl = `http://localhost:5158/api/Platforms/${id}/departures??startTime=${thisDate}`;
+  //const linesUrl = `http://localhost:5158/api/Platforms/${id}/departures`;
+  
+  console.log("departuresID" + "" + id);
 
   try {
     const response = await fetch(linesUrl);
@@ -75,7 +77,7 @@ export const fetchDepartures = async (selectedPlatform: Platform[]) => {
 
   const thisDate = new Date().toISOString();
   const departureUrl = `http://localhost:5198/api/Platforms/${selectedPlatform}/departures??startTime=${thisDate}`;
- // const departureUrl = `https://api.kolumbus.no/api/platforms/${selectedPlatform}/departures?startTime=${thisDate}`;
+  // const departureUrl = `https://api.kolumbus.no/api/platforms/${selectedPlatform}/departures?startTime=${thisDate}`;
 
   try {
     const response = await fetch(departureUrl);

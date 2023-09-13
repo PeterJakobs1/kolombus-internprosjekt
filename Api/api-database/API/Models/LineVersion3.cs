@@ -10,6 +10,7 @@ sealed record LineVersion3
     [JsonPropertyName("externalId")]
     public string ExternalId { get; set; }
 
+
     [JsonPropertyName("kolId")]
     public string KolId { get; set; }
 
