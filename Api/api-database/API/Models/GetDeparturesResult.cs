@@ -90,4 +90,7 @@ sealed record StopTimeVersion4
 
     [JsonPropertyName("vehicleId")]
     public string VehicleId { get; set; }
+
+    [JsonPropertyName("publicCode")]
+    public string Public_Code { get; set; }
 }

@@ -79,7 +79,7 @@ public class DataController : ControllerBase
                 Type = (string)record!["type"]!,
                 Transport_mode = (string)record!["transport_mode"]!,
                 //Sub_mode_type = (string)record!["sub_mode_type"]!,
-                PublicCode = (string)record!["public_code"]!,
+                Public_Code = (string)record!["public_code"]!,
                 Private_code = (string)record!["private_code"]!,
                 Changed = (DateTimeOffset?)record!["changed"]!,
                 Created = (DateTimeOffset?)record!["created"]!,
@@ -195,7 +195,7 @@ public class DataController : ControllerBase
             {
                 Id = (string)record!["id"]!,
                 JourneyId = journeyId.Value,
-                RouteId = new Guid("1D24AF55-6603-4CFC-8D89-CCDDA8275940"), // TODO
+                RouteId = (Guid)record!["Route_id"]!,
                 PlatformId = platformId.Value,
             }, cancellationToken);
         }

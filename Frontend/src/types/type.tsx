@@ -20,6 +20,7 @@ export interface Platform {
   public_code: string;
   nsr_id: string;
   nsr_id_lines: string | null;
+  modifications: string;
 }
 
 export interface Line {

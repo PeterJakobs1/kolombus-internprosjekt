@@ -55,6 +55,7 @@ public sealed partial class PlatformsController : ControllerBase
                 Id = st.Route.Line.Id,
                 LineNumber = st.Route.Line.PublicCode,
                 LineName = st.Route.Line.Name,
+
             })
             .ToListAsync(cancellationToken);
 

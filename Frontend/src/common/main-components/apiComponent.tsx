@@ -151,10 +151,12 @@ export const ApiComponent = () => {
   useEffect(() => {
     dispatch(platformActions.selectPlatform(selectedStation));
 
+
     if (selectedStation.length > 0) {
       fetchPlatforms(selectedStation[0])
         .then((data) => {
           setPlatforms(data);
+          console.log(data);
         })
         .catch((error) => console.error("Error fetching platforms:", error));
     }
@@ -246,7 +248,7 @@ export const ApiComponent = () => {
                       id={platform.id}
                       key={platform.id}
                     >
-                      {platform.name}
+                      {platform.name} {platform.id}
 
 
                     </button>

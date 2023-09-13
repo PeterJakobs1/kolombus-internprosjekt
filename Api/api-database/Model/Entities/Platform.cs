@@ -19,7 +19,7 @@ public sealed class Platform
     public string? Private_code { get; set; }
     public DateTimeOffset? Created { get; set; }
     public DateTimeOffset? Changed { get; set; }
-    public string? PublicCode { get; set; }
+    public string? Public_Code { get; set; }
     public Guid StopPlaceId { get; set; } = Guid.Empty;
     public StopPlace StopPlace { get; set; } = null!;
     public ICollection<StopTime> Stops { get; set; } = new List<StopTime>();
