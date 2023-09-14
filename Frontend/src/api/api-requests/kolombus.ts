@@ -1,7 +1,7 @@
 import { Station, Platform } from "../../types/type";
 
 export const fetchStations = async () => {
-  const apiUrl = "http://localhost:5158/api/StopsPlaces";
+  const apiUrl = "http://localhost:5154/api/StopsPlaces";
   try {
     const response = await fetch(apiUrl);
 
@@ -49,7 +49,7 @@ export const fetchLines = async (id: string | null) => {
   }
   const thisDate = new Date().toISOString();
   console.log(thisDate)
-  const linesUrl = `http://localhost:5158/api/Platforms/${id}/departures??startTime=${thisDate}`;
+  const linesUrl = `http://localhost:5154/api/Platforms/${id}/departures??startTime=${thisDate}`;
   //const linesUrl = `http://localhost:5158/api/Platforms/${id}/departures`;
   
   console.log("departuresID" + "" + id);

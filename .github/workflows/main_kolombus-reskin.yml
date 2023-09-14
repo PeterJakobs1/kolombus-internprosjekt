@@ -45,7 +45,12 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: node-app
-
+          
+      - name: 'Format code with Prettier'
+        run: |
+            npm install --global prettier
+            prettier --write './Frontend/**/*.js' './Frontend/**/*.jsx' './Frontend/**/*.ts' './Frontend/**/*.tsx'
+  
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2

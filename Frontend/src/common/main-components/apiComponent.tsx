@@ -176,7 +176,7 @@ export const ApiComponent = () => {
 
       const linesData = await fetchLines(id);
       setLines(linesData);
-      console.log();
+
 
       dispatch(lineActions.selectLine(linesData));
       const noLinesAvailable = linesData.length === 0;
@@ -209,26 +209,25 @@ export const ApiComponent = () => {
           ))}
         </h1>
         <div className="gridContainer">
+
           <div className="dropdownBar">
             <h3 className="pickStation">Velg stasjon</h3>
-            <div>
-              <p className="searchDropDown">
-                <Select
-                  classNamePrefix="Velg stasjon"
-                  value={selectedOption}
-                  onChange={(selected) =>
-                    handleOptionChange(selected as SetStateAction<null>)
-                  }
-                  onInputChange={handleSearchInputChange}
-                  options={selectOptions}
-                  placeholder="Søk..."
-                />
-                <button className="delete" onClick={deleteLocalStorage}>
-                  <img className="trash" src={trashcann} alt="" />
-                </button>
-              </p>
+            <div className="searchDropDown">
+              <Select
+                classNamePrefix="Velg stasjon"
+                value={selectedOption}
+                onChange={(selected) => handleOptionChange(selected as SetStateAction<null>)}
+                onInputChange={handleSearchInputChange}
+                options={selectOptions}
+                placeholder="Søk..."
+              />
+              <button className="delete" onClick={deleteLocalStorage}>
+                <img className="trash" src={trashcann} alt="" />
+              </button>
             </div>
           </div>
+
+
         </div>
         <div>
           {selectedStation.map((station) => (
