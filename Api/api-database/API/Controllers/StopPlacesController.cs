@@ -27,6 +27,8 @@ public sealed partial class StopsPlacesController : ControllerBase
                 Id = sp.Id,
                 ExternalId = sp.ExternalId,
                 Name = sp.Name,
+                Latitude = sp.Latitude,
+                Longitude = sp.Longitude,
             })
             .ToListAsync(cancellationToken);
 

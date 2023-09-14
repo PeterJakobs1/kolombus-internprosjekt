@@ -49,6 +49,7 @@ export const fetchLines = async (id: string | null) => {
   }
   const thisDate = new Date().toISOString();
   console.log(thisDate)
+  console.log(fetchLines)
   const linesUrl = `http://localhost:5154/api/Platforms/${id}/departures??startTime=${thisDate}`;
   //const linesUrl = `http://localhost:5158/api/Platforms/${id}/departures`;
   
