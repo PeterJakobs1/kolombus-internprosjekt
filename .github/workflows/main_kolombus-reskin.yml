@@ -31,7 +31,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: node-app
-          path: './Frontend'   
+          path: Frontend/dist  
 
   deploy:
     runs-on: ubuntu-latest
@@ -56,6 +56,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'kolombus-reskin'
-          slot-name: 'Production'
+          #slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9FD8F658731C4274ABAB160925F20905 }}
-          package: .
+          package: '.'
