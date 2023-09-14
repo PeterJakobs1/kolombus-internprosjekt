@@ -15,6 +15,7 @@ export interface Delay {
 }
 
 export interface Platform {
+  longitude: any;
   id: string;
   name: string;
   public_code: string;
