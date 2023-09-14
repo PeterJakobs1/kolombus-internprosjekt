@@ -46,10 +46,10 @@ jobs:
         with:
           name: node-app
           
-      - name: 'Format code with Prettier'
-        run: |
-            npm install --global prettier
-            prettier --write './**/*.js' './**/*.jsx' './**/*.ts' './**/*.tsx'
+      # - name: 'Format code with Prettier'
+      #   run: |
+      #       npm install --global prettier
+      #       prettier --write './**/*.js' './**/*.jsx' './**/*.ts' './**/*.tsx'
   
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
