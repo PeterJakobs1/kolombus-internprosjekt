@@ -51,7 +51,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'aaabbbccc01'
+          app-name: 'kolombus-reskin'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AzureAppService_PublishProfile_d95089e282a64ab5b20d491e84c4e085 }}
           package: .
