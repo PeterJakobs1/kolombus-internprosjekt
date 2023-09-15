@@ -1,10 +1,16 @@
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import { Station } from "../../types/type";
+import { Platform, Station } from "../../types/type";
 
 interface SettingsMapProps {
     stations: Station[];
-    getAllLinesAndDepartures: (station: Station) => void;
+    platforms: Platform[];
+    getAllLinesAndDepartures: (station: Station) => Promise<void>;
+    onClickPlatform: (
+        event: { currentTarget: { getAttribute: (arg0: string) => any } },
+        lineName: string | null
+    ) => Promise<void>;
+    value: string | null; //
 }
 
 const SettingsMap: React.FC<SettingsMapProps> = ({ stations, getAllLinesAndDepartures }) => {

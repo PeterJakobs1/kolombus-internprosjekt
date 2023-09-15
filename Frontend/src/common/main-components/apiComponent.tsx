@@ -1,5 +1,5 @@
 import { useState, useEffect, SetStateAction } from "react";
-import Select, { GroupBase } from "react-select";
+import Select from "react-select";
 import { Station, Departure, Line, Platform } from "../../types/type";
 import {
   calculateDelay,
@@ -99,9 +99,10 @@ export const ApiComponent = () => {
     setSearchInput(newValue);
   };
 
-  const handleOptionChange = (selected: SetStateAction<null>) => {
-    setSelectedOption(selected as string | null);
-    if (selected) {
+  const handleOptionChange = (selected: any | null) => {
+
+    setSelectedOption(selected.value);
+    if (selected.value) {
       const selectedStationId = selected.value;
       const selectedStation = stations.find(
         (station) => station.id === selectedStationId
@@ -129,10 +130,12 @@ export const ApiComponent = () => {
       });
   };
 
+
   const filteredStations = stations.filter((station) =>
     station.name.toLowerCase().includes(searchInput.toLowerCase())
   );
-  const selectOptions: readonly (string | GroupBase<string>)[] = (
+
+  const selectOptions: any[] = (
     filteredStations as { id: string; name: string }[]
   ).map((station) => ({
     value: station.id,
@@ -209,6 +212,8 @@ export const ApiComponent = () => {
             </div>
           ))}
         </h1>
+
+
         <div className="gridContainer">
           <div className="dropdownBar">
             <h3 className="pickStation">Velg stasjon</h3>
@@ -227,6 +232,8 @@ export const ApiComponent = () => {
             </div>
           </div>
         </div>
+
+
         <div>
           {selectedStation.map((station) => (
             <div className="selectedValueInfo" key={station.id}></div>
@@ -321,6 +328,8 @@ export const ApiComponent = () => {
       </div>
 
       <div className="rightColumn">
+
+
         <div>
           {selectedStation.map((station) => (
             <div className="selectedValueInfo" key={station.id}>
@@ -333,8 +342,9 @@ export const ApiComponent = () => {
                     stations={stations}
                     value={selectedOption}
                     platforms={platforms}
-                    onClickPlatform={getAllLinesAndDepartures}
-                  />
+                    onClickPlatform={getAllLinesAndDepartures} getAllLinesAndDepartures={function (_station: Station): Promise<void> {
+                      throw new Error("Function not implemented.");
+                    }} />
                 ) : (
                   <MapComponent
                     latitude={selectedStation[0]?.latitude}
@@ -346,6 +356,9 @@ export const ApiComponent = () => {
             </div>
           ))}
         </div>
+
+
+
       </div>
     </div>
   );

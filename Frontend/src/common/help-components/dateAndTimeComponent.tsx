@@ -13,11 +13,14 @@ const DateTimeComponent = () => {
     };
   }, []);
 
-  const options = {
-    weekday: "long" as const,
+  const options: Intl.DateTimeFormatOptions = {
+    weekday: "long",
     day: "numeric",
     month: "short",
   };
+
+
+
 
   const formattedDate = currentDateTime.toLocaleString("nb-NO", options);
   const formattedDateCapitalized =
