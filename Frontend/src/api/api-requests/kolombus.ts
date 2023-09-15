@@ -25,7 +25,8 @@ export const fetchPlatforms = async (selectedStation: Station) => {
   const nsr_id = selectedStation.externalId;
   console.log(selectedStation.externalId)
 
-  const platformsUrl = `http://localhost:5000/api/StopsPlaces/${nsr_id}/platforms`;
+  //const platformsUrl = `http://localhost:5000/api/StopsPlaces/${nsr_id}/platforms`;
+  const platformsUrl = `https://kolombus-reskin-api.azurewebsites.net/api/StopsPlaces/${nsr_id}/platforms"`;
 
 
   try {
@@ -50,7 +51,8 @@ export const fetchLines = async (id: string | null) => {
   const thisDate = new Date().toISOString();
   console.log(thisDate)
   console.log(fetchLines)
-  const linesUrl = `http://localhost:5000/api/Platforms/${id}/departures??startTime=${thisDate}`;
+  //const linesUrl = `http://localhost:5000/api/Platforms/${id}/departures??startTime=${thisDate}`;
+  const linesUrl = `https://kolombus-reskin-api.azurewebsites.net/api/Platforms/${id}/departures??startTime=${thisDate}`;
   //const linesUrl = `http://localhost:5158/api/Platforms/${id}/departures`;
   
   console.log("departuresID" + "" + id);
