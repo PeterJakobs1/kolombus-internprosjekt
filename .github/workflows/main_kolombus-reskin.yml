@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'kolombus-reskin'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_d95089e282a64ab5b20d491e84c4e085 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_78916FA9FE28409798FE49A307556055 }}
           package: .
