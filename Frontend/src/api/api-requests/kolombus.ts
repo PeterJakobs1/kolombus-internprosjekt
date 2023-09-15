@@ -26,7 +26,7 @@ export const fetchPlatforms = async (selectedStation: Station) => {
   console.log(selectedStation.externalId)
 
   //const platformsUrl = `http://localhost:5000/api/StopsPlaces/${nsr_id}/platforms`;
-  const platformsUrl = `https://kolombus-reskin-api.azurewebsites.net/api/StopsPlaces/${nsr_id}/platforms"`;
+  const platformsUrl = `https://kolombus-reskin-api.azurewebsites.net/api/StopsPlaces/${nsr_id}/platforms`;
 
 
   try {
