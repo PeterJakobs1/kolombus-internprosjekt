@@ -1,7 +1,7 @@
 import { Station, Platform } from "../../types/type";
 
 export const fetchStations = async () => {
-  const apiUrl = "http://localhost:5000/api/StopsPlaces";
+  const apiUrl = "https://kolombus-reskin-api.azurewebsites.net/api/StopsPlaces";
   try {
     const response = await fetch(apiUrl);
 
