@@ -1,6 +1,16 @@
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { Platform, Station } from "../../types/type";
+import marker from "../../Icons/images/marker.png";
+import L from "leaflet";
+
+
+// Create a custom icon using your custom PNG image
+const customIcon = new L.Icon({
+    iconUrl: marker,
+    iconSize: [32, 32], // Adjust the icon size as needed
+    iconAnchor: [16, 32], // Adjust the icon anchor point if needed
+});
 
 interface SettingsMapProps {
     stations: Station[];
@@ -19,7 +29,10 @@ const SettingsMap: React.FC<SettingsMapProps> = ({ stations, getAllLinesAndDepar
     const defaultZoom = 12;
 
     const markers = stations.slice(0, 800).map((station) => (
-        <Marker key={station.id} position={[station.latitude, station.longitude]}>
+        <Marker key={station.id} position={[station.latitude, station.longitude]}
+
+            icon={customIcon} // Set the custom icon for this marker
+        >
             <Popup>
                 <p onClick={() => getAllLinesAndDepartures(station)}> {station.name}</p>
             </Popup>
@@ -38,6 +51,7 @@ const SettingsMap: React.FC<SettingsMapProps> = ({ stations, getAllLinesAndDepar
             }}
         >
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+
             {markers}
         </MapContainer>
     );
