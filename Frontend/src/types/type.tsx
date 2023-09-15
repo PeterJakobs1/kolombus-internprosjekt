@@ -9,10 +9,13 @@ export interface Station {
   name: string;
   externalId: string;
   id: string;
+
 }
 export interface Delay {
   minutes: number;
 }
+
+
 
 export interface Platform {
   longitude: any;
@@ -28,6 +31,12 @@ export interface Line {
   id: string;
   name: string;
   nsr_id: string;
+}
+
+export interface Options {
+  weekday: string;
+  day: string;
+  month: string;
 }
 
 export interface MapComponentProps {

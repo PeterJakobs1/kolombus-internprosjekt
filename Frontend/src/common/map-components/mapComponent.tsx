@@ -1,14 +1,14 @@
-import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { MapComponentProps } from "../../types/type";
+import { LatLngExpression } from "leaflet";
 
 const MapComponent: React.FC<MapComponentProps> = ({
   latitude,
   longitude,
   name,
 }) => {
-  const markerPosition = [latitude, longitude];
+  const markerPosition: LatLngExpression = [latitude, longitude];
 
   return (
     <MapContainer

@@ -4,6 +4,7 @@ import { ApiComponent } from "../common/main-components/apiComponent";
 import { useEffect } from "react";
 import logo from "../Icons/images/logo.png";
 
+
 export function FrontFunc() {
   const refreshInterval = 60 * 1000;
 

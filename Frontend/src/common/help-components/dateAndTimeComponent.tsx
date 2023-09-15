@@ -1,5 +1,5 @@
-import React from "react";
 import { useState, useEffect } from "react";
+
 
 const DateTimeComponent = () => {
   const [currentDateTime, setCurrentDateTime] = useState(new Date());
@@ -14,7 +14,7 @@ const DateTimeComponent = () => {
   }, []);
 
   const options = {
-    weekday: "long",
+    weekday: "long" as const,
     day: "numeric",
     month: "short",
   };

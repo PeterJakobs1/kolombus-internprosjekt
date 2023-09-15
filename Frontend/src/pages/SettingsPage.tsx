@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import SettingsComponent from "../common/main-components/settingsComponent";
 import DateTimeComponent from "../common/help-components/dateAndTimeComponent";
 
+
 export function SettingsFunc() {
   return (
     <div className="app-container">

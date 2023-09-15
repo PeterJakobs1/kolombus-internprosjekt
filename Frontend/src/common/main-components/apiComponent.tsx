@@ -1,5 +1,6 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useState, useEffect, SetStateAction } from "react";
+import Select, { GroupBase } from "react-select";
+import { Station, Departure, Line, Platform } from "../../types/type";
 import {
   calculateDelay,
   formatTime,
@@ -10,8 +11,6 @@ import {
   fetchLines,
   fetchDepartures,
 } from "../../api/api-requests/kolombus";
-import Select from "react-select";
-import { Departure, Line, Platform, Station } from "../../types/type";
 import { sortDeparturesByArrivalTime } from "../help-components/sortDeparturesByArrivalTime";
 import { useDispatch } from "react-redux";
 import { stationActions } from "../../store/station";
@@ -21,10 +20,9 @@ import MapComponent from "../map-components/mapComponent";
 import LineNamesCard from "../help-components/lineNameCard";
 import SettingsMap from "../map-components/settingsMapComponent";
 import trashcann from "../../Icons/images/trashcann.png";
-import React from "react";
 
 export const ApiComponent = () => {
-  const [selectedOption, setSelectedOption] = useState("");
+  const [selectedOption, setSelectedOption] = useState<string | null>("");
   const [stations, setStations] = useState<Station[]>([]);
   const [searchInput, setSearchInput] = useState<string>("");
   const [selectedStation, setSelectedStation] = useState<Station[]>([]);
@@ -34,23 +32,25 @@ export const ApiComponent = () => {
   const LOCAL_STORAGE_KEY = "selectedValues";
   const [noLinesAvailable, setNoLinesAvailable] = useState(false);
   const [showMap, setShowMap] = useState(false);
-  const [clickedLineDepartures,] = useState([false]);
-  const [selectedLines,] = useState<string[]>([]);
+  const [clickedLineDepartures] = useState([false]);
+  const [selectedLines] = useState<string[]>([]);
   const dispatch = useDispatch();
-
 
   const toggleLineSelection = (lineName: string) => {
     const updatedSelectedLines = [...selectedLines];
     const index = updatedSelectedLines.indexOf(lineName);
     if (index !== -1) {
-      updatedSelectedLines.splice(index);
+      updatedSelectedLines.splice(index, 1);
     } else {
       updatedSelectedLines.push(lineName);
     }
-    const filteredDepartures = updatedSelectedLines.length > 0
-      ? departures.filter((departure) => updatedSelectedLines.includes(departure.line_name))
-      : departures;
-    setDepartures(filteredDepartures,);
+    const filteredDepartures =
+      updatedSelectedLines.length > 0
+        ? departures.filter((departure) =>
+          updatedSelectedLines.includes(departure.line_name)
+        )
+        : departures;
+    setDepartures(filteredDepartures);
   };
 
   const toggleMapDisplay = () => {
@@ -59,7 +59,12 @@ export const ApiComponent = () => {
 
   useEffect(() => {
     const savedValuesJSON = localStorage.getItem(LOCAL_STORAGE_KEY);
-    const savedValues = JSON.parse(savedValuesJSON);
+    let savedValues = null;
+
+    if (savedValuesJSON !== null) {
+      savedValues = JSON.parse(savedValuesJSON);
+    } else {
+    }
 
     if (savedValues) {
       setSelectedOption(savedValues.selectedOption);
@@ -83,7 +88,7 @@ export const ApiComponent = () => {
 
   const deleteLocalStorage = () => {
     localStorage.removeItem(LOCAL_STORAGE_KEY);
-    setSelectedOption([]);
+    setSelectedOption("");
     setSelectedStation([]);
     setPlatforms([]);
     setLines([]);
@@ -95,7 +100,7 @@ export const ApiComponent = () => {
   };
 
   const handleOptionChange = (selected: SetStateAction<null>) => {
-    setSelectedOption(selected);
+    setSelectedOption(selected as string | null);
     if (selected) {
       const selectedStationId = selected.value;
       const selectedStation = stations.find(
@@ -127,15 +132,15 @@ export const ApiComponent = () => {
   const filteredStations = stations.filter((station) =>
     station.name.toLowerCase().includes(searchInput.toLowerCase())
   );
-
-  const selectOptions = (
+  const selectOptions: readonly (string | GroupBase<string>)[] = (
     filteredStations as { id: string; name: string }[]
   ).map((station) => ({
     value: station.id,
     label: station.name,
   }));
 
-  // gets each stopplace from db
+  // Ensure that selectOptions is an array, even if it's empty
+
   useEffect(() => {
     dispatch(stationActions.selectStation(selectedStation));
     fetchStations()
@@ -147,11 +152,8 @@ export const ApiComponent = () => {
       });
   }, [dispatch, selectedOption, selectedStation]);
 
-
-  // gets all platforms from each stopplace
   useEffect(() => {
     dispatch(platformActions.selectPlatform(selectedStation));
-
 
     if (selectedStation.length > 0) {
       fetchPlatforms(selectedStation[0])
@@ -163,20 +165,17 @@ export const ApiComponent = () => {
     }
   }, [dispatch, selectedStation]);
 
-
-
-  // gets all lines and departures from each platform
-  async function getAllLinesAndDepartures(event: {
-    currentTarget: { getAttribute: (arg0: string) => any };
-  }, lineName: string | null) {
+  async function getAllLinesAndDepartures(
+    event: {
+      currentTarget: { getAttribute: (arg0: string) => any };
+    },
+    lineName: string | null
+  ) {
     try {
-      const id =
-        event.currentTarget.getAttribute("id");
-
+      const id = event.currentTarget.getAttribute("id");
 
       const linesData = await fetchLines(id);
       setLines(linesData);
-
 
       dispatch(lineActions.selectLine(linesData));
       const noLinesAvailable = linesData.length === 0;
@@ -187,7 +186,10 @@ export const ApiComponent = () => {
         const departuresData = await fetchDepartures(id);
 
         const filteredDepartures = lineName
-          ? departuresData.filter((departure: { line_name: string; }) => departure.line_name === lineName)
+          ? departuresData.filter(
+            (departure: { line_name: string }) =>
+              departure.line_name === lineName
+          )
           : departuresData;
         setDepartures(filteredDepartures);
       }
@@ -196,7 +198,6 @@ export const ApiComponent = () => {
       console.error("Error fetching data:", error);
     }
   }
-
 
   return (
     <div className="gridContainer">
@@ -209,16 +210,15 @@ export const ApiComponent = () => {
           ))}
         </h1>
         <div className="gridContainer">
-
           <div className="dropdownBar">
             <h3 className="pickStation">Velg stasjon</h3>
             <div className="searchDropDown">
               <Select
                 classNamePrefix="Velg stasjon"
-                value={selectedOption}
-                onChange={(selected) => handleOptionChange(selected as SetStateAction<null>)}
+                value={selectedOption || " "}
+                onChange={handleOptionChange}
                 onInputChange={handleSearchInputChange}
-                options={selectOptions}
+                options={selectOptions || " "}
                 placeholder="Søk..."
               />
               <button className="delete" onClick={deleteLocalStorage}>
@@ -226,8 +226,6 @@ export const ApiComponent = () => {
               </button>
             </div>
           </div>
-
-
         </div>
         <div>
           {selectedStation.map((station) => (
@@ -242,19 +240,17 @@ export const ApiComponent = () => {
               <p className="platformList">
                 {platforms.length > 0 ? (
                   platforms.map((platform) => (
-
                     <button
                       className="platformButton"
-                      value={selectedOption}
-                      onClick={getAllLinesAndDepartures}
+                      value={selectedOption || " "}
+                      onClick={(event) =>
+                        getAllLinesAndDepartures(event, platform.name)
+                      }
                       id={platform.id}
                       key={platform.id}
                     >
                       {platform.name}
-
-
                     </button>
-
                   ))
                 ) : (
                   <span className="noPlatforms">Ingen busstopp funnet</span>
@@ -263,8 +259,6 @@ export const ApiComponent = () => {
                 {noLinesAvailable && platforms.length > 0 && (
                   <p className="noLinesAvailable">Ingen linjer tilgjengelig</p>
                 )}
-
-
               </p>
               <div className="lineNamesCard">
                 <LineNamesCard
@@ -273,7 +267,6 @@ export const ApiComponent = () => {
                   toggleLineSelection={toggleLineSelection}
                 />
               </div>
-
             </div>
           )}
         </div>
@@ -342,7 +335,6 @@ export const ApiComponent = () => {
                     platforms={platforms}
                     onClickPlatform={getAllLinesAndDepartures}
                   />
-
                 ) : (
                   <MapComponent
                     latitude={selectedStation[0]?.latitude}

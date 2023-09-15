@@ -1,8 +1,13 @@
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import React from "react";
+import { Station } from "../../types/type";
 
-const SettingsMap = ({ stations, getAllLinesAndDepartures }) => {
+interface SettingsMapProps {
+    stations: Station[];
+    getAllLinesAndDepartures: (station: Station) => void;
+}
+
+const SettingsMap: React.FC<SettingsMapProps> = ({ stations, getAllLinesAndDepartures }) => {
     const defaultLatitude = 58.966036;
     const defaultLongitude = 5.733064;
     const defaultZoom = 12;

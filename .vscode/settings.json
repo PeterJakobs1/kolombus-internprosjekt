@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/9356d46a-f00a-4a31-8a54-c552928ef724/resourceGroups/Peter/providers/Microsoft.Web/sites/kolombus-reskin",
+    "appService.deploySubpath": "Frontend"
+}
