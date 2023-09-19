@@ -6,14 +6,14 @@ import logo from "../Icons/images/logo.png";
 
 
 export function FrontFunc() {
-  const refreshInterval = 60 * 1000;
+  // const refreshInterval = 60 * 1000;
 
-  useEffect(() => {
-    const timerId = setTimeout(() => {
-      window.location.reload();
-    }, refreshInterval);
-    return () => clearTimeout(timerId);
-  }, [refreshInterval]);
+  // useEffect(() => {
+  //   const timerId = setTimeout(() => {
+  //     window.location.reload();
+  //   }, refreshInterval);
+  //   return () => clearTimeout(timerId);
+  // }, [refreshInterval]);
 
   return (
     <div className="app-container">

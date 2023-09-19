@@ -36,6 +36,8 @@ export const ApiComponent = () => {
   const [selectedLines] = useState<string[]>([]);
   const dispatch = useDispatch();
 
+
+
   const toggleLineSelection = (lineName: string) => {
     const updatedSelectedLines = [...selectedLines];
     const index = updatedSelectedLines.indexOf(lineName);
@@ -52,6 +54,8 @@ export const ApiComponent = () => {
         : departures;
     setDepartures(filteredDepartures);
   };
+
+
 
   const toggleMapDisplay = () => {
     setShowMap((prevShowMap) => !prevShowMap);
@@ -72,6 +76,7 @@ export const ApiComponent = () => {
       setPlatforms(savedValues.platforms);
       setLines(savedValues.lines);
       setDepartures(savedValues.departures);
+      console.log(platforms)
     }
   }, []);
 
@@ -251,12 +256,12 @@ export const ApiComponent = () => {
                       className="platformButton"
                       value={selectedOption || " "}
                       onClick={(event) =>
-                        getAllLinesAndDepartures(event, platform.name)
+                        getAllLinesAndDepartures(event, null)
                       }
                       id={platform.id}
                       key={platform.id}
                     >
-                      {platform.name}
+                      {platform.name} {platform.id[0]}
                     </button>
                   ))
                 ) : (
@@ -285,14 +290,17 @@ export const ApiComponent = () => {
                 .filter((departure) => {
                   const departureTime = new Date(
                     departure.schedule_departure_time
+
                   );
                   const currentTime = new Date();
                   return departureTime > currentTime;
+
                 })
                 .slice(0, 8)
                 .sort(sortDeparturesByArrivalTime)
                 .map((departure) => {
                   const delay = calculateDelay(departure);
+
 
                   return (
                     <li className="departureItem" key={departure.id}>
@@ -335,7 +343,7 @@ export const ApiComponent = () => {
             <div className="selectedValueInfo" key={station.id}>
               <div className="map">
                 <button className="toggleMap" onClick={toggleMapDisplay}>
-                  {showMap ? "Vis valgt stasjon" : "Vis stasjoner på kartet"}
+                  {showMap ? "Vis valgt stasjon" : "Se alle stasjoner"}
                 </button>
                 {showMap ? (
                   <SettingsMap

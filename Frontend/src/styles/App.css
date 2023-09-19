@@ -19,7 +19,7 @@
   min-height: 1300px;
 }
 .map {
-  margin-top: 240px;
+  margin-top: 40px;
   position: relative;
   border-radius: 25px;
 }
@@ -290,6 +290,7 @@ button.delete {
 }
 .pickStop {
   margin-bottom: 1px;
+  margin-top: 12px;
 }
 
 h3 {
@@ -317,7 +318,7 @@ h3 {
 }
 .cardHeader {
   margin: 10px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .lineNameItem {
