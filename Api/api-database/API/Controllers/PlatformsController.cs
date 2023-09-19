@@ -56,6 +56,23 @@ public sealed partial class PlatformsController : ControllerBase
                 LineName = st.Route.Line.Name,
                 Latitude = st.Platform.Latitude,
                 Longitude = st.Platform.Longitude,
+                TransportMode = string.Empty,
+                TransportSubMode = string.Empty,
+                Destination = st.Route.Line.Name,
+                StaticDestination = st.Route.Line.Name,
+                Alighting = false,
+                Boarding = false,
+                TimeType = string.Empty,
+                TimeSource = string.Empty,
+                PlatformId = st.Platform.Id.ToString(),
+                PlatformName = st.Platform.Name,
+
+                PlatformExternalId = st.Platform.ExternalId,
+
+                TripId = st.Route.Id.ToString(),
+
+
+
             })
             .ToListAsync(cancellationToken);
 

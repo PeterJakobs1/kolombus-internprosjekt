@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import DateTimeComponent from "../common/help-components/dateAndTimeComponent";
 import { ApiComponent } from "../common/main-components/apiComponent";
-import { useEffect } from "react";
+//import { useEffect } from "react";
 import logo from "../Icons/images/logo.png";
 
 

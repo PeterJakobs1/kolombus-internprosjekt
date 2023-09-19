@@ -50,8 +50,8 @@ export const fetchLines = async (id: string | null) => {
   console.log(thisDate)
   
   //const linesUrl = `http://localhost:5000/api/Platforms/${id}/departures??startTime=${thisDate}`;
- // const linesUrl = `https://kolombus-reskin-api.azurewebsites.net/api/Platforms/${id}/departures??startTime=${thisDate}`;
-  const linesUrl = `https://api.kolumbus.no/api/platforms/535b778f-94ba-48b3-a2d5-cf5c9baddf73/lines`;
+  const linesUrl = `https://kolombus-reskin-api.azurewebsites.net/api/Platforms/${id}/departures??startTime=${thisDate}`;
+  //const linesUrl = `https://api.kolumbus.no/api/platforms/535b778f-94ba-48b3-a2d5-cf5c9baddf73/lines`;
   //const linesUrl = `http://localhost:5158/api/Platforms/${id}/departures`;
   
   

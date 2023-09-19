@@ -17,7 +17,7 @@ import { stationActions } from "../../store/station";
 import { platformActions } from "../../store/platform";
 import lines, { lineActions } from "../../store/lines";
 import MapComponent from "../map-components/mapComponent";
-import LineNamesCard from "../help-components/lineNameCard";
+//import LineNamesCard from "../help-components/lineNameCard";
 import SettingsMap from "../map-components/settingsMapComponent";
 import trashcann from "../../Icons/images/trashcann.png";
 
@@ -33,27 +33,27 @@ export const ApiComponent = () => {
   const [noLinesAvailable, setNoLinesAvailable] = useState(false);
   const [showMap, setShowMap] = useState(false);
   const [clickedLineDepartures] = useState([false]);
-  const [selectedLines] = useState<string[]>([]);
+  //const [selectedLines] = useState<string[]>([]);
   const dispatch = useDispatch();
 
 
 
-  const toggleLineSelection = (lineName: string) => {
-    const updatedSelectedLines = [...selectedLines];
-    const index = updatedSelectedLines.indexOf(lineName);
-    if (index !== -1) {
-      updatedSelectedLines.splice(index, 1);
-    } else {
-      updatedSelectedLines.push(lineName);
-    }
-    const filteredDepartures =
-      updatedSelectedLines.length > 0
-        ? departures.filter((departure) =>
-          updatedSelectedLines.includes(departure.line_name)
-        )
-        : departures;
-    setDepartures(filteredDepartures);
-  };
+  // const toggleLineSelection = (lineName: string) => {
+  //   const updatedSelectedLines = [...selectedLines];
+  //   const index = updatedSelectedLines.indexOf(lineName);
+  //   if (index !== -1) {
+  //     updatedSelectedLines.splice(index, 1);
+  //   } else {
+  //     updatedSelectedLines.push(lineName);
+  //   }
+  //   const filteredDepartures =
+  //     updatedSelectedLines.length > 0
+  //       ? departures.filter((departure) =>
+  //         updatedSelectedLines.includes(departure.line_name)
+  //       )
+  //       : departures;
+  //   setDepartures(filteredDepartures);
+  // };
 
 
 
@@ -173,6 +173,9 @@ export const ApiComponent = () => {
     }
   }, [dispatch, selectedStation]);
 
+
+
+
   async function getAllLinesAndDepartures(
     event: {
       currentTarget: { getAttribute: (arg0: string) => any };
@@ -184,6 +187,7 @@ export const ApiComponent = () => {
 
       const linesData = await fetchLines(id);
       setLines(linesData);
+      console.log(linesData)
 
       dispatch(lineActions.selectLine(linesData));
       const noLinesAvailable = linesData.length === 0;
@@ -206,6 +210,9 @@ export const ApiComponent = () => {
       console.error("Error fetching data:", error);
     }
   }
+
+
+
 
   return (
     <div className="gridContainer">
@@ -261,7 +268,7 @@ export const ApiComponent = () => {
                       id={platform.id}
                       key={platform.id}
                     >
-                      {platform.name} {platform.id[0]}
+                      {platform.name} {platform.public_code}
                     </button>
                   ))
                 ) : (
@@ -272,13 +279,13 @@ export const ApiComponent = () => {
                   <p className="noLinesAvailable">Ingen linjer tilgjengelig</p>
                 )}
               </p>
-              <div className="lineNamesCard">
+              {/* <div className="lineNamesCard">
                 <LineNamesCard
                   departures={departures}
                   selectedLines={selectedLines}
                   toggleLineSelection={toggleLineSelection}
                 />
-              </div>
+              </div> */}
             </div>
           )}
         </div>
@@ -309,7 +316,7 @@ export const ApiComponent = () => {
                         data-departure-id={departure.nsr_id_lines}
                       >
                         <div className="lineNameAndDestination">
-                          <p className="lineName">{departure.line_name}</p>
+                          <p className="lineName">{departure.name}</p>
                           <p className="destinationText">
                             {departure.destination}
                           </p>

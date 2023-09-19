@@ -176,7 +176,7 @@ public class DataController : ControllerBase
             .Select(l => new KeyValuePair<string, Guid?>(l.NSRId, l.Id))
             .ToArrayAsync(cancellationToken));
 
-        var stopTimes = JsonNode.Parse(System.IO.File.OpenRead("Data/stoptimes.json"))!.AsArray();
+        var stopTimes = JsonNode.Parse(System.IO.File.OpenRead(Path.Combine("Data/stoptimes.json")))!.AsArray();
 
         Guid? journeyId = null;
         Guid? platformId = null;
@@ -195,11 +195,10 @@ public class DataController : ControllerBase
             {
                 Id = (string)record!["id"]!,
                 JourneyId = journeyId.Value,
-                RouteId = (Guid)record!["Route_id"]!,
+                RouteId = new Guid("1D24AF55-6603-4CFC-8D89-CCDDA8275940"), // TODO
                 PlatformId = platformId.Value,
             }, cancellationToken);
         }
-
         modelContext.SaveChanges();
     }
 }
