@@ -17,7 +17,6 @@ import { stationActions } from "../../store/station";
 import { platformActions } from "../../store/platform";
 import lines, { lineActions } from "../../store/lines";
 import MapComponent from "../map-components/mapComponent";
-//import LineNamesCard from "../help-components/lineNameCard";
 import SettingsMap from "../map-components/settingsMapComponent";
 import trashcann from "../../Icons/images/trashcann.png";
 import LineNamesCard from "../help-components/lineNameCard";
@@ -213,9 +212,6 @@ export const ApiComponent = () => {
       console.error("Error fetching data:", error);
     }
   }
-
-
-
 
   return (
     <div className="gridContainer">
