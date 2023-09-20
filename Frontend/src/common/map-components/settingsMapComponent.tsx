@@ -5,11 +5,10 @@ import marker from "../../Icons/images/marker.png";
 import L from "leaflet";
 
 
-// Create a custom icon using your custom PNG image
 const customIcon = new L.Icon({
     iconUrl: marker,
-    iconSize: [32, 32], // Adjust the icon size as needed
-    iconAnchor: [16, 32], // Adjust the icon anchor point if needed
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
 });
 
 interface SettingsMapProps {
@@ -31,7 +30,7 @@ const SettingsMap: React.FC<SettingsMapProps> = ({ stations, getAllLinesAndDepar
     const markers = stations.slice(0, 800).map((station) => (
         <Marker key={station.id} position={[station.latitude, station.longitude]}
 
-            icon={customIcon} // Set the custom icon for this marker
+            icon={customIcon}
         >
             <Popup>
                 <p onClick={() => getAllLinesAndDepartures(station)}> {station.name}</p>

@@ -42,7 +42,7 @@ public sealed partial class PlatformsController : ControllerBase
 
     [HttpGet]
     [Route("{platformId:guid}/departures")]
-    public async Task<IActionResult> GetDepartures(Guid platformId, DateTimeOffset startTime, int limit, CancellationToken cancellationToken)
+    public async Task<IActionResult> GetDepartures(Guid platformId, CancellationToken cancellationToken)
     {
         var departures = await modelContext.StopTimes
             .AsNoTracking()
@@ -55,6 +55,7 @@ public sealed partial class PlatformsController : ControllerBase
                 LineNumber = st.Route.Line.PublicCode,
                 LineName = st.Route.Line.Name,
                 Latitude = st.Platform.Latitude,
+                PublicCode = st.Route.Line.PublicCode,
                 Longitude = st.Platform.Longitude,
                 TransportMode = string.Empty,
                 TransportSubMode = string.Empty,
@@ -66,13 +67,8 @@ public sealed partial class PlatformsController : ControllerBase
                 TimeSource = string.Empty,
                 PlatformId = st.Platform.Id.ToString(),
                 PlatformName = st.Platform.Name,
-
                 PlatformExternalId = st.Platform.ExternalId,
-
                 TripId = st.Route.Id.ToString(),
-
-
-
             })
             .ToListAsync(cancellationToken);
 

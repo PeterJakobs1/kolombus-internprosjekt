@@ -37,7 +37,7 @@ sealed record Platform
     [JsonPropertyName("subModeType")]
     public string SubModeType { get; set; }
 
-    [JsonPropertyName("publicCode")]
+    [JsonPropertyName("public_code")]
     public string PublicCode { get; set; }
 
     [JsonPropertyName("privateCode")]

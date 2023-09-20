@@ -14,7 +14,6 @@ public class DataController : ControllerBase
     public async Task<IActionResult> Create(IServiceProvider serviceProvider, CancellationToken cancellationToken)
     {
         using var scope = serviceProvider.CreateScope();
-        //using var modelContext = scope.ServiceProvider.GetRequiredService<InMemoryModelContext>();
         using var modelContext = scope.ServiceProvider.GetRequiredService<SQLServerModelContext>();
 
         await modelContext.Database.EnsureDeletedAsync(cancellationToken);
@@ -41,6 +40,7 @@ public class DataController : ControllerBase
                 Id = (Guid)record!["id"]!,
                 ExternalId = (string)record!["external_id"]!,
                 Jbv_code = (string)record!["jbv_code"]!,
+                Public_code = (string)record!["public_code"]!,
                 Name = (string)record!["name"]!,
                 Description = (string)record!["description"]!,
                 Modification = (string)record!["modification"]!,
@@ -78,7 +78,6 @@ public class DataController : ControllerBase
                 Longitude = (double)record!["longitude"]!,
                 Type = (string)record!["type"]!,
                 Transport_mode = (string)record!["transport_mode"]!,
-                //Sub_mode_type = (string)record!["sub_mode_type"]!,
                 Public_Code = (string)record!["public_code"]!,
                 Private_code = (string)record!["private_code"]!,
                 Changed = (DateTimeOffset?)record!["changed"]!,
@@ -195,7 +194,7 @@ public class DataController : ControllerBase
             {
                 Id = (string)record!["id"]!,
                 JourneyId = journeyId.Value,
-                RouteId = new Guid("1D24AF55-6603-4CFC-8D89-CCDDA8275940"), // TODO
+                RouteId = new Guid("1D24AF55-6603-4CFC-8D89-CCDDA8275940"),
                 PlatformId = platformId.Value,
             }, cancellationToken);
         }

@@ -9,6 +9,7 @@ public sealed class StopPlace
     public string ExternalId { get; set; } = string.Empty;
     public string Name { get; set; } = string.Empty;
     public string Jbv_code { get; set; } = string.Empty;
+    public string Public_code { get; set; } = string.Empty;
     public string Modification { get; set; } = string.Empty;
     public string Type { get; set; } = string.Empty;
     public string Transport_mode { get; set; } = string.Empty;

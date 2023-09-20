@@ -28,12 +28,12 @@ builder.Services.AddDbContext<ModelContextBase, SQLServerModelContext>(options =
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-    app.UseDeveloperExceptionPage();
-}
+// if (app.Environment.IsDevelopment())
+// {
+app.UseSwagger();
+app.UseSwaggerUI();
+app.UseDeveloperExceptionPage();
+// }
 
 app.UseHttpsRedirection();
 

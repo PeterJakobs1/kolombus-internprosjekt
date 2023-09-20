@@ -10,8 +10,8 @@ sealed record StopPlaceVersion3
     [JsonPropertyName("externalId")]
     public string ExternalId { get; set; }
 
-    [JsonPropertyName("jbvCode")]
-    public string JbvCode { get; set; }
+    [JsonPropertyName("publicCode")]
+    public string PublicCode { get; set; }
 
     [JsonPropertyName("name")]
     public string Name { get; set; }

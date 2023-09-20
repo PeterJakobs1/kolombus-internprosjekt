@@ -147,7 +147,8 @@ export const ApiComponent = () => {
     label: station.name,
   }));
 
-  // Ensure that selectOptions is an array, even if it's empty
+  // ApiComponent.tsx
+  // triggger this when clicking on station on the map
 
   useEffect(() => {
     dispatch(stationActions.selectStation(selectedStation));
@@ -159,6 +160,8 @@ export const ApiComponent = () => {
         console.error("Error fetching stations:", error);
       });
   }, [dispatch, selectedOption, selectedStation]);
+
+
 
   useEffect(() => {
     dispatch(platformActions.selectPlatform(selectedStation));
@@ -172,7 +175,6 @@ export const ApiComponent = () => {
         .catch((error) => console.error("Error fetching platforms:", error));
     }
   }, [dispatch, selectedStation]);
-
 
 
 

@@ -6,6 +6,8 @@
 //     toggleLineSelection: (lineName: string) => void;
 // };
 
+import { fetchDepartures, fetchLines } from "../../api/api-requests/kolombus";
+
 // const LineNamesCard: React.FC<LineNamesCardProps> = ({ departures, selectedLines, toggleLineSelection }) => {
 //     const lineNames = [
 //         ...new Set(departures.map((departure) => departure.line_name)),
@@ -30,3 +32,27 @@
 // };
 
 // export default LineNamesCard;
+
+
+
+
+export async function fetchLinesData(id: string | null) {
+    try {
+        const linesData = await fetchLines(id);
+        return linesData;
+    } catch (error) {
+        console.error("Error fetching lines data:", error);
+        return [];
+    }
+}
+
+export async function fetchDeparturesData(id: any) {
+    try {
+        const departuresData = await fetchDepartures(id);
+        return departuresData;
+    } catch (error) {
+        console.error("Error fetching departures data:", error);
+        return [];
+    }
+}
+
