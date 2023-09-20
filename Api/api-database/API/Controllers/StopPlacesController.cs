@@ -52,7 +52,7 @@ public sealed partial class StopsPlacesController : ControllerBase
                 Longitude = sp.Longitude,
                 Latitude = sp.Latitude,
                 Type = sp.Type,
-                PublicCode = sp.Public_code,
+
 
             })
             .ToListAsync(cancellationToken);
