@@ -17,12 +17,12 @@ public sealed partial class PlatformsController : ControllerBase
     }
 
     [HttpGet]
-    [Route("{platformId:guid}/lines")]
-    public async Task<IActionResult> GetLines(Guid platformId, CancellationToken cancellationToken)
+    [Route("{platformId}/lines")]
+    public async Task<IActionResult> GetLines(CancellationToken cancellationToken)
     {
         var lines = await modelContext.StopTimes
             .AsNoTracking()
-            .Where(st => st.PlatformId == platformId)
+
             .Include(st => st.Route)
             .Include(st => st.Route.Line)
             .Select(st => new LineVersion3()

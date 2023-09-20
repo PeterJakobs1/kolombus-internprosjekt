@@ -20,6 +20,7 @@ import MapComponent from "../map-components/mapComponent";
 //import LineNamesCard from "../help-components/lineNameCard";
 import SettingsMap from "../map-components/settingsMapComponent";
 import trashcann from "../../Icons/images/trashcann.png";
+import LineNamesCard from "../help-components/lineNameCard";
 
 export const ApiComponent = () => {
   const [selectedOption, setSelectedOption] = useState<string | null>("");
@@ -33,27 +34,27 @@ export const ApiComponent = () => {
   const [noLinesAvailable, setNoLinesAvailable] = useState(false);
   const [showMap, setShowMap] = useState(false);
   const [clickedLineDepartures] = useState([false]);
-  //const [selectedLines] = useState<string[]>([]);
+  const [selectedLines] = useState<string[]>([]);
   const dispatch = useDispatch();
+  const [buttonClicked, setButtonClicked] = useState(false);
 
 
-
-  // const toggleLineSelection = (lineName: string) => {
-  //   const updatedSelectedLines = [...selectedLines];
-  //   const index = updatedSelectedLines.indexOf(lineName);
-  //   if (index !== -1) {
-  //     updatedSelectedLines.splice(index, 1);
-  //   } else {
-  //     updatedSelectedLines.push(lineName);
-  //   }
-  //   const filteredDepartures =
-  //     updatedSelectedLines.length > 0
-  //       ? departures.filter((departure) =>
-  //         updatedSelectedLines.includes(departure.line_name)
-  //       )
-  //       : departures;
-  //   setDepartures(filteredDepartures);
-  // };
+  const toggleLineSelection = (lineName: string) => {
+    const updatedSelectedLines = [...selectedLines];
+    const index = updatedSelectedLines.indexOf(lineName);
+    if (index !== -1) {
+      updatedSelectedLines.splice(index, 1);
+    } else {
+      updatedSelectedLines.push(lineName);
+    }
+    const filteredDepartures =
+      updatedSelectedLines.length > 0
+        ? departures.filter((departure) =>
+          updatedSelectedLines.includes(departure.line_name)
+        )
+        : departures;
+    setDepartures(filteredDepartures);
+  };
 
 
 
@@ -264,9 +265,10 @@ export const ApiComponent = () => {
                     <button
                       className="platformButton"
                       value={selectedOption || " "}
-                      onClick={(event) =>
-                        getAllLinesAndDepartures(event, null)
-                      }
+                      onClick={(event) => {
+                        setButtonClicked(true);
+                        getAllLinesAndDepartures(event, null);
+                      }}
                       id={platform.id}
                       key={platform.id}
                     >
@@ -281,13 +283,17 @@ export const ApiComponent = () => {
                   <p className="noLinesAvailable">Ingen linjer tilgjengelig</p>
                 )}
               </p>
-              {/* <div className="lineNamesCard">
-                <LineNamesCard
-                  departures={departures}
-                  selectedLines={selectedLines}
-                  toggleLineSelection={toggleLineSelection}
-                />
-              </div> */}
+              <div className="lineNamesCard">
+                {buttonClicked && (
+                  <div className="lineNamesCard">
+                    <LineNamesCard
+                      departures={departures}
+                      selectedLines={selectedLines}
+                      toggleLineSelection={toggleLineSelection}
+                    />
+                  </div>
+                )}
+              </div>
             </div>
           )}
         </div>
