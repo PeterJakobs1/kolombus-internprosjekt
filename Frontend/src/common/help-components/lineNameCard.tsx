@@ -1,3 +1,4 @@
+
 type LineNamesCardProps = {
     departures: { line_name: string }[];
     selectedLines: string[];
@@ -15,7 +16,7 @@ const LineNamesCard: React.FC<LineNamesCardProps> = ({
 
     return (
         <div className="card">
-            <h4 className="cardHeader">Ruter som skal vises</h4>
+            <h4 className="cardHeader">Linjer</h4>
             <p className="lineNames">
                 {lineNames.map((lineName) => (
                     <button
