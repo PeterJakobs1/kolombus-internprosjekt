@@ -1,0 +1,22 @@
+```plantuml
+@startuml
+participant Bruker
+participant Webapplikasjon
+participant "Kollektivtransport-API" as KollektivtransportAPI
+
+Bruker ->> Webapplikasjon: Bruker ber om stasjonsliste
+Webapplikasjon ->> KollektivtransportAPI: Kaller fetchStations-funksjonen
+KollektivtransportAPI -->> Webapplikasjon: Returnerer liste over stasjoner
+Webapplikasjon -->> Bruker: Viser listen over stasjoner
+
+Bruker ->> Webapplikasjon: Bruker velger en stasjon
+Webapplikasjon ->> KollektivtransportAPI: Kaller fetchPlatforms-funksjonen med valgt stasjon
+KollektivtransportAPI -->> Webapplikasjon: Returnerer liste over plattformer
+Webapplikasjon -->> Bruker: Viser listen over plattformer
+
+Bruker ->> Webapplikasjon: Bruker ber om reisedetaljer for en avgang
+Webapplikasjon ->> KollektivtransportAPI: Kaller fetchTripDetails-funksjonen med valgt avgangs-ID
+KollektivtransportAPI -->> Webapplikasjon: Returnerer detaljert informasjon om reisen
+Webapplikasjon -->> Bruker: Viser detaljert informasjon om reisen
+@enduml
+```
