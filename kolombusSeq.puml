@@ -11,12 +11,12 @@ Webapplikasjon -->> Bruker: Viser listen over stasjoner
 
 Bruker ->> Webapplikasjon: Bruker velger en stasjon
 Webapplikasjon ->> KollektivtransportAPI: Kaller fetchPlatforms-funksjonen med valgt stasjon
-KollektivtransportAPI -->> Webapplikasjon: Returnerer liste over plattformer
-Webapplikasjon -->> Bruker: Viser listen over plattformer
+KollektivtransportAPI -->> Webapplikasjon: Returnerer liste over plattformer 
+Webapplikasjon -->> Bruker: Viser alle plattformer på valgt stasjon 
 
-Bruker ->> Webapplikasjon: Bruker ber om reisedetaljer for en avgang
-Webapplikasjon ->> KollektivtransportAPI: Kaller fetchTripDetails-funksjonen med valgt avgangs-ID
-KollektivtransportAPI -->> Webapplikasjon: Returnerer detaljert informasjon om reisen
-Webapplikasjon -->> Bruker: Viser detaljert informasjon om reisen
+Bruker ->> Webapplikasjon: Bruker ber om en oversikt over alle departures på en plattform
+Webapplikasjon ->> KollektivtransportAPI: Kaller fetchDepartures med valgt plattform-ID
+KollektivtransportAPI -->> Webapplikasjon: Returnerer reisedetaljer for alle avganger på plattformen
+Webapplikasjon -->> Bruker: Viser oversikt over alle avganger på plattformen
 @enduml
 ```
