@@ -2,14 +2,13 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { MapComponentProps } from "../../types/type";
 import { LatLngExpression } from "leaflet";
-import customMarkerIcon from "../../Icons/images/marker.png"; // Import your custom PNG icon
+import customMarkerIcon from "../../Icons/images/marker.png";
 import L from "leaflet";
 
-// Create a custom icon using your custom PNG image
 const customIcon = new L.Icon({
   iconUrl: customMarkerIcon,
-  iconSize: [32, 32], // Adjust the icon size as needed
-  iconAnchor: [16, 32], // Adjust the icon anchor point if needed
+  iconSize: [32, 32],
+  iconAnchor: [16, 32],
 });
 
 const MapComponent: React.FC<MapComponentProps> = ({

@@ -15,7 +15,19 @@ export interface Delay {
   minutes: number;
 }
 
+export interface DepartureDetails {
+  destination: string;
+  notices: string[];
+  schedule_departure_time: string;
+  line_name: string;
+  line_number: string;
+}
 
+export interface PlatformsComponentProps {
+  platforms: Platform[]; // Assuming Platform type is imported or defined
+  noLinesAvailable: boolean;
+  onPlatformClick: (platformId: string) => void;
+}
 
 export interface Platform {
   longitude: any;
@@ -57,7 +69,7 @@ export interface Departure {
   line_name: string;
   schedule_arrival_time: string;
   expected_arrival_time: string;
-  notices: string;
+  notices: string[];
   trip_id: string;
   nsr_id_lines: string;
   id: string;
@@ -65,6 +77,7 @@ export interface Departure {
   nsr_id: string;
   destination: string;
   setDepartures: string;
+  line_number: string;
 }
 export interface Options {
   weekday: string;

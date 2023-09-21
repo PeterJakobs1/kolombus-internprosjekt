@@ -1,15 +1,16 @@
-
-
 type LineNamesCardProps = {
     departures: { line_name: string }[];
     selectedLines: string[];
     toggleLineSelection: (lineName: string) => void;
 };
 
-const LineNamesCard: React.FC<LineNamesCardProps> = ({ departures, selectedLines, toggleLineSelection }) => {
+const LineNamesCard: React.FC<LineNamesCardProps> = ({
+    departures,
+    selectedLines,
+    toggleLineSelection,
+}) => {
     const lineNames = [
         ...new Set(departures.map((departure) => departure.line_name)),
-
     ];
 
     return (
@@ -19,7 +20,8 @@ const LineNamesCard: React.FC<LineNamesCardProps> = ({ departures, selectedLines
                 {lineNames.map((lineName) => (
                     <button
                         key={lineName}
-                        className={`lineNameItem ${selectedLines.includes(lineName) ? 'selected' : ''}`}
+                        className={`lineNameItem ${selectedLines.includes(lineName) ? "selected" : ""
+                            }`}
                         onClick={() => toggleLineSelection(lineName)}
                     >
                         {lineName}

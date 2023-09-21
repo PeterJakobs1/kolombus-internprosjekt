@@ -2,16 +2,11 @@ import { useState, useEffect, SetStateAction } from "react";
 import Select from "react-select";
 import { Station, Departure, Line, Platform } from "../../types/type";
 import {
-  calculateDelay,
-  formatTime,
-} from "../help-components/calculateDelayComponent";
-import {
   fetchStations,
   fetchPlatforms,
-  fetchLines,
   fetchDepartures,
+  fetchLines,
 } from "../../api/api-requests/kolombus";
-import { sortDeparturesByArrivalTime } from "../help-components/sortDeparturesByArrivalTime";
 import { useDispatch } from "react-redux";
 import { stationActions } from "../../store/station";
 import { platformActions } from "../../store/platform";
@@ -20,6 +15,8 @@ import MapComponent from "../map-components/mapComponent";
 import SettingsMap from "../map-components/settingsMapComponent";
 import trashcann from "../../Icons/images/trashcann.png";
 import LineNamesCard from "../help-components/lineNameCard";
+import DepartureCard from "../help-components/displayDepartures";
+import PlatformsComponent from "../help-components/showPlatforms";
 
 export const ApiComponent = () => {
   const [selectedOption, setSelectedOption] = useState<string | null>("");
@@ -32,11 +29,9 @@ export const ApiComponent = () => {
   const LOCAL_STORAGE_KEY = "selectedValues";
   const [noLinesAvailable, setNoLinesAvailable] = useState(false);
   const [showMap, setShowMap] = useState(false);
-  const [clickedLineDepartures] = useState([false]);
   const [selectedLines] = useState<string[]>([]);
   const dispatch = useDispatch();
   const [buttonClicked, setButtonClicked] = useState(false);
-
 
   const toggleLineSelection = (lineName: string) => {
     const updatedSelectedLines = [...selectedLines];
@@ -55,8 +50,6 @@ export const ApiComponent = () => {
     setDepartures(filteredDepartures);
   };
 
-
-
   const toggleMapDisplay = () => {
     setShowMap((prevShowMap) => !prevShowMap);
   };
@@ -64,19 +57,17 @@ export const ApiComponent = () => {
   useEffect(() => {
     const savedValuesJSON = localStorage.getItem(LOCAL_STORAGE_KEY);
     let savedValues = null;
-
     if (savedValuesJSON !== null) {
       savedValues = JSON.parse(savedValuesJSON);
     } else {
     }
-
     if (savedValues) {
       setSelectedOption(savedValues.selectedOption);
       setSelectedStation(savedValues.selectedStation);
       setPlatforms(savedValues.platforms);
       setLines(savedValues.lines);
       setDepartures(savedValues.departures);
-      console.log(platforms)
+      console.log(platforms);
     }
   }, []);
 
@@ -105,7 +96,6 @@ export const ApiComponent = () => {
   };
 
   const handleOptionChange = (selected: any | null) => {
-
     setSelectedOption(selected.value);
     if (selected.value) {
       const selectedStationId = selected.value;
@@ -135,7 +125,6 @@ export const ApiComponent = () => {
       });
   };
 
-
   const filteredStations = stations.filter((station) =>
     station.name.toLowerCase().includes(searchInput.toLowerCase())
   );
@@ -147,9 +136,6 @@ export const ApiComponent = () => {
     label: station.name,
   }));
 
-  // ApiComponent.tsx
-  // triggger this when clicking on station on the map
-
   useEffect(() => {
     dispatch(stationActions.selectStation(selectedStation));
     fetchStations()
@@ -160,8 +146,6 @@ export const ApiComponent = () => {
         console.error("Error fetching stations:", error);
       });
   }, [dispatch, selectedOption, selectedStation]);
-
-
 
   useEffect(() => {
     dispatch(platformActions.selectPlatform(selectedStation));
@@ -176,8 +160,6 @@ export const ApiComponent = () => {
     }
   }, [dispatch, selectedStation]);
 
-
-
   async function getAllLinesAndDepartures(
     event: {
       currentTarget: { getAttribute: (arg0: string) => any };
@@ -189,7 +171,7 @@ export const ApiComponent = () => {
 
       const linesData = await fetchLines(id);
       setLines(linesData);
-      console.log(linesData)
+      console.log(linesData);
 
       dispatch(lineActions.selectLine(linesData));
       const noLinesAvailable = linesData.length === 0;
@@ -224,7 +206,6 @@ export const ApiComponent = () => {
           ))}
         </h1>
 
-
         <div className="gridContainer">
           <div className="dropdownBar">
             <h3 className="pickStation">Velg stasjon</h3>
@@ -244,7 +225,6 @@ export const ApiComponent = () => {
           </div>
         </div>
 
-
         <div>
           {selectedStation.map((station) => (
             <div className="selectedValueInfo" key={station.id}></div>
@@ -253,102 +233,44 @@ export const ApiComponent = () => {
 
         <div className="platforms">
           {selectedStation.length > 0 && (
-            <div className="platforms">
-              <h4 className="pickStop">Velg stopp</h4>
-              <p className="platformList">
-                {platforms.length > 0 ? (
-                  platforms.map((platform) => (
-                    <button
-                      className="platformButton"
-                      value={selectedOption || " "}
-                      onClick={(event) => {
-                        setButtonClicked(true);
-                        getAllLinesAndDepartures(event, null);
-                      }}
-                      id={platform.id}
-                      key={platform.id}
-                    >
-                      {platform.name} {platform.public_code}
-                    </button>
-                  ))
-                ) : (
-                  <span className="noPlatforms">Ingen busstopp funnet</span>
-                )}
-
-                {noLinesAvailable && platforms.length > 0 && (
-                  <p className="noLinesAvailable">Ingen linjer tilgjengelig</p>
-                )}
-              </p>
-              <div className="lineNamesCard">
-                {buttonClicked && (
-                  <div className="lineNamesCard">
-                    <LineNamesCard
-                      departures={departures}
-                      selectedLines={selectedLines}
-                      toggleLineSelection={toggleLineSelection}
-                    />
-                  </div>
-                )}
-              </div>
+            <div>
+              <PlatformsComponent
+                platforms={platforms}
+                noLinesAvailable={noLinesAvailable}
+                onPlatformClick={(platformId: any) => {
+                  setButtonClicked(true);
+                  getAllLinesAndDepartures(
+                    { currentTarget: { getAttribute: () => platformId } },
+                    null
+                  );
+                }}
+              />
+              {buttonClicked && (
+                <div className="lineNamesCard">
+                  <LineNamesCard
+                    departures={departures}
+                    selectedLines={selectedLines}
+                    toggleLineSelection={toggleLineSelection}
+                  />
+                </div>
+              )}
             </div>
           )}
         </div>
 
         <div className="departures">
           <ul className="departureGrid">
-            {clickedLineDepartures &&
-              departures
-                .filter((departure) => {
-                  const departureTime = new Date(
-                    departure.schedule_departure_time
-
-                  );
-                  const currentTime = new Date();
-                  return departureTime > currentTime;
-
-                })
-                .slice(0, 8)
-                .sort(sortDeparturesByArrivalTime)
-                .map((departure) => {
-                  const delay = calculateDelay(departure);
-
-
-                  return (
-                    <li className="departureItem" key={departure.id}>
-                      <button
-                        className="departureButton"
-                        data-departure-id={departure.nsr_id_lines}
-                      >
-                        <div className="lineNameAndDestination">
-                          <p className="lineName">{departure.name}</p>
-                          <p className="destinationText">
-                            {departure.destination}
-                          </p>
-                          <div className="clockNoticeStatus">
-                            <p>
-                              {formatTime(departure.schedule_departure_time)}{" "}
-                            </p>
-                            <p>
-                              {delay > 0
-                                ? `Forsinket med ${Math.floor(delay)} minutter`
-                                : ""}
-                            </p>
-                            {departure.notices !== null ? (
-                              <p className="notice">{"" + departure.notices}</p>
-                            ) : null}
-                          </div>
-                        </div>
-                      </button>
-                    </li>
-                  );
-                })}
+            <li>
+              <DepartureCard
+                departures={departures}
+                selectedLines={selectedLines}
+              />
+            </li>
           </ul>
         </div>
       </div>
 
       <div className="rightColumn">
-
-
         <div>
           {selectedStation.map((station) => (
             <div className="selectedValueInfo" key={station.id}>
@@ -361,9 +283,13 @@ export const ApiComponent = () => {
                     stations={stations}
                     value={selectedOption}
                     platforms={platforms}
-                    onClickPlatform={getAllLinesAndDepartures} getAllLinesAndDepartures={function (_station: Station): Promise<void> {
+                    onClickPlatform={getAllLinesAndDepartures}
+                    getAllLinesAndDepartures={function (
+                      _station: Station
+                    ): Promise<void> {
                       throw new Error("Function not implemented.");
-                    }} />
+                    }}
+                  />
                 ) : (
                   <MapComponent
                     latitude={selectedStation[0]?.latitude}
@@ -375,9 +301,6 @@ export const ApiComponent = () => {
             </div>
           ))}
         </div>
-
-
-
       </div>
     </div>
   );

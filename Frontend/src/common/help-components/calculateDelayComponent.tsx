@@ -1,4 +1,3 @@
-
 import { Departure } from "../../types/type";
 
 export const calculateDelay = (departure: Departure): number => {

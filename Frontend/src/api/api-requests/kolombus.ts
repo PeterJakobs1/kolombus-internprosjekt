@@ -1,7 +1,8 @@
 import { Station, Platform } from "../../types/type";
 
 export const fetchStations = async () => {
-  const apiUrl = "https://kolombus-reskin-api.azurewebsites.net/api/StopsPlaces";
+  const apiUrl =
+    "https://kolombus-reskin-api.azurewebsites.net/api/StopsPlaces";
   try {
     const response = await fetch(apiUrl);
 
@@ -22,11 +23,8 @@ export const fetchPlatforms = async (selectedStation: Station) => {
     throw new Error("No selected station provided");
   }
   const nsr_id = selectedStation.externalId;
-  console.log(selectedStation.externalId)
-
-  //const platformsUrl = `http://localhost:5000/api/StopsPlaces/${nsr_id}/platforms`;
   const platformsUrl = `https://kolombus-reskin-api.azurewebsites.net/api/StopsPlaces/${nsr_id}/platforms/`;
-  //const platformsUrl = `http://localhost:5007/api/StopsPlaces/${nsr_id}/platforms/`;
+
   try {
     const response = await fetch(platformsUrl);
 
@@ -42,24 +40,12 @@ export const fetchPlatforms = async (selectedStation: Station) => {
   }
 };
 
-
-
 export const fetchLines = async (id: string | null) => {
   if (!id) {
     throw new Error("id is null or undefined");
   }
-  const thisDate = new Date().toISOString();
-  console.log(thisDate)
-  
-  //const linesUrl = `http://localhost:5000/api/Platforms/${id}/departures??startTime=${thisDate}`;
-  //const linesUrl = `https://kolombus-reskin-api.azurewebsites.net/api/Platforms/${id}/lines`;
+
   const linesUrl = `https://kolombus-reskin-api.azurewebsites.net/api/Platforms/sa/lines`;
-  // const linesUrl = `https://api.kolumbus.no/api/platforms/535b778f-94ba-48b3-a2d5-cf5c9baddf73/lines`;
-  //const linesUrl = `https://api.kolumbus.no/api/platforms/NSR%3AQuay%3A45634/lines`;
-  //const linesUrl = `http://localhost:5158/api/Platforms/${id}/departures`;
-  
-  
-  console.log("departuresID" + "" + id);
 
   try {
     const response = await fetch(linesUrl);
@@ -76,15 +62,17 @@ export const fetchLines = async (id: string | null) => {
   }
 };
 
-
 export const fetchDepartures = async (selectedPlatform: Platform[]) => {
   if (!selectedPlatform) {
     throw new Error("No selected platform provided");
   }
 
-  //const thisDate = new Date().toISOString();
+  // DEMO URL
   const departureUrl = `https://api.kolumbus.no/api/platforms/NSR%3AStopPlace%3A27498/departures?startTime=2023-09-18T09%3A07%3A13.607Z`;
- //const departureUrl = `https://api.kolumbus.no/api/platforms/${selectedPlatform}/departures?startTime=${thisDate}`;
+
+  // ACTUAL URL
+  // const thisDate = new Date().toISOString();
+  // const departureUrl = `https://kolombus-reskin-api.azurewebsites.net/api/Platforms/${selectedPlatform}/departures?startTime=${thisDate}`;
 
   try {
     const response = await fetch(departureUrl);

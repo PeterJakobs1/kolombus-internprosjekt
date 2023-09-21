@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 
-
 const DateTimeComponent = () => {
   const [currentDateTime, setCurrentDateTime] = useState(new Date());
 
@@ -18,9 +17,6 @@ const DateTimeComponent = () => {
     day: "numeric",
     month: "short",
   };
-
-
-
 
   const formattedDate = currentDateTime.toLocaleString("nb-NO", options);
   const formattedDateCapitalized =
