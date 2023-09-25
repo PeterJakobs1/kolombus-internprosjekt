@@ -1,22 +1,23 @@
 ```plantuml
 @startuml
-participant Bruker
-participant Webapplikasjon
-participant "Kollektivtransport-API" as KollektivtransportAPI
 
-Bruker ->> Webapplikasjon: Bruker ber om stasjonsliste
-Webapplikasjon ->> KollektivtransportAPI: Kaller fetchStations-funksjonen
-KollektivtransportAPI -->> Webapplikasjon: Returnerer liste over stasjoner
-Webapplikasjon -->> Bruker: Viser listen over stasjoner
+participant User
+participant WebApplication
+participant "PublicTransport API" as PublicTransportAPI
 
-Bruker ->> Webapplikasjon: Bruker velger en stasjon
-Webapplikasjon ->> KollektivtransportAPI: Kaller fetchPlatforms-funksjonen med valgt stasjon
-KollektivtransportAPI -->> Webapplikasjon: Returnerer liste over plattformer 
-Webapplikasjon -->> Bruker: Viser alle plattformer på valgt stasjon 
+User ->> WebApplication: User requests a list of stations
+WebApplication ->> PublicTransportAPI: Calls the fetchStations function
+PublicTransportAPI -->> WebApplication: Returns a list of stations
+WebApplication -->> User: Displays the list of stations
 
-Bruker ->> Webapplikasjon: Bruker ber om en oversikt over alle departures på en plattform
-Webapplikasjon ->> KollektivtransportAPI: Kaller fetchDepartures med valgt plattform-ID
-KollektivtransportAPI -->> Webapplikasjon: Returnerer reisedetaljer for alle avganger på plattformen
-Webapplikasjon -->> Bruker: Viser oversikt over alle avganger på plattformen
+User ->> WebApplication: User selects a station
+WebApplication ->> PublicTransportAPI: Calls the fetchPlatforms function with the selected station
+PublicTransportAPI -->> WebApplication: Returns a list of platforms
+WebApplication -->> User: Displays all platforms at the selected station
+
+User ->> WebApplication: User requests an overview of all departures on a platform
+WebApplication ->> PublicTransportAPI: Calls the fetchDepartures with the selected platform ID
+PublicTransportAPI -->> WebApplication: Returns travel details for all departures on the platform
+WebApplication -->> User: Displays an overview of all departures on the platform
 @enduml
 ```
