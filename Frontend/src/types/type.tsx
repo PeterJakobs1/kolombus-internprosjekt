@@ -43,6 +43,7 @@ export interface Line {
   id: string;
   name: string;
   nsr_id: string;
+  lineName: string;
 }
 
 export interface Options {
