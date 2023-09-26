@@ -99,5 +99,5 @@ sealed record StopTimeVersion4
     public string VehicleId { get; set; }
 
     [JsonPropertyName("publicCode")]
-    public string PublicCode { get; set; }
+    public string? PublicCode { get; set; }
 }

@@ -13,12 +13,11 @@ public sealed class Platform
     public string Name { get; set; } = string.Empty;
     public double Latitude { get; set; }
     public double Longitude { get; set; }
-    public string? Public_Code { get; set; }
-    public string Public_code { get; set; }
+    public string Public_Code { get; set; } = string.Empty;
     public string Type { get; set; } = string.Empty;
     public string Transport_mode { get; set; } = string.Empty;
     //public required string Sub_mode_type { get; set; }
-    public string? Private_code { get; set; }
+    public string Private_code { get; set; } = string.Empty;
     public DateTimeOffset? Created { get; set; }
     public DateTimeOffset? Changed { get; set; }
 

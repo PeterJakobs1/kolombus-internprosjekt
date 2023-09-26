@@ -5,19 +5,19 @@ participant User
 participant WebApplication
 participant "PublicTransport API" as PublicTransportAPI
 
-User ->> WebApplication: User requests a list of stations
-WebApplication ->> PublicTransportAPI: Calls the fetchStations function
-PublicTransportAPI -->> WebApplication: Returns a list of stations
-WebApplication -->> User: Displays the list of stations
+User ->> WebApplication: requests all stations
+WebApplication ->> PublicTransportAPI: calls fetchStations
+PublicTransportAPI -->> WebApplication: returns all stations
+WebApplication -->> User: displays all stations
 
-User ->> WebApplication: User selects a station
-WebApplication ->> PublicTransportAPI: Calls the fetchPlatforms function with the selected station
-PublicTransportAPI -->> WebApplication: Returns a list of platforms
-WebApplication -->> User: Displays all platforms at the selected station
+User ->> WebApplication: selects a station
+WebApplication ->> PublicTransportAPI: calls fetchPlatforms with selected station
+PublicTransportAPI -->> WebApplication: Returns list of platforms
+WebApplication -->> User: displays all platforms from selected station
 
-User ->> WebApplication: User requests an overview of all departures on a platform
-WebApplication ->> PublicTransportAPI: Calls the fetchDepartures with the selected platform ID
-PublicTransportAPI -->> WebApplication: Returns travel details for all departures on the platform
-WebApplication -->> User: Displays an overview of all departures on the platform
+User ->> WebApplication: requests all departures on a platform
+WebApplication ->> PublicTransportAPI: calls fetchDepartures with selected platform ID
+PublicTransportAPI -->> WebApplication: returns all departures on the platform
+WebApplication -->> User: displays a overview of all departures from the platform
 @enduml
 ```

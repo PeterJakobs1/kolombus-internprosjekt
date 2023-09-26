@@ -6,6 +6,7 @@ type DepartureDetails = {
     notices: string[];
     schedule_departure_time: string;
     line_name: string;
+    name: string;
 };
 
 type DepartureDetailsCardProps = {

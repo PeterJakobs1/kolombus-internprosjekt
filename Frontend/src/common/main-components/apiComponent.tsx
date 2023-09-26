@@ -14,6 +14,7 @@ import lines, { lineActions } from "../../store/lines";
 import MapComponent from "../map-components/mapComponent";
 import SettingsMap from "../map-components/settingsMapComponent";
 import trashcann from "../../Icons/images/trashcann.png";
+import add from "../../Icons/images/add.png";
 import LineNamesCard from "../help-components/lineNameCard";
 import DepartureCard from "../help-components/displayDepartures";
 import PlatformsComponent from "../help-components/showPlatforms";
@@ -220,6 +221,11 @@ export const ApiComponent = () => {
               />
               <button className="delete" onClick={deleteLocalStorage}>
                 <img className="trash" src={trashcann} alt="" />
+
+              </button>
+              <button className="addBtn" >
+                +
+                {/* <img src={add} className="add" alt="" /> */}
               </button>
             </div>
           </div>

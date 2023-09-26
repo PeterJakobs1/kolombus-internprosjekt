@@ -18,6 +18,7 @@ export const fetchStations = async () => {
   }
 };
 
+
 export const fetchPlatforms = async (selectedStation: Station) => {
   if (!selectedStation) {
     throw new Error("No selected station provided");
@@ -127,6 +128,26 @@ export const fetchAllData = async (selectedStation: Station) => {
     };
   } catch (error) {
     console.error("Error fetching all data:", error);
+    throw error;
+  }
+};
+
+// new stations
+export const fetchNewStations = async () => {
+  const apiUrl =
+    "https://api.kolumbus.no/api/platforms";
+  try {
+    
+    const response = await fetch(apiUrl);
+
+    if (!response.ok) {
+      throw new Error("Network response was not ok");
+    }
+
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error("Error fetching stations:", error);
     throw error;
   }
 };

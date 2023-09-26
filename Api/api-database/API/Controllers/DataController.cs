@@ -40,7 +40,6 @@ public class DataController : ControllerBase
                 Id = (Guid)record!["id"]!,
                 ExternalId = (string)record!["external_id"]!,
                 Jbv_code = (string)record!["jbv_code"]!,
-                Public_code = (string)record!["public_code"]!,
                 Name = (string)record!["name"]!,
                 Description = (string)record!["description"]!,
                 Modification = (string)record!["modification"]!,

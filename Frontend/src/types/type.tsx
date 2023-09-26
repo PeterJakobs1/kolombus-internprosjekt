@@ -24,7 +24,7 @@ export interface DepartureDetails {
 }
 
 export interface PlatformsComponentProps {
-  platforms: Platform[]; // Assuming Platform type is imported or defined
+  platforms: Platform[];
   noLinesAvailable: boolean;
   onPlatformClick: (platformId: string) => void;
 }
