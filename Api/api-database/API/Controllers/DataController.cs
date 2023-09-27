@@ -195,8 +195,12 @@ public class DataController : ControllerBase
                 JourneyId = journeyId.Value,
                 RouteId = new Guid("1D24AF55-6603-4CFC-8D89-CCDDA8275940"),
                 PlatformId = platformId.Value,
+                Destination = (string)record!["destination"]!,
+                Transport_mode = (string)record!["transport_mode"]!,
+
             }, cancellationToken);
         }
         modelContext.SaveChanges();
     }
 }
+
