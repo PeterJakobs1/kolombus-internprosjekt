@@ -1,6 +1,6 @@
 import { useState, useEffect, SetStateAction } from "react";
 import Select from "react-select";
-import { Station, Departure, Line, Platform } from "../../types/type";
+import { Station, Departure, Line, Platform, } from "../../types/type";
 import {
   fetchStations,
   fetchPlatforms,
@@ -14,7 +14,7 @@ import lines, { lineActions } from "../../store/lines";
 import MapComponent from "../map-components/mapComponent";
 import SettingsMap from "../map-components/settingsMapComponent";
 import trashcann from "../../Icons/images/trashcann.png";
-import add from "../../Icons/images/add.png";
+
 import LineNamesCard from "../help-components/lineNameCard";
 import DepartureCard from "../help-components/displayDepartures";
 import PlatformsComponent from "../help-components/showPlatforms";
@@ -269,8 +269,7 @@ export const ApiComponent = () => {
             <li>
               <DepartureCard
                 departures={departures}
-                selectedLines={selectedLines}
-              />
+                selectedLines={selectedLines} />
             </li>
           </ul>
         </div>

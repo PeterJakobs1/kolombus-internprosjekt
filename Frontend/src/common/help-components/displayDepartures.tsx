@@ -4,13 +4,18 @@ import rail from "../../Icons/images/rail.png";
 import water from "../../Icons/images/water.png";
 
 type DepartureDetails = {
+    transport_mode?: string;
     line_number: string;
     destination: string;
     notices: string[];
     schedule_departure_time: string;
     line_name: string;
     name: string;
+
+
+
 };
+
 
 type DepartureDetailsCardProps = {
     departures: DepartureDetails[];
@@ -20,6 +25,7 @@ type DepartureDetailsCardProps = {
 const DepartureCard: React.FC<DepartureDetailsCardProps> = ({
     departures,
     selectedLines,
+
 }) => {
     const uniqueDepartures = Array.from(
         new Set(departures.map((departure) => departure.line_number))
@@ -56,23 +62,13 @@ const DepartureCard: React.FC<DepartureDetailsCardProps> = ({
 
 
                                         </div>
-                                        <p className="transport-mode-img">
-                                            {departureDetails.transport_mode === "bus" && (
-                                                <>
-                                                    <img src={bus} alt="" />
-                                                </>
-                                            )}
-                                            {departureDetails.transport_mode === "rail" && (
-                                                <>
-                                                    <img src={rail} alt="" />
-                                                </>
-                                            )}
-                                            {departureDetails.transport_mode === "water" && (
-                                                <>
-                                                    <img src={water} alt="" />
-                                                </>
-                                            )}
-                                        </p>
+                                        {departureDetails.transport_mode && (
+                                            <p className="transport-mode-img">
+                                                {departureDetails.transport_mode === "bus" && <img src={bus} alt="Bus" />}
+                                                {departureDetails.transport_mode === "rail" && <img src={rail} alt="Rail" />}
+                                                {departureDetails.transport_mode === "water" && <img src={water} alt="Water" />}
+                                            </p>
+                                        )}
                                     </div>
                                 </button>
                             </li>
