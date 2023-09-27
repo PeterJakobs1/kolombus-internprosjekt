@@ -74,6 +74,7 @@ export const fetchDepartures = async (selectedPlatform: Platform[]) => {
   // ACTUAL URL
   // const thisDate = new Date().toISOString();
   // const departureUrl = `https://kolombus-reskin-api.azurewebsites.net/api/Platforms/${selectedPlatform}/departures?startTime=${thisDate}`;
+  // OR: https://kolombus-reskin-api.azurewebsites.net/api/Platforms/wqwq/departures
 
   try {
     const response = await fetch(departureUrl);

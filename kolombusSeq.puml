@@ -1,23 +1,22 @@
-```plantuml
 @startuml
 
-participant User
+participant User 
 participant WebApplication
 participant "PublicTransport API" as PublicTransportAPI
 
-User ->> WebApplication: requests all stations
-WebApplication ->> PublicTransportAPI: calls fetchStations
-PublicTransportAPI -->> WebApplication: returns all stations
-WebApplication -->> User: displays all stations
+User ->> WebApplication: requests all <font color=green>stopplaces</font>
+WebApplication ->> PublicTransportAPI: get <font color=green>stopplaces</font>
+PublicTransportAPI -->> WebApplication: returns <font color=green>stopplaces</font>
+WebApplication -->> User: displays <font color=green>stopplaces</font>
 
-User ->> WebApplication: selects a station
-WebApplication ->> PublicTransportAPI: calls fetchPlatforms with selected station
-PublicTransportAPI -->> WebApplication: Returns list of platforms
-WebApplication -->> User: displays all platforms from selected station
+User ->> WebApplication: selects a <font color=red>stopplace</font>
+WebApplication ->> PublicTransportAPI: get <font color=red>platforms</font> from <font color=red>stopplace</font>
+PublicTransportAPI -->> WebApplication: returns list of <font color=red>platforms</font>
+WebApplication -->> User: display <font color=red>platforms</font>
 
-User ->> WebApplication: requests all departures on a platform
-WebApplication ->> PublicTransportAPI: calls fetchDepartures with selected platform ID
-PublicTransportAPI -->> WebApplication: returns all departures on the platform
-WebApplication -->> User: displays a overview of all departures from the platform
+User ->> WebApplication: requests <font color=blue>departures</font>
+WebApplication ->> PublicTransportAPI: get <font color=blue>departures</font>
+PublicTransportAPI -->> WebApplication: return <font color=blue>departures</font>
+WebApplication -->> User: displays <font color=blue>departures</font>
+
 @enduml
-```

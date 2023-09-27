@@ -4,7 +4,7 @@ import { PlatformsComponentProps } from '../../types/type';
 const PlatformsComponent: React.FC<PlatformsComponentProps> = ({ platforms, noLinesAvailable, onPlatformClick }) => {
     return (
         <div className="platforms">
-            <h4 className="pickStop">Velg stopp</h4>
+
             <p className="platformList">
                 {platforms.length > 0 ? (
                     platforms.map((platform: any) => (
