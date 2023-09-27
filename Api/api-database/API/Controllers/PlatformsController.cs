@@ -41,12 +41,12 @@ public sealed partial class PlatformsController : ControllerBase
     }
 
     [HttpGet]
-    [Route("{platformId:guid}/departures")]
-    public async Task<IActionResult> GetDepartures(Guid platformId, CancellationToken cancellationToken)
+    [Route("{platformId}/departures")]
+    public async Task<IActionResult> GetDepartures(CancellationToken cancellationToken)
     {
         var departures = await modelContext.StopTimes
             .AsNoTracking()
-            .Where(st => st.PlatformId == platformId)
+
             .Include(st => st.Route)
             .Include(st => st.Route.Line)
             .Select(st => new StopTimeVersion4()

@@ -13,7 +13,6 @@ sealed record StopTimeVersion4
     [JsonPropertyName("lineName")]
     public string LineName { get; set; }
 
-
     [JsonPropertyName("latitude")]
     public double Latitude { get; set; }
 
@@ -88,6 +87,9 @@ sealed record StopTimeVersion4
 
     [JsonPropertyName("notices")]
     public List<string> Notices { get; set; }
+
+    [JsonPropertyName("transport_mode")]
+    public string transport_mode { get; set; }
 
     [JsonPropertyName("creationTime")]
     public DateTimeOffset CreationTime { get; set; }

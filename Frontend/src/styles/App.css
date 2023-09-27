@@ -181,7 +181,7 @@ p {
 
 .notice {
   color: yellow;
-  font-size: small;
+  font-size: x-small;
 }
 
 button.delete {
@@ -340,5 +340,7 @@ h3 {
   margin-left: 95px;
   margin-bottom: 20px;
 }
-
-/* Settings */
+.transport-mode-img {
+  width: 100px;
+  float: left;
+}

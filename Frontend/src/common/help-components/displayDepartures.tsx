@@ -1,4 +1,7 @@
 import { formatTime } from "./calculateDelayComponent";
+import bus from "../../Icons/images/bus.png";
+import rail from "../../Icons/images/rail.png";
+import water from "../../Icons/images/water.png";
 
 type DepartureDetails = {
     line_number: string;
@@ -40,18 +43,36 @@ const DepartureCard: React.FC<DepartureDetailsCardProps> = ({
                                         <p className="lineName">{departureDetails.line_name}</p>
                                         <p className="destinationText">
                                             {departureDetails.destination}
+                                            {departureDetails.notices !== null ? (
+                                                <li className="notice">
+                                                    {"" + departureDetails.notices}
+                                                </li>
+                                            ) : null}
                                         </p>
                                         <div className="clockNoticeStatus">
                                             <p>
                                                 {formatTime(departureDetails.schedule_departure_time)}{" "}
                                             </p>
 
-                                            {departureDetails.notices !== null ? (
-                                                <p className="notice">
-                                                    {"" + departureDetails.notices}
-                                                </p>
-                                            ) : null}
+
                                         </div>
+                                        <p className="transport-mode-img">
+                                            {departureDetails.transport_mode === "bus" && (
+                                                <>
+                                                    <img src={bus} alt="" />
+                                                </>
+                                            )}
+                                            {departureDetails.transport_mode === "rail" && (
+                                                <>
+                                                    <img src={rail} alt="" />
+                                                </>
+                                            )}
+                                            {departureDetails.transport_mode === "water" && (
+                                                <>
+                                                    <img src={water} alt="" />
+                                                </>
+                                            )}
+                                        </p>
                                     </div>
                                 </button>
                             </li>
