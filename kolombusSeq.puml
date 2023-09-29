@@ -1,22 +1,30 @@
 @startuml
 
 participant User 
-participant WebApplication
-participant "PublicTransport API" as PublicTransportAPI
+participant Frontend
+participant API
+participant Database 
 
-User ->> WebApplication: requests all <font color=green>stopplaces</font>
-WebApplication ->> PublicTransportAPI: get <font color=green>stopplaces</font>
-PublicTransportAPI -->> WebApplication: returns <font color=green>stopplaces</font>
-WebApplication -->> User: displays <font color=green>stopplaces</font>
+User ->> Frontend: requests all <font color=green>stopplaces</font>
+Frontend ->> API:   <font color=green>stopplaces</font>
+API -->> Database:  <font color=purple> query</font>
+Database -->> API: <font color=green></font>
+API -->> Frontend: <font color=green></font>
+Frontend -->> User: <font color=green></font>
 
-User ->> WebApplication: selects a <font color=green>stopplace</font>
-WebApplication ->> PublicTransportAPI: get <font color=red>platforms</font> from <font color=green>stopplace</font>
-PublicTransportAPI -->> WebApplication: returns list of <font color=red>platforms</font>
-WebApplication -->> User: display <font color=red>platforms</font>
 
-User ->> WebApplication: requests <font color=blue>departures</font>
-WebApplication ->> PublicTransportAPI: get <font color=blue>departures</font> from <font color=red>platforms</font>
-PublicTransportAPI -->> WebApplication: return <font color=blue>departures</font>
-WebApplication -->> User: displays <font color=blue>departures</font>
+User ->> Frontend: selects a <font color=green>stopplace</font>
+Frontend ->> API:   <font color=red>platforms</font> from <font color=green>stopplace</font>
+API -->> Database:   <font color=purple> query</font>
+Database -->> API: <font color=green></font>
+API -->> Frontend: <font color=red></font>
+Frontend -->> User:  <font color=red></font>
+
+User ->> Frontend: requests <font color=blue>departures</font>
+Frontend ->> API:   <font color=blue>departures</font> from <font color=red>platforms</font>
+API -->> Database:   <font color=purple> query</font>
+Database -->> API: <font color=green></font>
+API -->> Frontend: <font color=blue></font>
+Frontend -->> User: <font color=blue></font>
 
 @enduml

@@ -69,7 +69,7 @@ export const fetchDepartures = async (selectedPlatform: Platform[]) => {
   }
 
   // DEMO URL
-  const departureUrl = `https://kolombus-reskin-api.azurewebsites.net/api/platforms/NSR%3AStopPlace%3A27498/departures?startTime=2023-09-25T16%3A07%3A13.607Z`;
+  const departureUrl = `https://api.kolumbus.no/api/platforms/NSR%3AStopPlace%3A27498/departures?startTime=2023-09-25T16%3A07%3A13.607Z`;
 
   // ACTUAL URL
   // const thisDate = new Date().toISOString();
