@@ -27,7 +27,7 @@ if (isRunningLocally)
 {
     builder.Services.AddDbContext<ModelContextBase, SQLServerModelContext>(options =>
         options.UseSqlServer(
-            builder.Configuration.GetConnectionString(""),
+            builder.Configuration.GetConnectionString("SQLite"),
             x => x.MigrationsAssembly("ModelMigrations")));
 }
 else
