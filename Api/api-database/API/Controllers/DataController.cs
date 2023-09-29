@@ -78,7 +78,6 @@ public class DataController : ControllerBase
                 Type = (string)record!["type"]!,
                 Transport_mode = (string)record!["transport_mode"]!,
                 Public_Code = (string)record!["public_code"]!,
-                Private_code = (string)record!["private_code"]!,
                 Changed = (DateTimeOffset?)record!["changed"]!,
                 Created = (DateTimeOffset?)record!["created"]!,
             }, cancellationToken);
@@ -99,8 +98,6 @@ public class DataController : ControllerBase
                 ExternalId = (string)record!["external_id"]!,
                 Name = (string)record!["name"]!,
                 KolId = (string)record!["kol_id"]!,
-                // TransportationType = (string)record!["transportation_type"]!,
-                //  Transport_Sub_Mode = (string)record!["transport_sub_mode"]!,
                 PublicCode = (string)record!["public_code"]!,
             }, cancellationToken);
         }
