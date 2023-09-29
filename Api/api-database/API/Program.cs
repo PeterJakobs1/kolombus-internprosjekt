@@ -20,11 +20,23 @@ var database = builder.Configuration.GetValue<string>("Database");
 //        builder.Configuration.GetConnectionString("SQLite"),
 //        x => x.MigrationsAssembly("ModelMigrations")));
 
-builder.Services.AddDbContext<ModelContextBase, SQLServerModelContext>(options =>
-    options.UseSqlServer(
-        builder.Configuration.GetConnectionString("SQLServer"),
-        x => x.MigrationsAssembly("ModelMigrations")));
 
+var isRunningLocally = builder.Environment.IsDevelopment();
+
+if (isRunningLocally)
+{
+    builder.Services.AddDbContext<ModelContextBase, SQLServerModelContext>(options =>
+        options.UseSqlServer(
+            builder.Configuration.GetConnectionString(""),
+            x => x.MigrationsAssembly("ModelMigrations")));
+}
+else
+{
+    builder.Services.AddDbContext<ModelContextBase, SQLServerModelContext>(options =>
+       options.UseSqlServer(
+           builder.Configuration.GetConnectionString("KolombusDB"),
+           x => x.MigrationsAssembly("ModelMigrations")));
+}
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
