@@ -8,5 +8,5 @@
 
 ### Data model
 
-![](Api/api-database/model.png)
+![](Api/model.png)
 x
